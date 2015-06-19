@@ -1,0 +1,28 @@
+#!/sbin/openrc-run
+# Copyright 1999-2015 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+user="shairport:audio"
+
+description="emulates an AirPort Express to stream music from i-devices"
+start_stop_daemon_args="--user $user"
+
+command=/usr/bin/shairport
+command_args="
+	--log=/var/log/shairport.log
+	--name=$HOSTNAME/shairport 
+	$shairport_opts
+"
+command_background=yes
+pidfile=/run/shairport.pid
+
+depend() {
+    need localmount net
+    use avahi-daemon
+    after bootmisc
+}
+
+start_pre() {
+    checkpath --file --owner $user --mode 0644 /var/log/shairport.log
+}
