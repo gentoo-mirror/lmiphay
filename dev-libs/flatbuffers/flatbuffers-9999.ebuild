@@ -28,12 +28,26 @@ DEPEND="
 	${RDEPEND}
 "
 
+# fixme
+# repo=$T/mvnrepository
+repo=/var/cache/maven
+
+pkg_pretend()
+{
+	if use java ; then
+		[ -d $repo ] || die "please 'mkdir -p $repo' owner portage:portage and try again"
+		owner=$(stat -c %U:%G $repo)
+		[ "$owner" = "portage:portage" ] || die "please 'chown portage:portage $repo' and try again"
+	fi
+}
+
 src_compile() {
 	cmake -G "Unix Makefiles"
 	emake
 
 	if use java ; then
-		cd java && mvn package
+		addwrite $repo
+		cd java && mvn -Dmaven.repo.local=$repo package
 	fi
 }
 
