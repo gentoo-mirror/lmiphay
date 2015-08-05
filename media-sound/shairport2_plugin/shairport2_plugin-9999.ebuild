@@ -28,7 +28,6 @@ DEPEND="dev-perl/Crypt-OpenSSL-RSA
 
 RDEPEND="${DEPEND}"
 
-# or /opt/logitechmediaserver/Plugins
 INSTALL_DIR="/var/lib/logitechmediaserver/Plugins/ShairTunes2"
 
 src_prepare() {
@@ -41,7 +40,7 @@ src_install() {
 	doins AIRPLAY.pm Plugin.pm Utils.pm install.xml public.xml strings.txt
 	fowners logitechmediaserver:logitechmediaserver ${INSTALL_DIR} -R
 	dodoc README.md
-	dobin ${FILESDIR}/airplayservers
+	newbin ${FILESDIR}/airplayservers showairplayservers
 }
 
 pkg_postinst() {
