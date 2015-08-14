@@ -18,8 +18,7 @@ dev-util/pstack 9999: Display stack trace of a running process.
 kde-misc/containmentaction-favorites 9999: KDE Favorites Launcher
 kde-misc/scriptedhtml 9999: KDE plasmoid to display the output of script or URL
 media-sound/jivelite 20141213: Experimental squeezebox and derivative control application
-media-sound/pasystray 0.4.0: A system tray for pulseaudio controls (replacement for the deprecated padevchooser)
-media-sound/pasystray 0.5.2: PulseAudio system tray
+media-sound/pasystray 0.4.0 0.5.2: PulseAudio system tray
 media-sound/shairport 9999: Emulates an AirPort Express to stream music from i-devices
 media-sound/shairport2_helper 9999: Squeezebox ShairPort2 Helper
 media-sound/shairport2_plugin 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
