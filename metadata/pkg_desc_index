@@ -14,6 +14,7 @@ dev-perl/Net-SDP 0.07-r1: Perl extension for SDP
 dev-perl/Net-UDAP 9999: A Perl module to configure the Logitech SqueezeBox Receiver
 dev-python/pydbus 9999: Pythonic DBus library
 dev-util/gstack 9999 20140207: Display stack trace of a running process.
+dev-util/plasmate 1.0-r1: IDE for writing KDE Plasma/KWin components (themes, Plasmoids, runners, data engines)
 dev-util/pstack 9999: Display stack trace of a running process.
 kde-misc/containmentaction-favorites 9999: KDE Favorites Launcher
 kde-misc/scriptedhtml 9999: KDE plasmoid to display the output of script or URL
