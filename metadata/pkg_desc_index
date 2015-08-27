@@ -18,6 +18,7 @@ dev-util/plasmate 1.0-r1: IDE for writing KDE Plasma/KWin components (themes, Pl
 dev-util/pstack 9999: Display stack trace of a running process.
 kde-misc/containmentaction-favorites 9999: KDE Favorites Launcher
 kde-misc/scriptedhtml 9999: KDE plasmoid to display the output of script or URL
+kde-misc/socket-sentry 9999: Real-time network traffic monitor for KDE Plasma.
 media-sound/jivelite 20141213: Experimental squeezebox and derivative control application
 media-sound/pasystray 0.4.0 0.5.2: PulseAudio system tray
 media-sound/shairport 9999: Emulates an AirPort Express to stream music from i-devices
