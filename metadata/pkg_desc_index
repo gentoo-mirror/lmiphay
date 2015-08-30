@@ -31,6 +31,7 @@ media-sound/squeezy 9999: command-line control of squeezebox network players via
 media-tv/kodi 14.2 15.0: Kodi is a free and open source media-player and entertainment hub
 net-mail/davmail-bin 4.6.1: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/cmc 9999: Manager of SSH ControlMaster connections
+sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 www-apps/opengrok-bin 0.12.1: Fast source code search and cross reference engine
 x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
 x11-wm/tvtwm 11: tvtwm X11 window manager
