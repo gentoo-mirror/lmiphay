@@ -5,6 +5,7 @@ app-backup/pdumpfs-rsync 9999: A utility to back up remote files with pdumpfs an
 app-backup/rdumpfs 20131002-r1: a rsync-based dump file system backup tool
 app-backup/rdumpfs-rota 9999: Wrapper around rdumpfs to automate daily/weekly/monthly backups
 app-emacs/brief-mode 1.1: A Brief emulator for Emacs
+app-emulation/lxc-webpanel 9999: LXC Web Panel
 app-portage/gentoo-oam 1.0 2.0 9999: Automatation for common tasks around gentoo server upkeep
 dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent key-value store for fast storage
 dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
