@@ -13,6 +13,7 @@ dev-perl/Log-StdLog 0.0.3: A simple log file via a special filehandle
 dev-perl/Net-Bluetooth 0.41: Perl Bluetooth Interface
 dev-perl/Net-SDP 0.07-r1: Perl extension for SDP
 dev-perl/Net-UDAP 9999: A Perl module to configure the Logitech SqueezeBox Receiver
+dev-python/kafka-python 9999: Kafka Python client
 dev-python/pydbus 9999: Pythonic DBus library
 dev-util/gstack 9999 20140207: Display stack trace of a running process.
 dev-util/plasmate 1.0-r1: IDE for writing KDE Plasma/KWin components (themes, Plasmoids, runners, data engines)
@@ -32,6 +33,7 @@ media-sound/squeezy 9999: command-line control of squeezebox network players via
 media-tv/kodi 14.2 15.0: Kodi is a free and open source media-player and entertainment hub
 net-mail/davmail-bin 4.6.1: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/cmc 9999: Manager of SSH ControlMaster connections
+net-misc/kafka-bin 0.8.2.1: A high-throughput distributed messaging system
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 www-apps/opengrok-bin 0.12.1: Fast source code search and cross reference engine
 x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
