@@ -36,6 +36,7 @@ media-tv/kodi 14.2 15.0: Kodi is a free and open source media-player and enterta
 net-mail/davmail-bin 4.6.1: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/cmc 9999: Manager of SSH ControlMaster connections
 net-misc/kafka-bin 0.8.2.1: A high-throughput distributed messaging system
+net-misc/librdkafka 0.8.6: Apache Kafka C/C++ library
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 9999: Tool for NUMA memory locality and processes/threads analysis
 www-apps/opengrok-bin 0.12.1: Fast source code search and cross reference engine
