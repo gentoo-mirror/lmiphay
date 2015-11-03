@@ -6,7 +6,7 @@ app-backup/rdumpfs 20131002-r1: a rsync-based dump file system backup tool
 app-backup/rdumpfs-rota 9999: Wrapper around rdumpfs to automate daily/weekly/monthly backups
 app-emacs/brief-mode 1.1: A Brief emulator for Emacs
 app-emulation/lxc-webpanel 9999: LXC Web Panel
-app-misc/g13 9999: libusb driver for the g13
+app-misc/g13 9999 20150528: libusb driver for the g13
 app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 9999: Automatation for common tasks around gentoo server upkeep
 app-shells/bashsimplecurses 9999: 
