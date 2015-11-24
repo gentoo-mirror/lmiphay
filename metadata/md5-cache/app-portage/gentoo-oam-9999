@@ -1,0 +1,13 @@
+DEFINED_PHASES=unpack
+DEPEND=app-admin/eclean-kernel lnav? ( app-admin/lnav ) app-admin/logrotate app-misc/screen ranger? ( app-misc/ranger ) app-portage/eix app-portage/genlop app-portage/gentoolkit app-portage/portage-utils >=app-shells/bash-4.3 app-text/multitail dev-lang/perl sys-apps/moreutils[perl] sys-fs/inotify-tools kernel? ( || ( sys-kernel/gentoo-sources[symlink] sys-kernel/aufs-sources[symlink] ) ) sys-process/mussh >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Automatation for common tasks around gentoo server upkeep
+EAPI=5
+HOMEPAGE=https://github.com/lmiphay/gentoo-oam
+IUSE=+lnav +ranger kernel
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=app-admin/eclean-kernel lnav? ( app-admin/lnav ) app-admin/logrotate app-misc/screen ranger? ( app-misc/ranger ) app-portage/eix app-portage/genlop app-portage/gentoolkit app-portage/portage-utils >=app-shells/bash-4.3 app-text/multitail dev-lang/perl sys-apps/moreutils[perl] sys-fs/inotify-tools kernel? ( || ( sys-kernel/gentoo-sources[symlink] sys-kernel/aufs-sources[symlink] ) ) sys-process/mussh
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	git-r3	b00a846f415f26e5b66e5c44c7dc87dc	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=c18eb9c1e8c06418436f6cc2dc00a62e

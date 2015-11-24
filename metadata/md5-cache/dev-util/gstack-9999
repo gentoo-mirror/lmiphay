@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare unpack
+DEPEND=dev-util/patchutils
+DESCRIPTION=Display stack trace of a running process.
+EAPI=5
+HOMEPAGE=https://admin.fedoraproject.org/pkgdb/package/gdb/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 GPL-3
+RDEPEND=sys-devel/gdb
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://pkgs.fedoraproject.org/cgit/gdb.git/plain/gdb-6.3-gstack-20050411.patch -> gdb-6.3-gstack-20050411.patch_9999 http://pkgs.fedoraproject.org/cgit/gdb.git/plain/gdb-gstack.man -> gdb-gstack.man_9999
+_eclass_exported_funcs=src_unpack:- src_prepare:- src_install:-
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=1ab1d877f980bc522efaae3776c7f50c

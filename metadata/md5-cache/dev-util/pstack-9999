@@ -1,0 +1,11 @@
+DEFINED_PHASES=prepare unpack
+DEPEND=>=dev-vcs/git-1.8.2.1
+DESCRIPTION=Display stack trace of a running process.
+EAPI=5
+HOMEPAGE=https://packages.debian.org/source/sid/pstack
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:-
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	git-r3	b00a846f415f26e5b66e5c44c7dc87dc	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=379a5ed696a06783d7ea08b5889992f1
