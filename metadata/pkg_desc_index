@@ -8,7 +8,7 @@ app-emacs/brief-mode 1.1: A Brief emulator for Emacs
 app-emulation/lxc-webpanel 9999: LXC Web Panel
 app-misc/g13 9999 20150528: libusb driver for the g13
 app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
-app-portage/gentoo-oam 1.0 2.0 3.0 9999: Automatation for common tasks around gentoo server upkeep
+app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
 app-shells/bashsimplecurses 9999: 
 dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent key-value store for fast storage
 dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
