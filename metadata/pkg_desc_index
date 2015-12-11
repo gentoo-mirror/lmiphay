@@ -7,7 +7,6 @@ app-backup/rdumpfs-rota 9999: Wrapper around rdumpfs to automate daily/weekly/mo
 app-emacs/brief-mode 1.1: A Brief emulator for Emacs
 app-emulation/lxc-webpanel 9999: LXC Web Panel
 app-misc/g13 9999 20150528: libusb driver for the g13
-app-misc/razer-blackwidow-ultimate 9999: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
 app-shells/bashsimplecurses 9999: 
@@ -36,7 +35,6 @@ media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
 media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/squeezelite 1.8: Squeezelite is a small headless Squeezebox emulator for Linux using ALSA audio output
 media-sound/squeezy 9999: command-line control of squeezebox network players via squeezeserver
-media-tv/kodi 14.2 15.0: Kodi is a free and open source media-player and entertainment hub
 net-mail/davmail-bin 4.6.1 4.7.0: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/cmc 9999: Manager of SSH ControlMaster connections
 net-misc/kafka-bin 0.8.2.1 0.8.2.2: A high-throughput distributed messaging system
