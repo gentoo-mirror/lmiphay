@@ -13,6 +13,7 @@ app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks aroun
 app-shells/bashsimplecurses 9999: 
 dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent key-value store for fast storage
 dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
+dev-libs/nanopb 0.3.4: plain-C Protocol Buffers for embedded/memory-constrained systems
 dev-perl/Log-StdLog 0.0.3: A simple log file via a special filehandle
 dev-perl/Net-Bluetooth 0.41: Perl Bluetooth Interface
 dev-perl/Net-SDP 0.07-r1: Perl extension for SDP
