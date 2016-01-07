@@ -11,6 +11,7 @@ app-misc/razer-blackwidow-ultimate 9999: Enable M1-M5/FN keys for the Razer Blac
 app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
 app-shells/bashsimplecurses 9999: 
+dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
 dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent key-value store for fast storage
 dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
 dev-libs/nanopb 0.3.4: plain-C Protocol Buffers for embedded/memory-constrained systems
