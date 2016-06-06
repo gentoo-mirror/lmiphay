@@ -1,1 +1,74 @@
+app-admin/lnav 0.7.3: A curses-based tool for viewing and analyzing log files
+app-backup/pdumpfs 1.3-r2 1.4 9999: a daily backup system similar to Plan9's dumpfs
+app-backup/pdumpfs-clean 9999: A utility to clean up old backup files of a pdumpfs archive
+app-backup/pdumpfs-rsync 9999: A utility to back up remote files with pdumpfs and rsync
+app-backup/rdumpfs 0.1-r1: a rsync-based dump file system backup tool
+app-backup/rdumpfs-rota 1.0 9999: Wrapper around rdumpfs to automate daily/weekly/monthly backups
+app-editors/grief 9999: Programmers console editor/a BRIEF clone
+app-emacs/brief-mode 1.1: A Brief emulator for Emacs
+app-emulation/lxc-webpanel 9999: LXC Web Panel
+app-misc/g13 9999 20150528: libusb driver for the g13
+app-misc/razer-blackwidow-ultimate 9999: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
+app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
+app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
+app-shells/bashsimplecurses 9999: 
+dev-db/influxdb 0.13.0: Scalable datastore for metrics, events, and real-time analytics
+dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
+dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent key-value store for fast storage
+dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
+dev-libs/nanopb 0.3.4: plain-C Protocol Buffers for embedded/memory-constrained systems
+dev-perl/Log-StdLog 0.0.3: A simple log file via a special filehandle
+dev-perl/Net-Bluetooth 0.41: Perl Bluetooth Interface
+dev-perl/Net-SDP 0.07-r1: Perl extension for SDP
+dev-perl/Net-UDAP 9999: A Perl module to configure the Logitech SqueezeBox Receiver
+dev-python/artifactory 9999: A Python client for Artifactory
+dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
+dev-python/kafka-python 9999: Kafka Python client
+dev-python/pydbus 9999: Pythonic DBus library
+dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
+dev-python/python-ironic-inspector-client 1.6.0: A client library and tool for Ironic Inspector
+dev-python/python-mistralclient 2.0.0: Python client for Mistral REST API
+dev-python/python-zaqarclient 1.0.0: A multi-tenant cloud messaging service
+dev-python/snakebite 9999: A pure python HDFS client
+dev-python/spark_parser 1.2.0: An Early-Algorithm Context-free grammar Parser
+dev-python/tosca-parser 9999: Parser for TOSCA Simple Profile in YAML
+dev-python/validate_email 9999: verify if an email address is valid and really exists
+dev-python/yaql 1.1.0: An embeddable and extensible query language
+dev-util/gstack 9999 20140207: Display stack trace of a running process.
+dev-util/plasmate 1.0-r1: IDE for writing KDE Plasma/KWin components (themes, Plasmoids, runners, data engines)
+dev-util/pstack 9999: Display stack trace of a running process.
+kde-misc/containmentaction-favorites 9999: KDE Favorites Launcher
+kde-misc/kdedesktopcustommenu 0.1: Custom context menu for the KDE desktop
+kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49: A fully customisable desktop menu for plasma 5
+kde-misc/scriptedhtml 9999: KDE plasmoid to display the output of script or URL
+kde-misc/socket-sentry 0.9.3-r2 9999: Real-time network traffic monitor for KDE Plasma.
+kde-misc/webslice-plasmoid 0.8.1: Plasma 5 widget to display a webpage or image
 kodi-plugins/rteplayer-hq 1.2.1 3.1.0: RTE Player HQ
+media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
+media-sound/castbridge 9999: Logitech Media Server plugin for Chromecast devices
+media-sound/jivelite 20141213: Experimental squeezebox and derivative control application
+media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1: PulseAudio system tray
+media-sound/shairport 9999 20141210: Emulates an AirPort Express to stream music from i-devices
+media-sound/shairport2_helper 9999: Squeezebox ShairPort2 Helper
+media-sound/shairport2_plugin 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
+media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
+media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
+media-sound/squeeze2cast 9999: Helper to allow Chromecast devices to be used in Logitech Media Server
+media-sound/squeezelite 1.8 1.8.4.743: Squeezelite is a small headless Squeezebox emulator for Linux using ALSA audio output
+media-sound/squeezy 9999: command-line control of squeezebox network players via squeezeserver
+media-tv/kodi 15.0: Kodi is a free and open source media-player and entertainment hub
+net-im/sipclients 3.0.0: 
+net-im/slack 2.0.5 2.0.6: A messaging app for teams
+net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
+net-mail/davmail-bin 4.7.1 4.7.2: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
+net-misc/cmc 9999: Manager of SSH ControlMaster connections
+net-misc/kafka-bin 0.8.2.1 0.8.2.2: A high-throughput distributed messaging system
+net-misc/kafkacat 1.2.0: Generic command line non-JVM Apache Kafka producer and consumer
+net-misc/librdkafka 0.8.6: Apache Kafka C/C++ library
+sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
+sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
+sys-process/numatop 9999: Tool for NUMA memory locality and processes/threads analysis
+www-apps/opengrok 0.12.1.5: Fast source code search and cross reference engine
+www-apps/opengrok-bin 0.12.1 0.12.1.5: Fast source code search and cross reference engine
+x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
+x11-wm/tvtwm 11: tvtwm X11 window manager

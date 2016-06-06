@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare unpack
+DEPEND=|| ( dev-db/mariadb dev-db/mariadb-connector-c ) dev-libs/openssl sys-libs/zlib >=dev-vcs/bzr-2.0.1
+DESCRIPTION=A C++ client library for the MariaDB and MySQL databases
+EAPI=5
+HOMEPAGE=https://launchpad.net/mariadb++
+KEYWORDS=~amd64 ~x86
+LICENSE=Boost-1.0
+RDEPEND=|| ( dev-db/mariadb dev-db/mariadb-connector-c ) dev-libs/openssl sys-libs/zlib
+SLOT=0
+_eclass_exported_funcs=src_unpack:bzr src_prepare:- src_install:-
+_eclasses_=bzr	745bed5705ae699c707ba26ca9e8929a	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=7ae96ec747172ff41c0ef3ce8e3aa7cc

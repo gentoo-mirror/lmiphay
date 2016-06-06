@@ -1,0 +1,15 @@
+DEFINED_PHASES=-
+DEPEND=app-admin/eclean-kernel lnav? ( app-admin/lnav ) app-admin/logrotate app-misc/screen ranger? ( app-misc/ranger ) app-portage/eix app-portage/genlop app-portage/gentoolkit app-portage/portage-utils >=app-shells/bash-4.3 app-text/multitail dev-lang/perl sys-apps/moreutils[perl] sys-fs/inotify-tools sys-process/mussh
+DESCRIPTION=Automatation for common tasks around gentoo server upkeep
+EAPI=5
+HOMEPAGE=https://github.com/lmiphay/gentoo-oam
+IUSE=+lnav +ranger
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=app-admin/eclean-kernel lnav? ( app-admin/lnav ) app-admin/logrotate app-misc/screen ranger? ( app-misc/ranger ) app-portage/eix app-portage/genlop app-portage/gentoolkit app-portage/portage-utils >=app-shells/bash-4.3 app-text/multitail dev-lang/perl sys-apps/moreutils[perl] sys-fs/inotify-tools sys-process/mussh
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lmiphay/gentoo-oam/archive/v3.0.tar.gz -> gentoo-oam-3.0.tar.gz
+_eclass_exported_funcs=-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=015f755596b247736969f8d4b82629c0
