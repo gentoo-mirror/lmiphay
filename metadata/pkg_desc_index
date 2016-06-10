@@ -41,7 +41,7 @@ kde-misc/containmentaction-favorites 9999: KDE Favorites Launcher
 kde-misc/kdedesktopcustommenu 0.1: Custom context menu for the KDE desktop
 kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49: A fully customisable desktop menu for plasma 5
 kde-misc/scriptedhtml 9999: KDE plasmoid to display the output of script or URL
-kde-misc/socket-sentry 0.9.3-r2 9999: Real-time network traffic monitor for KDE Plasma.
+kde-misc/socket-sentry 0.9.3-r2 9999: Real-time network traffic monitor for KDE Plasma
 kde-misc/webslice-plasmoid 0.8.1: Plasma 5 widget to display a webpage or image
 kodi-plugins/rteplayer-hq 1.2.1 3.1.0: RTE Player HQ
 media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
