@@ -48,7 +48,7 @@ media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
 media-sound/castbridge 9999: Logitech Media Server plugin for Chromecast devices
 media-sound/jivelite 20141213: Experimental squeezebox and derivative control application
 media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1: PulseAudio system tray
-media-sound/shairport 9999 20141210: Emulates an AirPort Express to stream music from i-devices
+media-sound/shairport 9999 20141210 20141210-r1: Emulates an AirPort Express to stream music from i-devices
 media-sound/shairport2_helper 9999: Squeezebox ShairPort2 Helper
 media-sound/shairport2_plugin 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
