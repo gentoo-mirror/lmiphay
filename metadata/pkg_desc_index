@@ -25,6 +25,7 @@ dev-python/artifactory 9999: A Python client for Artifactory
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
 dev-python/kafka-python 9999: Kafka Python client
 dev-python/pydbus 9999: Pythonic DBus library
+dev-python/pyroute2 0.4.2: Python netlink library
 dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
 dev-python/python-ironic-inspector-client 1.6.0: A client library and tool for Ironic Inspector
 dev-python/python-mistralclient 2.0.0: Python client for Mistral REST API
