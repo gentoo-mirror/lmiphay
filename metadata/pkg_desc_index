@@ -4,6 +4,7 @@ app-backup/pdumpfs-clean 9999: A utility to clean up old backup files of a pdump
 app-backup/pdumpfs-rsync 9999: A utility to back up remote files with pdumpfs and rsync
 app-backup/rdumpfs 0.1-r1: a rsync-based dump file system backup tool
 app-backup/rdumpfs-rota 1.0 9999: Wrapper around rdumpfs to automate daily/weekly/monthly backups
+app-benchmarks/lookbusy 1.4: A synthetic load generator
 app-editors/grief 9999: Programmers console editor/a BRIEF clone
 app-emacs/brief-mode 1.1: A Brief emulator for Emacs
 app-emulation/lxc-webpanel 9999: LXC Web Panel
@@ -24,6 +25,7 @@ dev-perl/Net-UDAP 9999: A Perl module to configure the Logitech SqueezeBox Recei
 dev-python/artifactory 9999: A Python client for Artifactory
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
 dev-python/kafka-python 9999: Kafka Python client
+dev-python/pulsectl 16.5.14: igh-level interface and ctypes-based bindings for PulseAudio
 dev-python/pydbus 9999: Pythonic DBus library
 dev-python/pyroute2 0.4.2: Python netlink library
 dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
@@ -50,8 +52,8 @@ media-sound/castbridge 9999: Logitech Media Server plugin for Chromecast devices
 media-sound/jivelite 20141213: Experimental squeezebox and derivative control application
 media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1: PulseAudio system tray
 media-sound/shairport 9999 20141210 20141210-r1: Emulates an AirPort Express to stream music from i-devices
-media-sound/shairport2_helper 9999: Squeezebox ShairPort2 Helper
-media-sound/shairport2_plugin 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
+media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
+media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
 media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/squeeze2cast 9999: Helper to allow Chromecast devices to be used in Logitech Media Server
