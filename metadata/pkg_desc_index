@@ -57,7 +57,7 @@ media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server
 media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
 media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/squeeze2cast 9999: Helper to allow Chromecast devices to be used in Logitech Media Server
-media-sound/squeezelite 1.8 1.8.4.743: Squeezelite is a small headless Squeezebox emulator for Linux using ALSA audio output
+media-sound/squeezelite 1.8 1.8.4.743 1.8.4.743-r1: Squeezelite is a small headless Squeezebox emulator for Linux using ALSA audio output
 media-sound/squeezy 9999: command-line control of squeezebox network players via squeezeserver
 media-tv/kodi 15.0: Kodi is a free and open source media-player and entertainment hub
 net-im/sipclients 3.0.0: 
