@@ -46,7 +46,6 @@ kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49: A fully customisable de
 kde-misc/scriptedhtml 9999: KDE plasmoid to display the output of script or URL
 kde-misc/socket-sentry 0.9.3-r2 9999: Real-time network traffic monitor for KDE Plasma
 kde-misc/webslice-plasmoid 0.8.1: Plasma 5 widget to display a webpage or image
-kodi-plugins/rteplayer-hq 1.2.1 3.1.0 3.1.1: RTE Player HQ
 media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
 media-sound/castbridge 9999: Logitech Media Server plugin for Chromecast devices
 media-sound/jivelite 20141213: Experimental squeezebox and derivative control application
@@ -61,7 +60,7 @@ media-sound/squeezelite 1.8 1.8.4.743 1.8.4.743-r1: Squeezelite is a small headl
 media-sound/squeezy 9999: command-line control of squeezebox network players via squeezeserver
 media-tv/kodi 15.0: Kodi is a free and open source media-player and entertainment hub
 net-im/sipclients 3.0.0: 
-net-im/slack 2.0.5 2.0.6: A messaging app for teams
+net-im/slack 2.0.5 2.0.6 2.0.6-r1: A messaging app for teams
 net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
 net-mail/davmail-bin 4.7.1 4.7.2 4.7.2-r1: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/cmc 9999: Manager of SSH ControlMaster connections
