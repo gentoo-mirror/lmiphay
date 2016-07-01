@@ -10,5 +10,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=http://acme.com/software/xphoon/xphoon_14Aug2014.tar.gz
 _eclass_exported_funcs=src_configure:- src_compile:- src_install:-
-_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
 _md5_=81dd1a3cc01caae1f2fa6c68579185f3
