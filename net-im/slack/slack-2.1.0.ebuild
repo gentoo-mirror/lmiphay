@@ -13,12 +13,13 @@ RESTRICT="mirror"
 
 SLOT="0"
 KEYWORDS="~amd64 -*"
-IUSE=""
+IUSE="plasma"
 
 QA_PREBUILT="usr/lib/slack/*"
 
 DEPEND=""
 RDEPEND="
+	plasma? ( dev-libs/libappindicator:2 )
 	>=gnome-base/gconf-3.2.6-r4
 	>=gnome-base/libgnome-keyring-3.12.0
 	>=x11-libs/libXScrnSaver-1.2.2-r1
