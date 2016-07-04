@@ -31,6 +31,7 @@ dev-python/pyroute2 0.4.2: Python netlink library
 dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
 dev-python/python-consul 0.6.0: Python client for Consul (http://www.consul.io/)
 dev-python/python-ironic-inspector-client 1.6.0: A client library and tool for Ironic Inspector
+dev-python/python-krbV 1.0.90: Python extension module for Kerberos 5
 dev-python/python-mistralclient 2.0.0: Python client for Mistral REST API
 dev-python/python-zaqarclient 1.0.0: A multi-tenant cloud messaging service
 dev-python/snakebite 9999: A pure python HDFS client
