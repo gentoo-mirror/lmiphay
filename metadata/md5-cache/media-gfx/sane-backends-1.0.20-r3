@@ -10,5 +10,5 @@ RDEPEND=sane_backends_dc210? ( virtual/jpeg ) sane_backends_dc240? ( virtual/jpe
 SLOT=0
 SRC_URI=http://alioth.debian.org/frs/download.php/2318/sane-backends-1.0.20.tar.gz ftp://ftp.sane-project.org/pub/sane/sane-backends-1.0.20/sane-backends-1.0.20.tar.gz ftp://ftp.sane-project.org/pub/sane/old-versions/sane-backends-1.0.20/sane-backends-1.0.20.tar.gz
 _eclass_exported_funcs=pkg_setup:- src_unpack:- src_compile:- src_install:-
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	user	c66cbe7502fe1161066eb947d15b79f6
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	8632fcd33a047954f007dee9a137bdcc	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	user	c66cbe7502fe1161066eb947d15b79f6
 _md5_=56f9bc25c32a3117c450aa0597edfd64
