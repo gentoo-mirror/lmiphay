@@ -52,7 +52,7 @@ kde-misc/socket-sentry 0.9.3-r2 9999: Real-time network traffic monitor for KDE 
 kde-misc/webslice-plasmoid 0.8.1: Plasma 5 widget to display a webpage or image
 media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
 media-sound/castbridge 9999: Logitech Media Server plugin for Chromecast devices
-media-sound/jivelite 20141213: Experimental squeezebox and derivative control application
+media-sound/jivelite 20141213 20160725: Experimental squeezebox and derivative control application
 media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1 0.6.0: PulseAudio system tray
 media-sound/shairport 9999 20141210 20141210-r1 20141210-r2: Emulates an AirPort Express to stream music from i-devices
 media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
