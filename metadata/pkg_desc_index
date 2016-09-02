@@ -64,7 +64,7 @@ media-sound/squeezelite 1.8 1.8.4.743 1.8.4.743-r1: Squeezelite is a small headl
 media-sound/squeezy 9999: command-line control of squeezebox network players via squeezeserver
 media-tv/kodi 15.0: Kodi is a free and open source media-player and entertainment hub
 net-im/sipclients 3.0.0: 
-net-im/slack 2.0.6-r1 2.1.0: A messaging app for teams
+net-im/slack 2.1.0 2.1.2: A messaging app for teams
 net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
 net-mail/davmail-bin 4.7.1 4.7.2 4.7.2-r1: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/cmc 9999: Manager of SSH ControlMaster connections
