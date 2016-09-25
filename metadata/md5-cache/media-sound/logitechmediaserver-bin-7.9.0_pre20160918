@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=!media-sound/squeezecenter !media-sound/squeezeboxserver app-arch/unzip virtual/pkgconfig
+DESCRIPTION=Logitech Media Server (streaming audio server)
+EAPI=5
+HOMEPAGE=http://github.com/Logitech/slimserver
+KEYWORDS=~amd64 ~x86
+LICENSE=logitechmediaserver-bin
+RDEPEND=!prefix? ( >=sys-apps/baselayout-2.0.0 ) !prefix? ( virtual/logger ) >=dev-lang/perl-5.8.8[ithreads] x86? ( <dev-lang/perl-5.19[ithreads] ) amd64? ( <dev-lang/perl-5.23[ithreads] ) >=dev-perl/Data-UUID-1.202
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=https://github.com/Logitech/slimserver/archive/a321b3b3bb6183eca27e4a509522cbbffbaa3087.zip
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_prepare:- src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	systemd	3165c885f3c71ffae7a867d931fb0e07	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	user	80aaa71614ced86f02ee1a513821dc87
+_md5_=18746c68cddb7342b7c17488a4be9541
