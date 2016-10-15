@@ -43,7 +43,7 @@ dev-python/yaql 1.1.0: An embeddable and extensible query language
 dev-util/gstack 9999 20140207: Display stack trace of a running process.
 dev-util/plasmate 1.0-r1: IDE for writing KDE Plasma/KWin components (themes, Plasmoids, runners, data engines)
 dev-util/pstack 9999: Display stack trace of a running process.
-games-simulation/kokua-bin 4.0.5_pre: An open source metaverse viewer
+games-simulation/kokua-bin 4.0.5_pre 4.1.1: An open source metaverse viewer
 kde-misc/containmentaction-favorites 9999: KDE Favorites Launcher
 kde-misc/kdedesktopcustommenu 0.1: Custom context menu for the KDE desktop
 kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49: A fully customisable desktop menu for plasma 5
