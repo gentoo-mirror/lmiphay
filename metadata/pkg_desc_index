@@ -47,6 +47,7 @@ dev-util/pstack 9999: Display stack trace of a running process.
 games-simulation/kokua-bin 4.0.5_pre 4.1.1 4.1.2: An open source metaverse viewer
 kde-misc/containmentaction-favorites 9999: KDE Favorites Launcher
 kde-misc/kdedesktopcustommenu 0.1: Custom context menu for the KDE desktop
+kde-misc/nowdock-panel 0.5.0 9999: Plasma 5 panel with a plank/mac style zoom effect
 kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49: A fully customisable desktop menu for plasma 5
 kde-misc/scriptedhtml 9999: KDE plasmoid to display the output of script or URL
 kde-misc/socket-sentry 0.9.3-r2 9999: Real-time network traffic monitor for KDE Plasma
