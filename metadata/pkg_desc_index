@@ -76,6 +76,7 @@ net-misc/cmc 9999: Manager of SSH ControlMaster connections
 net-misc/kafka-bin 0.8.2.1 0.8.2.2: A high-throughput distributed messaging system
 net-misc/kafkacat 1.2.0: Generic command line non-JVM Apache Kafka producer and consumer
 net-misc/librdkafka 0.8.6: Apache Kafka C/C++ library
+net-misc/ntp-proxy 9999: Leap second immunity verification programs
 sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 9999: Tool for NUMA memory locality and processes/threads analysis
