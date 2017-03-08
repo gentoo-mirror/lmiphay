@@ -8,5 +8,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://dl.influxdata.com/influxdb/releases/influxdb_0.13.0_amd64.deb
 _eclass_exported_funcs=pkg_setup:- src_unpack:- src_install:-
-_eclasses_=unpacker	76ddf385f3c212c12857bb8ec2a8bd35	user	e4b567c44272a719fabf53f0f885d3f7
+_eclasses_=unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70	user	e4b567c44272a719fabf53f0f885d3f7
 _md5_=2405c37a2adb516eae91c65d702d08a1
