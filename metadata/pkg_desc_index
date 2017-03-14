@@ -82,6 +82,6 @@ sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 9999: Tool for NUMA memory locality and processes/threads analysis
 www-apps/opengrok 0.12.1.5: Fast source code search and cross reference engine
-www-apps/opengrok-bin 0.12.1 0.12.1.5 0.13_rc9: Fast source code search and cross reference engine
+www-apps/opengrok-bin 0.12.1 0.12.1.5 0.13_rc9 0.13_rc10: Fast source code search and cross reference engine
 x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
 x11-wm/tvtwm 11: tvtwm X11 window manager
