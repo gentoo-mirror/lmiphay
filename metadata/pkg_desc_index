@@ -70,7 +70,8 @@ media-sound/squeezeslave 1.1_p365-r1 1.1_p381-r1: A lightweight streaming audio 
 media-sound/squeezy 9999: command-line control of squeezebox network players via squeezeserver
 media-tv/kodi 15.0: Kodi is a free and open source media-player and entertainment hub
 net-im/sipclients 3.0.0: 
-net-im/slack 2.3.4 2.4.2 2.5.1: A messaging app for teams
+net-im/slack 2.3.4 2.4.2 2.5.1 2.5.2: A messaging app for teams
+net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
 net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
 net-mail/davmail-bin 4.7.2-r1 4.7.3: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/cmc 9999: Manager of SSH ControlMaster connections
