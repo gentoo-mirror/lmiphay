@@ -69,6 +69,7 @@ media-sound/squeezelite 1.8 1.8.4.743 1.8.4.743-r1: Squeezelite is a small headl
 media-sound/squeezeslave 1.1_p365-r1 1.1_p381-r1: A lightweight streaming audio player for Logitech Media Server
 media-sound/squeezy 9999: command-line control of squeezebox network players via squeezeserver
 media-tv/kodi 15.0: Kodi is a free and open source media-player and entertainment hub
+net-dns/mdnssd 20170108: A simple mDNS-SD browser
 net-im/sipclients 3.0.0: 
 net-im/slack 2.5.1 2.5.2: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
