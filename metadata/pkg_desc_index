@@ -55,7 +55,7 @@ kde-misc/scriptedhtml 9999: KDE plasmoid to display the output of script or URL
 kde-misc/socket-sentry 0.9.3-r2 9999: Real-time network traffic monitor for KDE Plasma
 kde-misc/webslice-plasmoid 0.8.1: Plasma 5 widget to display a webpage or image
 media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
-media-sound/castbridge 9999: Logitech Media Server plugin for Chromecast devices
+media-sound/castbridge 0.2.6.4_alpha3 9999: Logitech Media Server plugin for Chromecast devices
 media-sound/jivelite 20141213 20160725: Experimental squeezebox and derivative control application
 media-sound/logitechmediaserver-bin 7.9.0_pre20160918: Logitech Media Server (streaming audio server)
 media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1 0.6.0 0.6.0-r2 0.6.0-r3: PulseAudio system tray
@@ -64,7 +64,7 @@ media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
 media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
 media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
-media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper to allow Chromecast devices to be used in Logitech Media Server
+media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
 media-sound/squeezelite 1.8 1.8.4.743 1.8.4.743-r1: Squeezelite is a small headless Squeezebox emulator for Linux using ALSA audio output
 media-sound/squeezeslave 1.1_p365-r1 1.1_p381-r1: A lightweight streaming audio player for Logitech Media Server
 media-sound/squeezy 9999: command-line control of squeezebox network players via squeezeserver
