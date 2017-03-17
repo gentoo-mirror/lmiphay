@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst prepare unpack
+DEPEND=dev-libs/jansson dev-libs/nanopb dev-libs/openssl >=dev-util/valgrind-3.12.0 >=net-dns/mdnssd-20170108 ~net-libs/libupnp-castbridge-1.6.19 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Helper for Chromecast devices to be used in Logitech Media Server
+EAPI=6
+HOMEPAGE=https://github.com/philippe44/LMS-to-cast
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT GPL-3
+RDEPEND=dev-libs/jansson dev-libs/nanopb dev-libs/openssl >=dev-util/valgrind-3.12.0 >=net-dns/mdnssd-20170108 ~net-libs/libupnp-castbridge-1.6.19
+SLOT=0
+_eclass_exported_funcs=pkg_postinst:- src_unpack:git-r3 src_prepare:- src_install:-
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	git-r3	08c5be5f8bdc203ed54d5ff5fef3c34d	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=8eede0e15f7441c0a16c19d857bdb40c
