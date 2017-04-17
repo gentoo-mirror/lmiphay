@@ -41,6 +41,7 @@ dev-python/snakebite 9999: A pure python HDFS client
 dev-python/spark_parser 1.2.0: An Early-Algorithm Context-free grammar Parser
 dev-python/spec 1.3.1: Specification-style nosetests output for Python
 dev-python/stashy 0.3: Python API client for the Atlassian Stash REST API
+dev-python/toolz 0.8.2: List processing tools and functional utilities
 dev-python/tosca-parser 9999: Parser for TOSCA Simple Profile in YAML
 dev-python/uncompyle2 9999: A Python 2.7 byte-code decompiler
 dev-python/validate_email 9999: verify if an email address is valid and really exists
