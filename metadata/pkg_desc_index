@@ -27,7 +27,7 @@ dev-python/artifactory 9999: A Python client for Artifactory
 dev-python/eliot 1.0.0: Logging as Storytelling
 dev-python/eliot-tree 17.0.0: Render Eliot logs as an ASCII tree
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
-dev-python/invoke 0.15.0-r2 0.16.3 0.17.0-r1 0.18.0 9999: Pythonic task management & command execution
+dev-python/invoke 0.15.0-r2 0.16.3 0.17.0-r1 0.18.0 0.18.1 9999: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
 dev-python/pulsectl 16.5.14: igh-level interface and ctypes-based bindings for PulseAudio
 dev-python/pydbus 9999: Pythonic DBus library
@@ -54,7 +54,7 @@ dev-util/plasmate 1.0-r1: IDE for writing KDE Plasma/KWin components (themes, Pl
 dev-util/pstack 9999: Display stack trace of a running process.
 dev-vcs/git-recall 20170311: git tool to easily recall what you've done
 dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
-games-simulation/kokua-bin 4.1.1 4.1.2 5.0.6: An open source metaverse viewer
+games-simulation/kokua-bin 5.0.6: An open source metaverse viewer
 games-simulation/singularity-bin 1.8.7: An experimental Snowglobe 1.5 based Second Life Viewer
 kde-misc/containmentaction-favorites 9999: KDE Favorites Launcher
 kde-misc/kdedesktopcustommenu 0.1: Custom context menu for the KDE desktop
