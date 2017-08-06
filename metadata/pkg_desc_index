@@ -7,6 +7,7 @@ app-backup/rdumpfs-rota 1.0 9999: Wrapper around rdumpfs to automate daily/weekl
 app-benchmarks/lookbusy 1.4: A synthetic load generator
 app-editors/grief 9999: Programmers console editor/a BRIEF clone
 app-emacs/brief-mode 1.1: A Brief emulator for Emacs
+app-emacs/lms 20170806: Frontend for Squeezebox / Logitech Media Server
 app-emulation/lxc-webpanel 9999: LXC Web Panel
 app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
 app-misc/razer-blackwidow-ultimate 9999: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
