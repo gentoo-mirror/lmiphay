@@ -28,7 +28,7 @@ dev-python/artifactory 9999: A Python client for Artifactory
 dev-python/eliot 1.0.0: Logging as Storytelling
 dev-python/eliot-tree 17.0.0: Render Eliot logs as an ASCII tree
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
-dev-python/invoke 0.17.0-r1 0.18.1 0.19.0 0.20.1 9999: Pythonic task management & command execution
+dev-python/invoke 0.17.0-r1 0.18.1 0.19.0 0.20.1 0.20.3 9999: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
 dev-python/pulsectl 16.5.14: igh-level interface and ctypes-based bindings for PulseAudio
 dev-python/pydbus 9999: Pythonic DBus library
@@ -84,7 +84,7 @@ media-tv/kodi 15.0: Kodi is a free and open source media-player and entertainmen
 net-dns/mdnssd 20170108: A simple mDNS-SD browser
 net-im/gitter-bin 3.1.0: An IM/chat room system for developers & users of GitHub repos
 net-im/sipclients 3.0.0: 
-net-im/slack 2.6.0 2.6.2 2.6.3: A messaging app for teams
+net-im/slack 2.6.3 2.7.0: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
 net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
 net-mail/davmail-bin 4.7.2-r1 4.7.3: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
@@ -98,6 +98,6 @@ sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 9999: Tool for NUMA memory locality and processes/threads analysis
 www-apps/opengrok 0.12.1.5: Fast source code search and cross reference engine
-www-apps/opengrok-bin 0.12.1.5 0.13_rc10 1.0 1.1_rc3 1.1_rc5 1.1_rc7 1.1_rc8: Fast source code search and cross reference engine
+www-apps/opengrok-bin 0.12.1.5 0.13_rc10 1.0 1.1_rc8 1.1_rc11: Fast source code search and cross reference engine
 x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
 x11-wm/tvtwm 11: tvtwm X11 window manager
