@@ -9,6 +9,5 @@ RDEPEND=>=virtual/emacs-23
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://bitbucket.org/inigoserna/lms.el/get/f07ac3678e27.zip -> lms-20170806.zip
-_eclass_exported_funcs=pkg_postrm:elisp pkg_postinst:elisp pkg_setup:elisp src_unpack:elisp src_prepare:elisp src_configure:elisp src_compile:elisp src_install:elisp
 _eclasses_=elisp	571fd9c6c9d8b71c8461bb9f33e135ab	elisp-common	19ff54b35acd0bf2a14831a308a57753	readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986
 _md5_=73c80b2a57617a7eef6a9baf3b7240d3
