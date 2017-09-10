@@ -78,6 +78,7 @@ media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
 media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
 media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
+media-sound/squeeze-controller 0.1.0: A stylish controller app for the Logitech Media Server
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
 media-sound/squeezelite 1.8 1.8.4.743 1.8.4.743-r1: Squeezelite is a small headless Squeezebox emulator for Linux using ALSA audio output
 media-sound/squeezeslave 1.1_p365-r1 1.1_p381-r1: A lightweight streaming audio player for Logitech Media Server
