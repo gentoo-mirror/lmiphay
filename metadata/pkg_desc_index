@@ -29,7 +29,7 @@ dev-python/artifactory 9999: A Python client for Artifactory
 dev-python/eliot 1.0.0: Logging as Storytelling
 dev-python/eliot-tree 17.0.0: Render Eliot logs as an ASCII tree
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
-dev-python/invoke 0.17.0-r1 0.18.1 0.19.0 0.20.1 0.20.3 0.20.4 9999: Pythonic task management & command execution
+dev-python/invoke 0.20.4 0.21.0 9999: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
 dev-python/pulsectl 16.5.14: igh-level interface and ctypes-based bindings for PulseAudio
 dev-python/pydbus 9999: Pythonic DBus library
@@ -101,6 +101,6 @@ sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 9999: Tool for NUMA memory locality and processes/threads analysis
 www-apps/opengrok 0.12.1.5: Fast source code search and cross reference engine
-www-apps/opengrok-bin 0.12.1.5 0.13_rc10 1.0 1.1_rc8 1.1_rc11 1.1_rc12 1.1_rc13: Fast source code search and cross reference engine
+www-apps/opengrok-bin 1.0 1.1_rc13 1.1_rc14: Fast source code search and cross reference engine
 x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
 x11-wm/tvtwm 11: tvtwm X11 window manager
