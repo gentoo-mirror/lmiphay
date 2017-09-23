@@ -13,7 +13,7 @@ app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
 app-misc/razer-blackwidow-ultimate 9999: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
-app-portage/oam 9999: Automatation for common tasks around gentoo server upkeep
+app-portage/oam 9999: Operations and maintenance automation for gentoo servers
 app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm, aterm, urxvt... etc
 dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
 dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
