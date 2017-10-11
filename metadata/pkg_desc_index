@@ -30,6 +30,7 @@ dev-python/eliot-tree 17.0.0: Render Eliot logs as an ASCII tree
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
 dev-python/invoke 0.20.4 0.21.0 9999: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
+dev-python/pipreqs 0.4.7: Generate pip requirements.txt file based on imports of any project
 dev-python/pulsectl 16.5.14: igh-level interface and ctypes-based bindings for PulseAudio
 dev-python/pydbus 9999: Pythonic DBus library
 dev-python/pykerberos 1.1.13: A high-level Python wrapper for Kerberos/GSSAPI operations
@@ -51,6 +52,7 @@ dev-python/tree-format 0.1.1: Python library for printing trees on the console
 dev-python/uncompyle2 9999: A Python 2.7 byte-code decompiler
 dev-python/validate_email 9999: verify if an email address is valid and really exists
 dev-python/yaql 1.1.0: An embeddable and extensible query language
+dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
 dev-util/gstack 9999 20140207: Display stack trace of a running process.
 dev-util/plasmate 1.0-r1: IDE for writing KDE Plasma/KWin components (themes, Plasmoids, runners, data engines)
 dev-util/pstack 9999: Display stack trace of a running process.
