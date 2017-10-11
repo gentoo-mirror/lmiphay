@@ -31,7 +31,7 @@ index cd1355e..9e0a355 100644
 -<optional><option>
 -d <replaceable>/path/to/data/root</replaceable></option></optional>
 -<optional><option>
--D</option></optional>
+-D <replaceable>on/off</replaceable></option></optional>
 -<optional><option>
 -e</option></optional>
 -<optional><option>
@@ -115,7 +115,7 @@ index cd1355e..9e0a355 100644
 +<arg><option>
 +d <replaceable>/path/to/data/root</replaceable></option></arg>
 +<arg><option>
-+D</option></arg>
++D <replaceable>on/off</replaceable></option></arg>
 +<arg><option>
 +e</option></arg>
 +<arg><option>
