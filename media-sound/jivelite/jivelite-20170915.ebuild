@@ -1,16 +1,15 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-EAPI=5
+EAPI=6
 
 inherit eutils git-r3
 
-DESCRIPTION="Experimental squeezebox and derivative control application"
-HOMEPAGE="https://code.google.com/p/jivelite/"
+DESCRIPTION="Community logitech media server control application"
+HOMEPAGE="https://github.com/ralph-irving/jivelite"
 
-EGIT_REPO_URI="https://code.google.com/p/jivelite/"
-EGIT_COMMIT="de07c79a717fa678d8ae8d87f5ef41d16357949b"
+EGIT_REPO_URI="https://github.com/ralph-irving/jivelite.git"
+EGIT_COMMIT="d3f683ca70ea1c959e8e994e7c94d9f036963760"
 
 LICENSE="jivelite"
 SLOT="0"
@@ -25,7 +24,7 @@ DEPEND="
 	dev-lua/luafilesystem
 	dev-lua/luasocket
 	media-libs/libsdl
-	media-libs/sdl-image
+	media-libs/sdl-image[png]
 	media-libs/sdl-ttf
 	media-libs/sdl-gfx
 "
@@ -42,7 +41,7 @@ src_prepare() {
 	sed -i -e 's;$(MYLDFLAGS);-shared $(LDFLAGS) $(MYLDFLAGS);' "lib-src/luamd5/Makefile"
 
 	sed -i -e 's;"arp ";"/sbin/arp ";' "share/jive/jive/net/NetworkThread.lua"
-	epatch_user
+	eapply_user
 }
 
 src_compile() {
@@ -68,4 +67,8 @@ src_install() {
 	doins lib-src/luazipfilter/zipfilter.so
 	doins lib-src/luamd5/md5.so
 	doins lib-src/luamd5/sha1.so
+}
+
+pkg_postinst() {
+	elog "Support thread at: http://forums.slimdevices.com/showthread.php?98156-Announce-JiveLite-cut-down-squeezebox-control-application"
 }
