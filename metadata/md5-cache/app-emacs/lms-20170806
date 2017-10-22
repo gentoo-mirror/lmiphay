@@ -10,4 +10,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://bitbucket.org/inigoserna/lms.el/get/f07ac3678e27.zip -> lms-20170806.zip
 _eclasses_=elisp	571fd9c6c9d8b71c8461bb9f33e135ab	elisp-common	23f47b2e1de7abf387105eddd1318738	readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986
-_md5_=73c80b2a57617a7eef6a9baf3b7240d3
+_md5_=5d56de69edabc1839b87518b2d337a1f
