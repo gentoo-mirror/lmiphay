@@ -16,11 +16,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
-RESTRICT="fetch"
+RESTRICT="mirror"
 
 RDEPEND="
 	${PYTHON_DEPS}
 	=dev-python/fuzzywuzzy-0.12.0[${PYTHON_USEDEP}]
+	dev-python/lambda-uploader
 	net-misc/stunnel
 "
 DEPEND="
