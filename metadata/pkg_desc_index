@@ -30,6 +30,7 @@ dev-python/eliot-tree 17.0.0: Render Eliot logs as an ASCII tree
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
 dev-python/invoke 0.20.4 0.21.0 9999: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
+dev-python/lambda-uploader 1.2.0: Package and upload Python lambda functions to AWS
 dev-python/pipreqs 0.4.7: Generate pip requirements.txt file based on imports of any project
 dev-python/pulsectl 16.5.14: igh-level interface and ctypes-based bindings for PulseAudio
 dev-python/pydbus 9999: Pythonic DBus library
