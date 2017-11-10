@@ -92,6 +92,7 @@ net-im/gitter-bin 3.1.0: An IM/chat room system for developers & users of GitHub
 net-im/sipclients 3.0.0: 
 net-im/slack 2.8.1 2.8.2: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
+net-im/stride-bin 1.5.18: 
 net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
 net-mail/davmail-bin 4.7.2-r1 4.7.3: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper deletion
