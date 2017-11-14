@@ -55,6 +55,7 @@ dev-python/validate_email 9999: verify if an email address is valid and really e
 dev-python/yaql 1.1.0: An embeddable and extensible query language
 dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
 dev-util/gstack 9999 20140207: Display stack trace of a running process.
+dev-util/pkgdiff 20170322: A tool for visualizing changes in Linux software packages
 dev-util/plasmate 1.0-r1: IDE for writing KDE Plasma/KWin components (themes, Plasmoids, runners, data engines)
 dev-util/pstack 9999: Display stack trace of a running process.
 dev-util/pycharm-community 2017.1.4: Intelligent Python IDE with unique code assistance and analysis
