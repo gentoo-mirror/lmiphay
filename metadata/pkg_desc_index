@@ -1,3 +1,4 @@
+app-admin/ckunlock 9999: unlock an open console kit session via dbus
 app-admin/lnav 0.7.3: A curses-based tool for viewing and analyzing log files
 app-backup/pdumpfs 1.3-r2 1.4 9999: a daily backup system similar to Plan9's dumpfs
 app-backup/pdumpfs-clean 9999: A utility to clean up old backup files of a pdumpfs archive
