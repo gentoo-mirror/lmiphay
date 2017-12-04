@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=(python2_7 python3_4)
+PYTHON_COMPAT=(python2_7 python3_{4,5})
 
 inherit eutils bash-completion-r1 distutils-r1
 
@@ -20,16 +20,20 @@ RDEPEND="
 	${PYTHON_DEPS}
 "
 DEPEND="
-	test? ( dev-python/spec dev-python/mock dev-python/flake8 )
+	test? (
+		dev-python/spec[${PYTHON_USEDEP}]
+		dev-python/mock[${PYTHON_USEDEP}]
+		dev-python/flake8[${PYTHON_USEDEP}]
+	)
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	${RDEPEND}
 "
 
 DOCS="README.rst"
 PATCHES=( \
-		"${FILESDIR}/loader-sys-path.patch" \
+		"${FILESDIR}/loader-sys-path.0.22.0.patch" \
 		"${FILESDIR}/encode-fallback.0.20.1.patch" \
-		"${FILESDIR}/files-in-config.patch" \
+		"${FILESDIR}/files-by-reference.patch" \
 		"${FILESDIR}/capture-buffer-size.patch" \
 )
 
