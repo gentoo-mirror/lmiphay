@@ -29,7 +29,7 @@ dev-python/artifactory 9999: A Python client for Artifactory
 dev-python/eliot 1.0.0: Logging as Storytelling
 dev-python/eliot-tree 17.0.0: Render Eliot logs as an ASCII tree
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
-dev-python/invoke 0.20.4 0.21.0 0.21.0-r1 9999: Pythonic task management & command execution
+dev-python/invoke 0.21.0-r1 0.22.0 9999: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
 dev-python/lambda-uploader 1.2.0: Package and upload Python lambda functions to AWS
 dev-python/pipreqs 0.4.7: Generate pip requirements.txt file based on imports of any project
