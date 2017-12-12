@@ -12,6 +12,7 @@ app-emacs/lms 20170806: Frontend for Squeezebox / Logitech Media Server
 app-emulation/lxc-webpanel 9999: LXC Web Panel
 app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
 app-misc/homeassistant 0.59.2: Open-source home automation platform running on Python 3
+app-misc/homeassistant-bin 0.59.2: Open-source home automation platform running on Python 3
 app-misc/razer-blackwidow-ultimate 9999: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
