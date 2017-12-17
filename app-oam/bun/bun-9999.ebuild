@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_5 pypy )
+PYTHON_COMPAT=( python2_7 python3_5 python3_6 pypy )
 
 inherit distutils-r1 git-r3
 
@@ -18,11 +18,16 @@ IUSE="test"
 
 RDEPEND="
 	${PYTHON_DEPS}
-	>=dev-python/invoke-0.21.0[${PYTHON_USEDEP}]
+	>=dev-python/invoke-0.22.0[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 "
 DEPEND="
-	test? ( >=dev-python/coverage-4.2 >=dev-python/flake8-2.5.4 >=dev-python/mock-2.0.0 >=dev-python/pylint-1.6.5 )
+	test? (
+		>=dev-python/coverage-4.2[${PYTHON_USEDEP}]
+		>=dev-python/flake8-2.5.4[${PYTHON_USEDEP}]
+		>=dev-python/mock-2.0.0[${PYTHON_USEDEP}]
+		>=dev-python/pylint-1.6.5[${PYTHON_USEDEP}]
+	)
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/sphinx-1.6.3[${PYTHON_USEDEP}]
 	${RDEPEND}

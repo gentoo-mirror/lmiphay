@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit eutils rpm
+inherit gnome2-utils eutils rpm xdg
 
 DESCRIPTION="A messaging app for teams"
 HOMEPAGE="https://slack.com/"
@@ -40,4 +40,21 @@ src_prepare() {
 src_install() {
 	cp -a . "${D}" || die
 	make_desktop_entry ${PN} "Slack" /usr/share/pixmaps/${PN}.png "Network"
+}
+
+pkg_preinst() {
+	xdg_pkg_preinst
+	gnome2_icon_savelist
+}
+
+pkg_postinst() {
+	xdg_desktop_database_update
+	xdg_mimeinfo_database_update
+	gnome2_icon_cache_update
+}
+
+pkg_postrm() {
+	xdg_desktop_database_update
+	xdg_mimeinfo_database_update
+	gnome2_icon_cache_update
 }

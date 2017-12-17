@@ -46,10 +46,13 @@ pkg_setup() {
 }
 
 src_prepare() {
-	epatch "${FILESDIR}/${MY_PN}-${PV}.patch"
-	# sed script from Fedora opengrok.spec by Lubomir Kundrak
+	# sed script based on Fedora opengrok.spec by Lubomir Kundrak
 	sed 's,^<!DOCTYPE.*,<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "docbookx.dtd">,
-		 s,^<?Pub Inc>,,' man/man1/opengrok.1 | \
+		 s,^<?Pub Inc>,,
+		 s,^<command>opengrok,<command>opengrok</command>,
+		 s,^<optional><option>,<arg><option>,
+		 s,</option></optional>,</option></arg>,
+		 s,^</command>,,' man/man1/opengrok.1 | \
 		xsltproc /usr/share/sgml/docbook/xsl-stylesheets/manpages/docbook.xsl -
 	eapply_user
 }
