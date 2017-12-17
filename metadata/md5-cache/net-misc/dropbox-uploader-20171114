@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1
+DESCRIPTION=BASH script to up/download, list/delete files on Dropbox
+EAPI=6
+HOMEPAGE=https://github.com/andreafabrizi/Dropbox-Uploader
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=app-shells/bash net-misc/curl
+SLOT=0
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
+_md5_=31b5a7336c23f7bdaf89a209aa3cfbb6
