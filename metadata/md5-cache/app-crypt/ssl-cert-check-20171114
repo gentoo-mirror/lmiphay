@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1
+DESCRIPTION=Send notifications when SSL certificates are about to expire
+EAPI=6
+HOMEPAGE=https://github.com/Matty9191/ssl-cert-check
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=app-shells/bash dev-libs/openssl
+SLOT=0
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
+_md5_=7090f7c34a5cd2ddc669c891592fd1d2
