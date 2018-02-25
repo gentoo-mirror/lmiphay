@@ -1,9 +1,9 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-PYTHON_COMPAT=(python2_7 python3_{4,5,6})
+PYTHON_COMPAT=(python2_7 python3_{5,6})
 
 inherit eutils distutils-r1
 
@@ -27,7 +27,7 @@ DEPEND="
 DOCS="README"
 
 src_prepare() {
-	sed -i -e 's;version=versioneer.get_version();version="1.4.1";' "setup.py"
+	sed -i -e 's;version=versioneer.get_version();version="1.5";' "setup.py"
 	sed -i -e 's;versioneer.get_cmdclass();{};' "setup.py"
 
 	eapply_user
