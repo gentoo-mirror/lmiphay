@@ -1,3 +1,4 @@
+dev-python/namespace-ruamel 1: Namespace package declaration for ruamel
 dev-python/toolz 0.8.2: List processing tools and functional utilities
 dev-python/tree-format 0.1.1: Python library for printing trees on the console
 dev-python/voluptuous 0.11.1: A Python data validation library.
