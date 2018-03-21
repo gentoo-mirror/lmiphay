@@ -21,6 +21,7 @@ IUSE="maint"
 DEPEND="
 	${PYTHON_DEPS}
 	!app-misc/homeassistant
+	>=dev-lang/python-3.5.4
 	dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/virtualenv[${PYTHON_USEDEP}]
 "
