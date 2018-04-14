@@ -5,7 +5,7 @@ EAPI="6"
 
 PYTHON_COMPAT=( python3_5 )
 
-inherit user readme.gentoo-r1 eutils distutils-r1
+inherit user readme.gentoo-r1 eutils distutils-r1 systemd
 
 MY_PN="${PN/-bin/}"
 
@@ -15,7 +15,6 @@ SRC_URI=""  # pip installs latest HA from PyPI
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64"
 IUSE="maint"
 
 DEPEND="
@@ -92,6 +91,8 @@ src_install() {
 
 	keepdir "/var/db/${MY_PN}"
 	fowners -R "${MY_PN}:${MY_PN}" "/var/db/${MY_PN}"
+
+	systemd_dounit "${FILESDIR}"/${MY_PN}.service
 
 	readme.gentoo_create_doc
 }
