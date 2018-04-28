@@ -5,7 +5,7 @@ EAPI="6"
 
 PYTHON_COMPAT=( python3_5 )
 
-inherit user readme.gentoo-r1 eutils distutils-r1
+inherit user readme.gentoo-r1 eutils distutils-r1 systemd
 
 MY_PN="${PN/-bin/}"
 
@@ -43,7 +43,7 @@ DOC_CONTENTS="
  The HA interface listens on port 8123 - this _will_ take a minute or two to appear
 
  hass configuration is in: /etc/${MY_PN}
- daemon command line arguments are configured in: /etc/conf.d/${MY_PN}
+ For openrc daemon command line arguments are configured in: /etc/conf.d/${MY_PN}
 
  logging is to: /var/log/${MY_PN}/{server,errors,stdout}.log
 
@@ -56,7 +56,7 @@ DOC_CONTENTS="
 	https://community.home-assistant.io/t/gentoo-homeassistant-0-59-2-ebuild/35577
 
  The script /usr/bin/update-homeassistant can be used to update homeassistant-bin (it keeps
- a backup of the previous virtualenv under /opt).
+ a backup of the previous virtualenv under /opt). The script is for openrc only at the moment.
 "
 
 S="${WORKDIR}"
@@ -98,6 +98,8 @@ src_install() {
 
 	keepdir "/var/db/${MY_PN}"
 	fowners -R "${MY_PN}:${MY_PN}" "/var/db/${MY_PN}"
+
+	systemd_dounit "${FILESDIR}"/${MY_PN}.service
 
 	readme.gentoo_create_doc
 }
