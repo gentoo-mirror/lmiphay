@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure postinst prepare unpack
+DEFINED_PHASES=compile configure nofetch postinst prepare unpack
 DEPEND=app-arch/unzip dev-lang/perl sys-libs/binutils-libs >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Programmers console editor/a BRIEF clone
 EAPI=5
