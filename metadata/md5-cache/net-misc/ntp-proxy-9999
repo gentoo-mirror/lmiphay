@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=net-libs/libnet:1.1 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Leap second immunity verification programs
+EAPI=6
+HOMEPAGE=http://www.amadeus.com/web/amadeus/en_1A-corporate/Amadeus-Home/Travel-trends/Travel-technology-trends/Open-source/Our-contributions/NTP-Proxy/1319686226159-Page-AMAD_DetailPpal
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=net-libs/libnet:1.1
+SLOT=0
+_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782
+_md5_=0c845dc51524d6678585dc8068e09625

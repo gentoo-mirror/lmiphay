@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=app-shells/bash-3.0 net-misc/openssh >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Manager of SSH ControlMaster connections
+EAPI=6
+HOMEPAGE=https://github.com/ClockworkNet/cmc
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=app-shells/bash-3.0 net-misc/openssh
+SLOT=0
+_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782
+_md5_=878e7170e2f01e77919efe879f5f2cb2
