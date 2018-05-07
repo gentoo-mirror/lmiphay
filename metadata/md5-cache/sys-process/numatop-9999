@@ -7,5 +7,5 @@ KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=sys-libs/ncurses sys-process/numactl
 SLOT=0
-_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782
+_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
 _md5_=52a6235831568210ac6c10ed90e69603
