@@ -1,5 +1,5 @@
 DEFINED_PHASES=install postinst unpack
-DEPEND=media-libs/libcaca sys-libs/ncurses >=dev-vcs/git-1.8.2.1
+DEPEND=media-libs/libcaca sys-libs/ncurses >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Functions to create windows on Xterm, aterm, urxvt... etc
 EAPI=6
 HOMEPAGE=https://github.com/metal3d/bashsimplecurses
@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RDEPEND=media-libs/libcaca sys-libs/ncurses
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=3ff8ccac8058347fff7abb0f6e83d746

@@ -1,5 +1,5 @@
 DEFINED_PHASES=install prepare unpack
-DEPEND=sys-libs/ncurses sys-process/numactl >=dev-vcs/git-1.8.2.1
+DEPEND=sys-libs/ncurses sys-process/numactl >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Tool for NUMA memory locality and processes/threads analysis
 EAPI=5
 HOMEPAGE=https://01.org/numatop
@@ -7,5 +7,5 @@ KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=sys-libs/ncurses sys-process/numactl
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=52a6235831568210ac6c10ed90e69603
