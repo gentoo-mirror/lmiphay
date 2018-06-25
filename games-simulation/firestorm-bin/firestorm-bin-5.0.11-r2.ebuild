@@ -12,8 +12,8 @@ HOMEPAGE="http://www.firestormviewer.org/"
 
 MY_P="Phoenix_FirestormOS-Releasex64_x86_64_${PV}.${REVISION}"
 MY_PV=$(replace_all_version_separators '-')
-SRC_URI="http://downloads.firestormviewer.org/Preview_${MY_PV}-${REVISION}/${MY_P}.tar.xz"
-# http://downloads.firestormviewer.org/Preview_5-0-11-53634/Phoenix_FirestormOS-Releasex64_x86_64_5.0.11.53634.tar.xz
+SRC_URI="http://downloads.firestormviewer.org/linux/${MY_P}.tar.xz"
+# https://downloads.firestormviewer.org/linux/Phoenix_FirestormOS-Releasex64_x86_64_5.0.11.53634.tar.xz
 RESTRICT="mirror"
 
 LICENSE="GPL-2-with-Linden-Lab-FLOSS-exception"
