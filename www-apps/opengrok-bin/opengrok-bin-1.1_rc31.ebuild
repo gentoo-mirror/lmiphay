@@ -92,6 +92,8 @@ pkg_postinst() {
 	elog "  opengrok index <absolute_path_to_your_SRC_ROOT>"
 	elog "e.g. opengrok index ${SRC_DIR}"
 	elog ""
+	elog "If you need to specify JAVA_HOME: JAVA_HOME=\$(java-config-2 --jdk-home) opengrok index ${SRC_DIR}"
+	elog ""
 	elog "Browse to: http://YOUR_WEBAPP_SERVER:WEBAPPSRV_PORT/source"
 	elog "e.g. http://localhost:8080/source/"
 	elog ""

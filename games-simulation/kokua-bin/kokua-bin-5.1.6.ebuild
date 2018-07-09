@@ -5,13 +5,14 @@ EAPI=6
 
 inherit eutils versionator
 
-REVISION=43398
+REVISION=43614
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://blog.kokuaviewer.org/"
 
 MY_PV=$(get_version_component_range 1-3 $(replace_all_version_separators '_'))
 MY_P="Kokua_Project_RLV_${MY_PV}_${REVISION}_x86_64"
+MY_BAD_ESCAPES_P="Kokua_\\_Project\\_RLV_${MY_PV}_${REVISION}_x86_64"
 SRC_URI="mirror://sourceforge/kokua.team-purple.p/Kokua-SL/Linux64Bit/${MY_P}.tar.bz2"
 RESTRICT="mirror"
 
@@ -37,6 +38,7 @@ RDEPEND="
 	dev-libs/boost
 	media-libs/freetype
 	media-libs/libogg
+	media-libs/libpng:1.2
 	media-libs/libsdl
 	media-libs/libvorbis
 	media-libs/gstreamer
@@ -53,7 +55,7 @@ DEPEND="${RDEPEND}
 	app-admin/chrpath
 "
 
-S="${WORKDIR}/${MY_P}"
+S="${WORKDIR}/${MY_BAD_ESCAPES_P}"
 
 src_prepare() {
 	rm \
