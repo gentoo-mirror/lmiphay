@@ -6,5 +6,5 @@ HOMEPAGE=http://www.buildersbrewery.com/
 KEYWORDS=~amd64 ~x86
 RDEPEND=app-emacs/yasnippet >=virtual/emacs-23
 SLOT=0
-_eclasses_=elisp	12e33ba725e375a938c5997b692a8667	elisp-common	23f47b2e1de7abf387105eddd1318738	git-r3	8f6de46b0aa318aea0e8cac62ece098b
-_md5_=57483e36fa60b8346ff33f4dd609e255
+_eclasses_=elisp	12e33ba725e375a938c5997b692a8667	elisp-common	23f47b2e1de7abf387105eddd1318738	git-r3	8f6de46b0aa318aea0e8cac62ece098b	readme.gentoo-r1	54aecea034d5e90bdb0684b80da5c9f3
+_md5_=425abc25075c33bf9255ca530a425603
