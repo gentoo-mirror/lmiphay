@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=app-emacs/yasnippet >=virtual/emacs-23 >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Major mode for editing Linden Scripting Language
+EAPI=6
+HOMEPAGE=http://www.buildersbrewery.com/
+KEYWORDS=~amd64 ~x86
+RDEPEND=app-emacs/yasnippet >=virtual/emacs-23
+SLOT=0
+_eclasses_=elisp	12e33ba725e375a938c5997b692a8667	elisp-common	23f47b2e1de7abf387105eddd1318738	git-r3	8f6de46b0aa318aea0e8cac62ece098b
+_md5_=57483e36fa60b8346ff33f4dd609e255
