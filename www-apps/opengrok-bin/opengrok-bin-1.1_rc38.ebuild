@@ -21,9 +21,11 @@ KEYWORDS=""
 # use cssc for SCCS support
 IUSE="cssc +doc subversion"
 
+TOMCAT=9
+
 RDEPEND="
 	>=dev-util/ctags-5.8
-	>=www-servers/tomcat-8.0.39
+	www-servers/tomcat:${TOMCAT}
 	cssc? ( dev-vcs/cssc )
 	subversion? ( >=dev-vcs/subversion-1.9.5[java] )
 "
@@ -84,10 +86,10 @@ src_install() {
 
 pkg_postinst() {
 	elog "Create a tomcat instance to host opengrok, see: https://wiki.gentoo.org/wiki/Apache_Tomcat"
-	elog "e.g. /usr/share/tomcat-8/gentoo/tomcat-instance-manager.bash --create"
+	elog "e.g. /usr/share/tomcat-${TOMCAT}/gentoo/tomcat-instance-manager.bash --create"
 	elog ""
 	elog "Deploy the web app, example:"
-	elog "   ${INSTALL_DIR}/bin/deploy.py ${INSTALL_DIR}/lib/source.war /var/lib/tomcat-8/webapps"
+	elog "   ${INSTALL_DIR}/bin/deploy.py ${INSTALL_DIR}/lib/source.war /var/lib/tomcat-${TOMCAT}/webapps"
 	elog ""
 	elog "Index the source directory (${SRC_DIR}), example:"
 	elog "   ${INSTALL_DIR}/bin/indexer.py -j /usr/bin/java -a ${INSTALL_DIR}/lib/opengrok.jar -- \ "
@@ -99,7 +101,7 @@ pkg_postinst() {
 	elog "e.g. http://localhost:8080/source/"
 	elog ""
 	elog "Restart tomcat if you get an application not-found on first installation:"
-	elog "e.g. /etc/init.d/tomcat-8 restart"
+	elog "e.g. /etc/init.d/tomcat-${TOMCAT} restart"
 	elog ""
 	elog "Release notes at: https://github.com/OpenGrok/OpenGrok/releases"
 }
