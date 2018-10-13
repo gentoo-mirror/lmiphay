@@ -16,11 +16,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~sparc ~x86"
 IUSE=""
 
-REQUIRED_USE="${PYTHON_REQUIRED_USE}"
-
 BDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 DEPEND=""
-RDEPEND="${PYTHON_DEPS}"
+RDEPEND=""
 
 python_prepare_all() {
 	eapply "${FILESDIR}/${PN}-py3.diff"
