@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DEPEND=sys-libs/ncurses
+DESCRIPTION=Visual hexadecimal difference editor
+EAPI=7
+HOMEPAGE=http://tboudet.free.fr/hexdiff/
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=sys-libs/ncurses
+SLOT=0
+SRC_URI=http://tboudet.free.fr/hexdiff/hexdiff.tar.gz -> hexdiff-0.0.50.tar.gz
+_md5_=498527893909c4571d0bb985e5703b02
