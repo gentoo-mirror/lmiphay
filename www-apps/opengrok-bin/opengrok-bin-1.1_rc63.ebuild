@@ -42,7 +42,6 @@ RDEPEND="
 	cssc? ( dev-vcs/cssc )
 	subversion? ( >=dev-vcs/subversion-1.9.5[java] )
 "
-# 'resource'
 
 INSTALL_DIR="/opt/${MY_PN}"
 OPENGROK_DIR="/var/${MY_PN}"
@@ -67,6 +66,9 @@ src_unpack() {
 
 python_prepare_all() {
 	mv opengrok-tools-*/* . || die
+
+	sed -i '/resource/d' 'opengrok_tools.egg-info/requires.txt' || die
+	sed -i "/'resource'/d" 'setup.py' || die
 
 	# force the finding of ctags (exuberant version is installed as ctags on gentoo)
 	sed -i -e "s:'universal-ctags', ::" src/main/python/opengrok_tools/all/utils/indexer.py || die
