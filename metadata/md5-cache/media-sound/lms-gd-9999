@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=logitechmediaserver in a gentoo docker
+EAPI=7
+HOMEPAGE=https://github.com/lmiphay/lms-gd
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=app-emulation/docker dev-vcs/git
+SLOT=0
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190
+_md5_=9073149503d8e212d44c990ce350dce7
