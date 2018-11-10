@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -34,9 +34,10 @@ DEPEND="
 "
 RDEPEND="
 	${DEPEND}
+	dev-python/filelock[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	>=dev-util/ctags-5.8
 	www-servers/tomcat:${TOMCAT}
 	cssc? ( dev-vcs/cssc )
@@ -71,7 +72,7 @@ python_prepare_all() {
 	sed -i "/'resource'/d" 'setup.py' || die
 
 	# force the finding of ctags (exuberant version is installed as ctags on gentoo)
-	sed -i -e "s:'universal-ctags', ::" src/main/python/opengrok_tools/all/utils/indexer.py || die
+	sed -i -e "s:'universal-ctags', ::" src/main/python/opengrok_tools/utils/indexer.py || die
 
 	sed -i -e '1,2d' man/man1/opengrok.1 || die
 	# manpage sed based on Fedora opengrok.spec by Lubomir Kundrak
