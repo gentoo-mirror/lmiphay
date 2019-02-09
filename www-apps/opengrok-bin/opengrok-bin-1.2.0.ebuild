@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -9,7 +9,7 @@ inherit eutils user distutils-r1
 
 MY_PN="${PN/-bin/}"
 # 1.1_rc2 -> 1.1-rc2
-MY_PV=$(ver_rs 2 '-')
+MY_PV="${PV}"
 MY_P="${MY_PN}-${MY_PV}"
 
 DESCRIPTION="Fast source code search and cross reference engine"
