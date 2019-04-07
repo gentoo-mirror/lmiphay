@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure nofetch postinst prepare unpack
+DEPEND=app-arch/unzip dev-lang/perl sys-libs/binutils-libs
+DESCRIPTION=Programmers console editor/a BRIEF clone
+EAPI=7
+HOMEPAGE=https://sourceforge.net/projects/grief/
+KEYWORDS=~amd64 ~x86
+LICENSE=QPL-1.0
+RDEPEND=app-arch/unzip dev-lang/perl sys-libs/binutils-libs
+RESTRICT=fetch
+SLOT=0
+SRC_URI=grief-libchartable-1.0.tar.xz
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_md5_=372db2c85d043736f8c7eae259965e1c
