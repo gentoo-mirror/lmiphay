@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=A different take on the thermostat card for Home Assistant Lovelace UI
+EAPI=7
+HOMEPAGE=https://github.com/nervetattoo/simple-thermostat
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=app-misc/homeassistant-bin
+SLOT=0
+SRC_URI=https://github.com/nervetattoo/simple-thermostat/releases/download/0.21.0/simple-thermostat.js -> simple-thermostat-0.21.0.js
+_eclasses_=readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190
+_md5_=90343906fef421de54370717a65b6f98
