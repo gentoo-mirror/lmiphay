@@ -10,4 +10,4 @@ RDEPEND=>=net-libs/libmnl-1.0.3:0= gmp? ( dev-libs/gmp:0= ) readline? ( sys-libs
 SLOT=0
 SRC_URI=http://ftp.netfilter.org/pub/nftables/nftables-0.8.tar.bz2
 _eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	eapi7-ver	756b3f27d8e46131d5cf3c51bd876446	libtool	f143db5a74ccd9ca28c1234deffede96	linux-info	953c3b1c472dcadbf62098a9301327f2	multilib	1d91b03d42ab6308b5f4f6b598ed110e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
-_md5_=942ea33897bee01294f7b9853fc2809b
+_md5_=3cfcf1f021e11bb9b5d4fe3ff7c89df3
