@@ -5,7 +5,8 @@ EAPI=6
 HOMEPAGE=https://github.com/ClockworkNet/cmc
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
+PROPERTIES=live
 RDEPEND=>=app-shells/bash-3.0 net-misc/openssh
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
 _md5_=878e7170e2f01e77919efe879f5f2cb2
