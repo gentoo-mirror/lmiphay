@@ -7,5 +7,5 @@ LICENSE=MIT
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://dl.influxdata.com/influxdb/releases/influxdb_0.13.0_amd64.deb
-_eclasses_=unpacker	3cd8bad0d31e525cd26be1bfa4e61631	user	b3c37f3375252e9ac4c6a157df4e595c
+_eclasses_=unpacker	3cd8bad0d31e525cd26be1bfa4e61631	user	f8dcb46ee7b0bcdec51dac1ef4bfdfc9
 _md5_=2405c37a2adb516eae91c65d702d08a1
