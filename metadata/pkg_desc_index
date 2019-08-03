@@ -2,6 +2,6 @@ dev-python/namespace-ruamel 1: Namespace package declaration for ruamel
 dev-python/toolz 0.8.2: List processing tools and functional utilities
 dev-python/tree-format 0.1.1: Python library for printing trees on the console
 dev-python/voluptuous 0.11.1: A Python data validation library.
-net-firewall/nftables 0.8-r4: Linux kernel (3.13+) firewall, NAT and packet mangling tools
+net-firewall/nftables 0.8-r4 0.9.0-r5: Linux kernel (3.13+) firewall, NAT and packet mangling tools
 sys-apps/dstat 0.7.3-r1: Versatile replacement for vmstat, iostat and ifstat
 sys-boot/grub 0.97-r16 0.97-r18: GNU GRUB Legacy boot loader
