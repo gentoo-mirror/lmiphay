@@ -2,3 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+media-sound/squeezeslave:display - Enable a text-based display
+media-sound/squeezeslave:tremor - Use a fixed-point version of the Ogg Vorbis decoder (media-libs/tremor)
+media-sound/squeezeslave:wma - Enable support for streaming Windows Media Audio
+media-sound/squeezeslave:zones - Pairs surround sound speakers into stereo zones (requires 5.1 setup or better)

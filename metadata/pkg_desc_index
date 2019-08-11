@@ -1,7 +1,169 @@
+app-admin/ckunlock 9999: unlock an open console kit session via dbus
+app-admin/lnav 0.7.3: A curses-based tool for viewing and analyzing log files
+app-admin/syslog-summary 1.14-r2 1.14-r3 1.14-r4: Summarizes the contents of a syslog log file
+app-backup/pdumpfs 1.3-r2 1.4 9999: a daily backup system similar to Plan9's dumpfs
+app-backup/pdumpfs-clean 9999: A utility to clean up old backup files of a pdumpfs archive
+app-backup/pdumpfs-rsync 9999: A utility to back up remote files with pdumpfs and rsync
+app-backup/rdumpfs 0.1-r1: a rsync-based dump file system backup tool
+app-backup/rdumpfs-rota 1.0 9999: Wrapper around rdumpfs to automate daily/weekly/monthly backups
+app-benchmarks/k6-bin 0.24.0: A modern load testing tool, using Go and JavaScript
+app-benchmarks/lookbusy 1.4: A synthetic load generator
+app-crypt/ssl-cert-check 20171114: Send notifications when SSL certificates are about to expire
+app-editors/grief 20150315 20190309: Programmers console editor/a BRIEF clone
+app-emacs/brief-mode 1.1: A Brief emulator for Emacs
+app-emacs/docker-tramp 20170207: TRAMP integration for docker containers
+app-emacs/dockerfile-mode 20181005: An emacs mode for handling Dockerfiles
+app-emacs/lms 20170806 20181123 20181124 20181210 20181211 20181212 20181216: Frontend for Squeezebox / Logitech Media Server
+app-emacs/lsl-mode 20180107: Major mode for editing Linden Scripting Language
+app-emulation/docker-link 0.1: Bridging docker containers to an external network
+app-emulation/lxc-webpanel 9999: LXC Web Panel
+app-emulation/pipework 20170822: Software-Defined Networking for Linux Containers
+app-emulation/portainer-bin 1.20.2: Simple management UI for Docker
+app-forensics/lynis 2.6.9: Security and system auditing tool
+app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
+app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
+app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
+app-misc/homeassistant 0.63.3: Open-source home automation platform running on Python 3
+app-misc/homeassistant-bin 0.96.0 0.96.3 0.96.4 0.96.5 0.97.1 9999: Home automation platform (Python 3 required)
+app-misc/razer-blackwidow-ultimate 20151205 20170928: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
+app-oam/bun 9999: Backup up now for oam
+app-oam/glc 9999: gentoo linux container producer
+app-oam/oam 9999: Operations and maintenance automation for gentoo servers
+app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
+app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
+app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm, aterm, urxvt... etc
+dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
+dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
+dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent key-value store for fast storage
+dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
+dev-libs/nanopb 0.3.4: plain-C Protocol Buffers for embedded/memory-constrained systems
+dev-lsl/lslint 1.1.1: A tool to check the validity of Second Life LSL scripts
+dev-perl/Log-StdLog 0.0.3: A simple log file via a special filehandle
+dev-perl/Net-Bluetooth 0.41: Perl Bluetooth Interface
+dev-perl/Net-SDP 0.07-r1: Perl extension for SDP
+dev-perl/Net-SMPP 1.19: pure Perl implementation of SMPP 3.4 over TCP
+dev-perl/Net-UDAP 9999: A Perl module to configure the Logitech SqueezeBox Receiver
+dev-perl/YAML-Diff 0.0.2: Diff 2 YAML Documents Semantically
+dev-python/aiocoap 0.4_alpha3: The Python CoAP library
+dev-python/aiohttp 2.3.10: http client/server for asyncio
+dev-python/aiohttp-cors 0.6.0: Implements CORS support for aiohttp asyncio-powered asynchronous HTTP server
+dev-python/artifactory 9999: A Python client for Artifactory
+dev-python/astral 1.5: Calculations for the position of the sun and moon
+dev-python/async_timeout 2.0.0: Timeout context manager for asyncio programs
+dev-python/cidr-trie 2.1.1: Store/search CIDR prefixes in a trie structure
+dev-python/click-datetime 0.2.0: Datetime type support for click
+dev-python/curve25519-donna 1.3: Implementations of a fast Elliptic-curve Diffie-Hellman primitive
+dev-python/distro 1.2.0: Reliable machine-readable Linux distribution information for Python
+dev-python/dtlssocket 0.1.4: A cython wrapper for tinydtls with a Socket like interface
+dev-python/ed25519 1.4: Python bindings to the Ed25519 public-key signature system
+dev-python/eliot 1.0.0 1.3.0: Logging as Storytelling
+dev-python/eliot-tree 17.0.0 17.1.0 18.0.0: Render Eliot logs as an ASCII tree
+dev-python/filelock 3.0.10: A platform independent file lock
+dev-python/fuzzywuzzy 0.15.1: Fuzzy string matching in python
+dev-python/gtts-token 1.1.1: A python implementation of the token validation of Google Translate
+dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
+dev-python/invoke 0.22.0 0.22.1 0.23.0 1.0.0 1.1.0 1.1.1 9999: Pythonic task management & command execution
+dev-python/kafka-python 9999: Kafka Python client
+dev-python/lambda-uploader 1.2.0: Package and upload Python lambda functions to AWS
 dev-python/namespace-ruamel 1: Namespace package declaration for ruamel
+dev-python/netdisco 1.2.3: Discover devices on your local network
+dev-python/pipreqs 0.4.7: Generate pip requirements.txt file based on imports of any project
+dev-python/pulsectl 16.5.14: igh-level interface and ctypes-based bindings for PulseAudio
+dev-python/pyatv 0.3.9: Library for controlling an Apple TV
+dev-python/pydbus 0.6.0 9999: Pythonic DBus library
+dev-python/pyhs100 0.3.0 0.3.2: Interface for TPLink's smart devices (HSxxx plugs & LBxxx bulbs)
+dev-python/pykerberos 1.1.13: A high-level Python wrapper for Kerberos/GSSAPI operations
+dev-python/pynetgear 0.5.2: Python library to control Netgear wireless routers through the SOAP-api
+dev-python/pyrad 2.0 2.1: Python RADIUS implementation
+dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
+dev-python/python-consul 0.6.0: Python client for Consul (http://www.consul.io/)
+dev-python/python-ironic-inspector-client 1.6.0: A client library and tool for Ironic Inspector
+dev-python/python-krbV 1.0.90: Python extension module for Kerberos 5
+dev-python/python-mistralclient 2.0.0: Python client for Mistral REST API
+dev-python/python-smpplib 20180221: SMPP library for python
+dev-python/python-zaqarclient 1.0.0: A multi-tenant cloud messaging service
+dev-python/pytradfri 4.1.0: Control/observe IKEA Trådfri devices
+dev-python/pywemo 0.4.25 0.4.28: Lightweight Python module to discover and control WeMo devices
+dev-python/ruamel-bws 0.3.2: Browser restore to workspace
+dev-python/snakebite 9999: A pure python HDFS client
+dev-python/spark_parser 1.2.0: An Early-Algorithm Context-free grammar Parser
+dev-python/spec 1.3.1: Specification-style nosetests output for Python
+dev-python/srptools 0.2.0: Tools to implement Secure Remote Password (SRP) authentication
+dev-python/stashy 0.3: Python API client for the Atlassian Stash REST API
+dev-python/tinydtls 9999: tinydtls for Cython
 dev-python/toolz 0.8.2: List processing tools and functional utilities
-dev-python/tree-format 0.1.1: Python library for printing trees on the console
+dev-python/tosca-parser 9999: Parser for TOSCA Simple Profile in YAML
+dev-python/tree-format 0.1.1 0.1.2: Python library for printing trees on the console
+dev-python/ua-parser 0.7.3: Python port of Browserscope's user agent parser
+dev-python/uncompyle2 9999: A Python 2.7 byte-code decompiler
+dev-python/user-agents 1.1.0: Library to identify devices and capabilities by parsing user agent strings
+dev-python/validate_email 9999: verify if an email address is valid and really exists
 dev-python/voluptuous 0.11.1: A Python data validation library.
+dev-python/xkcdpass 1.14.3: Generate secure multiword passwords/passphrases, inspired by XKCD
+dev-python/yaql 1.1.0: An embeddable and extensible query language
+dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
+dev-python/yarl 1.1.0: Yet another URL library
+dev-util/clion 2019.1: A complete toolset for C and C++ development
+dev-util/gstack 9999 20140207: Display stack trace of a running process.
+dev-util/pkgdiff 20170322: A tool for visualizing changes in Linux software packages
+dev-util/pstack 9999: Display stack trace of a running process.
+dev-vcs/git-recall 20170311: git tool to easily recall what you've done
+dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
+games-simulation/firestorm-bin 5.1.7-r2 6.0.1-r1 6.0.2 6.0.2-r1 6.2.4 6.2.4-r1: An open source metaverse viewer
+games-simulation/kokua-bin 6.2.0 6.2.1 6.2.2 6.2.3: An open source metaverse viewer
+games-simulation/radegast-bin 2.25.134 2.26.173: A messaging app for teams
+games-simulation/singularity-bin 1.8.7: An experimental Snowglobe 1.5 based Second Life Viewer
+kde-misc/nowdock-panel 0.5.0 0.5.0-r1 9999: Plasma 5 panel with a plank/mac style zoom effect
+kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49: A fully customisable desktop menu for plasma 5
+kde-misc/semantik 9999: A mind-mapping application for KDE
+kde-misc/socket-sentry 9999: Real-time network traffic monitor for KDE Plasma
+kde-misc/webslice-plasmoid 0.8.1 1.0: Plasma 5 widget to display a webpage or image
+media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
+media-sound/castbridge 0.2.6.4_alpha3 9999: Logitech Media Server plugin for Chromecast devices
+media-sound/jivelite 20160725 20170915: Community logitech media server control application
+media-sound/lms-gd 0.1 9999: logitechmediaserver in a gentoo docker
+media-sound/lms-restart 9999: logitechmediaserver process cleanup and restarter
+media-sound/logitechmediaserver-bin 7.9.0_pre20160918 7.9.0 7.9.1_pre20170715 7.9.1 7.9.1-r1 7.9.2_pre20190520: Logitech Media Server (streaming audio server)
+media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1 0.6.0 0.6.0-r2 0.6.0-r3 0.6.0-r4 0.7.0 0.7.1: PulseAudio system tray
+media-sound/pylms 20170705: Logitech Media Server/Squeezebox API for Python
+media-sound/shairport 9999 20141210 20141210-r1 20141210-r2: Emulates an AirPort Express to stream music from i-devices
+media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
+media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
+media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
+media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
+media-sound/squeeze-alexa 1.0 20171216: Squeezebox integration for Amazon Alexa
+media-sound/squeeze-controller 0.1.0: A stylish controller app for the Logitech Media Server
+media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
+media-sound/squeezelite 1.8 1.8.4.743 1.8.4.743-r1 1.8.7.1007 1.8.7.1007-r1 1.9.0.1105: Lightweight headless squeezebox client emulator
+media-sound/squeezeslave 1.1_p365-r1 1.1_p381-r1: A lightweight streaming audio player for Logitech Media Server
+media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
+media-tv/kodi 15.0: Kodi is a free and open source media-player and entertainment hub
+net-dns/mdnssd 20170108: A simple mDNS-SD browser
 net-firewall/nftables 0.8-r4 0.9.0-r5: Linux kernel (3.13+) firewall, NAT and packet mangling tools
-sys-apps/dstat 0.7.3-r1: Versatile replacement for vmstat, iostat and ifstat
+net-im/discord-bin 0.0.5: All-in-one voice and text chat for gamers
+net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of GitHub repos
+net-im/sipclients 3.0.0: 
+net-im/slack 3.4.2 4.0.0 4.0.1: A messaging app for teams
+net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
+net-im/stride-bin 1.13.22: 
+net-im/zoom-bin 2.1.103753.0521 2.8.182821.0412 2.8.222599.0519: Video conferencing and web conferencing service
+net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
+net-mail/davmail-bin 4.7.2-r1 4.7.3: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
+net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper deletion
+net-misc/cmc 9999 20170108: Manager of SSH ControlMaster connections
+net-misc/dropbox-uploader 20171114: BASH script to up/download, list/delete files on Dropbox
+net-misc/ha-bridge-bin 5.1.0: Philips Hue emulator (for Vera, Harmony, Nest...etc) for Alexa
+net-misc/kafka-bin 0.8.2.1 0.8.2.2: A high-throughput distributed messaging system
+net-misc/kafkacat 1.2.0: Generic command line non-JVM Apache Kafka producer and consumer
+net-misc/librdkafka 0.8.6: Apache Kafka C/C++ library
+net-misc/ntp-proxy 9999: Leap second immunity verification programs
+sys-apps/dstat 0.7.3-r1 0.7.4: Versatile replacement for vmstat, iostat and ifstat
 sys-boot/grub 0.97-r16 0.97-r18: GNU GRUB Legacy boot loader
+sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
+sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
+sys-process/numatop 9999: Tool for NUMA memory locality and processes/threads analysis
+www-apps/gitea 1.8.0 1.8.1 1.8.2 1.8.3 1.9.0: A painless self-hosted Git service, written in Go
+www-apps/opengrok 0.12.1.5: Fast source code search and cross reference engine
+www-apps/opengrok-bin 1.0 1.1.2 1.2.24 1.2.25 1.3.0: Fast source code search and cross reference engine
+x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
+x11-wm/tvtwm 11 11-r1 11-r2: tvtwm X11 window manager
