@@ -112,7 +112,7 @@ dev-vcs/git-recall 20170311: git tool to easily recall what you've done
 dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
 games-simulation/firestorm-bin 5.1.7-r2 6.0.1-r1 6.0.2 6.0.2-r1 6.2.4 6.2.4-r1: An open source metaverse viewer
 games-simulation/kokua-bin 6.2.3 6.2.4: An open source metaverse viewer
-games-simulation/radegast-bin 2.25.134 2.26.173: A messaging app for teams
+games-simulation/radegast-bin 2.28.187: A messaging app for teams
 games-simulation/singularity-bin 1.8.7: An experimental Snowglobe 1.5 based Second Life Viewer
 kde-misc/nowdock-panel 0.5.0 0.5.0-r1 9999: Plasma 5 panel with a plank/mac style zoom effect
 kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49: A fully customisable desktop menu for plasma 5
