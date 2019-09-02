@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=sys-apps/diffutils app-text/wdiff sys-apps/gawk sys-devel/binutils dev-lang/perl dev-perl/File-LibMagic dev-perl/Module-Build >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=A tool for visualizing changes in Linux software packages
+EAPI=6
+HOMEPAGE=https://lvc.github.io/pkgdiff/
+KEYWORDS=~amd64 ~x86
+PROPERTIES=live
+RDEPEND=sys-apps/diffutils app-text/wdiff sys-apps/gawk sys-devel/binutils
+SLOT=0
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+_md5_=ddeb0a822cb4b111f0cabbe40bc04f17
