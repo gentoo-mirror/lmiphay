@@ -5,21 +5,21 @@ EAPI=7
 
 inherit eutils desktop
 
-REVISION=56680
+REVISION=57588
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
 
-# http://downloads.firestormviewer.org/preview/linux/Phoenix_FirestormOS-Releasex64_x86_64_6.0.2.56680.tar.xz
-MY_P="Phoenix_FirestormOS-Releasex64_x86_64_${PV}.${REVISION}"
-SRC_URI="https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz"
+MY_P="Phoenix_Firestorm-releasex64_x86_64_${PV}.${REVISION}"
+# SRC_URI="https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz"
+SRC_URI="http://downloads.firestormviewer.org/linux/${MY_P}.tar.xz"
 
 RESTRICT="mirror"
 
 LICENSE="GPL-2-with-Linden-Lab-FLOSS-exception"
 SLOT="0"
 KEYWORDS="~amd64 -*"
-IUSE="fmod"
+IUSE=""
 
 INST_DIR="opt/firestorm-bin"
 QA_PREBUILT="${INST_DIR}/*"
@@ -42,7 +42,6 @@ RDEPEND="
 	media-libs/libvorbis
 	media-libs/gstreamer
 	media-plugins/gst-plugins-meta
-	fmod? ( media-libs/fmod )
 	net-libs/gnutls
 	net-misc/curl
 	net-dns/c-ares
@@ -71,5 +70,9 @@ src_install() {
 	mkdir -p "${D}/${INST_DIR}/"
 	cp -a . "${D}/${INST_DIR}/" || die
 	dosym /${INST_DIR}/firestorm /usr/bin/firestorm-bin
+
+	insinto /etc/revdep-rebuild
+	doins "${FILESDIR}"/70${PN}
+
 	make_desktop_entry firestorm-bin "Phoenix Firestorm Viewer (bin)" /${INST_DIR}/firestorm_icon.png
 }
