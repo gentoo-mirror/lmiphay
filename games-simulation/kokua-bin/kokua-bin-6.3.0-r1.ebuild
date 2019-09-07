@@ -6,7 +6,7 @@ EAPI=6
 inherit eutils versionator
 
 # check: https://sourceforge.net/projects/kokua.team-purple.p/files/Kokua-SL/Linux64Bit/
-REVISION=45882
+REVISION=45991
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://blog.kokuaviewer.org/"
@@ -22,7 +22,7 @@ RESTRICT="mirror"
 LICENSE="GPL-2-with-Linden-Lab-FLOSS-exception"
 SLOT="0"
 KEYWORDS="~amd64 -*"
-IUSE="fmod ftrlv"
+IUSE="ftrlv"
 
 INST_DIR="opt/kokua-bin"
 QA_PREBUILT="${INST_DIR}/*"
@@ -46,7 +46,6 @@ RDEPEND="
 	media-libs/libvorbis
 	media-libs/gstreamer
 	media-plugins/gst-plugins-meta
-	fmod? ( media-libs/fmod )
 	net-libs/gnutls
 	net-misc/curl
 	net-dns/c-ares
