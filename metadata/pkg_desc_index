@@ -66,6 +66,7 @@ dev-python/gtts-token 1.1.1: A python implementation of the token validation of 
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
 dev-python/invoke 0.22.0 0.22.1 0.23.0 1.0.0 1.1.0 1.1.1 9999: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
+dev-python/kubernetes 10.0.1: Kubernetes python client
 dev-python/lambda-uploader 1.2.0: Package and upload Python lambda functions to AWS
 dev-python/namespace-ruamel 1: Namespace package declaration for ruamel
 dev-python/netdisco 1.2.3: Discover devices on your local network
