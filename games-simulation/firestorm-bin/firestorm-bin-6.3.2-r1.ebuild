@@ -5,20 +5,22 @@ EAPI=7
 
 inherit eutils desktop
 
-REVISION=57588
+REVISION=58052
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
 
-MY_P="Phoenix_Firestorm-releasex64_x86_64_${PV}.${REVISION}"
-SRC_URI="https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz"
+MY_P="Phoenix_Firestorm-Releasex64_x86_64_${PV}.${REVISION}"
+# SRC_URI="https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz"
+SRC_URI="http://downloads.firestormviewer.org/linux/${MY_P}.tar.xz"
+# http://downloads.firestormviewer.org/linux/Phoenix_Firestorm-Releasex64_x86_64_6.3.2.58052.tar.xz
 
 RESTRICT="mirror"
 
 LICENSE="GPL-2-with-Linden-Lab-FLOSS-exception"
 SLOT="0"
 KEYWORDS="~amd64 -*"
-IUSE="fmod"
+IUSE=""
 
 INST_DIR="opt/firestorm-bin"
 QA_PREBUILT="${INST_DIR}/*"
@@ -41,7 +43,6 @@ RDEPEND="
 	media-libs/libvorbis
 	media-libs/gstreamer
 	media-plugins/gst-plugins-meta
-	fmod? ( media-libs/fmod )
 	net-libs/gnutls
 	net-misc/curl
 	net-dns/c-ares
