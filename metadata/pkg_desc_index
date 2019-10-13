@@ -160,7 +160,7 @@ net-misc/kafka-bin 0.8.2.1 0.8.2.2: A high-throughput distributed messaging syst
 net-misc/kafkacat 1.2.0: Generic command line non-JVM Apache Kafka producer and consumer
 net-misc/librdkafka 0.8.6: Apache Kafka C/C++ library
 net-misc/ntp-proxy 9999: Leap second immunity verification programs
-sys-apps/dstat 0.7.3-r1 0.7.4: Versatile replacement for vmstat, iostat and ifstat
+sys-apps/dstat 0.7.3-r1 0.7.4 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
 sys-boot/grub 0.97-r16 0.97-r18: GNU GRUB Legacy boot loader
 sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
