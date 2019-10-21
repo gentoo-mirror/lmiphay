@@ -6,8 +6,7 @@ EAPI=6
 inherit user systemd golang-build golang-vcs-snapshot
 
 EGO_PN="code.gitea.io/gitea"
-# network sandbox issue
-KEYWORDS=""
+KEYWORDS="~amd64 ~arm ~arm64"
 
 DESCRIPTION="A painless self-hosted Git service, written in Go"
 HOMEPAGE="https://github.com/go-gitea/gitea"
@@ -29,8 +28,12 @@ src_prepare() {
 	default
 	sed -i -e "s/\"main.Version.*$/\"main.Version=${PV}\"/"\
 		-e "s/-ldflags '-s/-ldflags '/" \
-		-e "s/GOFLAGS := -i -v/GOFLAGS := -v/" \
+		-e "s/GOFLAGS := -i -v/GOFLAGS := -v -mod=vendor/" \
+		-e 's/ generate \$/ generate -mod=vendor \$/' \
 		src/${EGO_PN}/Makefile || die
+	sed -i '/go:generate go fmt bindata.go/d' src/${EGO_PN}/modules/options/options.go || die
+	sed -i '/go:generate go fmt bindata.go/d' src/${EGO_PN}/modules/public/public.go || die
+	sed -i '/go:generate go fmt bindata.go/d' src/${EGO_PN}/modules/templates/templates.go || die
 }
 
 src_compile() {
