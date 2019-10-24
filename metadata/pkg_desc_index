@@ -36,6 +36,7 @@ app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm,
 dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
 dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
 dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent key-value store for fast storage
+dev-java/felix-bin 6.0.3: OSGi Framework and Service platform
 dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
 dev-libs/nanopb 0.3.4: plain-C Protocol Buffers for embedded/memory-constrained systems
 dev-lsl/lslint 1.1.1: A tool to check the validity of Second Life LSL scripts
