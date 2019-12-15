@@ -114,7 +114,7 @@ dev-util/pstack 9999: Display stack trace of a running process.
 dev-vcs/git-recall 20170311: git tool to easily recall what you've done
 dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
 games-simulation/firestorm-bin 6.2.4-r2 6.3.2-r1: An open source metaverse viewer
-games-simulation/kokua-bin 6.3.3 6.3.4 6.3.5 6.3.5-r1: An open source metaverse viewer
+games-simulation/kokua-bin 6.3.4 6.3.5 6.3.5-r1: An open source metaverse viewer
 games-simulation/radegast-bin 2.28.187 2.29.200: A messaging app for teams
 games-simulation/singularity-bin 1.8.7: An experimental Snowglobe 1.5 based Second Life Viewer
 kde-misc/nowdock-panel 0.5.0-r1 9999: Plasma 5 panel with a plank/mac style zoom effect
@@ -122,6 +122,7 @@ kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49: A fully customisable de
 kde-misc/semantik 9999: A mind-mapping application for KDE
 kde-misc/socket-sentry 9999: Real-time network traffic monitor for KDE Plasma
 kde-misc/webslice-plasmoid 0.8.1 1.0: Plasma 5 widget to display a webpage or image
+media-fonts/tahoma 2: Microsoft's Tahoma font
 media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
 media-sound/castbridge 0.2.6.4_alpha3 9999: Logitech Media Server plugin for Chromecast devices
 media-sound/jivelite 20160725 20170915: Community logitech media server control application
