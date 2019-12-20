@@ -25,7 +25,7 @@ app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat c
 app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
 app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
 app-misc/homeassistant 0.63.3: Open-source home automation platform running on Python 3
-app-misc/homeassistant-bin 0.101.2 0.101.3 0.102.0 0.102.1 0.102.3 0.103.0 9999: Home automation platform (Python 3 required)
+app-misc/homeassistant-bin 0.101.2 0.101.3 0.102.0 0.102.1 0.102.3 0.103.0 0.103.2 9999: Home automation platform (Python 3 required)
 app-misc/razer-blackwidow-ultimate 20151205 20170928: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-oam/bun 9999: Backup up now for oam
 app-oam/glc 9999: gentoo linux container producer
