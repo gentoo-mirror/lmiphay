@@ -9,5 +9,5 @@ LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=>=app-editors/emacs-23.1:*
 SLOT=0
-_eclasses_=elisp	17bb0076b1e93d2dba84995228871c99	elisp-common	a1054cff648e1c6a806e17001d052176	git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
+_eclasses_=elisp	17bb0076b1e93d2dba84995228871c99	elisp-common	a1054cff648e1c6a806e17001d052176	git-r3	809e27702c573cbba31c08ed00bbad33
 _md5_=360d1647a57d7040f899cbff3acaff39
