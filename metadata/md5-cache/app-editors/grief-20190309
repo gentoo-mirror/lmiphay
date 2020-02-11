@@ -11,5 +11,5 @@ RDEPEND=app-arch/unzip dev-lang/perl sys-libs/binutils-libs
 RESTRICT=fetch
 SLOT=0
 SRC_URI=grief-libchartable-1.0.tar.xz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	809e27702c573cbba31c08ed00bbad33
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
 _md5_=372db2c85d043736f8c7eae259965e1c
