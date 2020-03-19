@@ -153,7 +153,7 @@ net-im/sipclients 3.0.0:
 net-im/slack 4.2.0 4.3.2: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
 net-im/stride-bin 1.13.22: 
-net-im/zoom-bin 2.8.222599.0519 3.0.287250.0828: Video conferencing and web conferencing service
+net-im/zoom-bin 3.0.287250.0828 3.5.361976.0301: Video conferencing and web conferencing service
 net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
 net-mail/davmail-bin 4.7.2-r1 4.7.3: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper deletion
