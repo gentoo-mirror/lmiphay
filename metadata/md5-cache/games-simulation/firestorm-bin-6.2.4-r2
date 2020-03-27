@@ -9,5 +9,5 @@ RDEPEND=sys-libs/glibc sys-apps/dbus x11-libs/libX11 x11-libs/libXau x11-libs/li
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://downloads.firestormviewer.org/linux/Phoenix_Firestorm-releasex64_x86_64_6.2.4.57588.tar.xz
-_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	eutils	fcb2aa98e1948b835b5ae66ca52868c5
+_eclasses_=desktop	3b1f1d9a6b749c9ce2d5182877265b23	eutils	fcb2aa98e1948b835b5ae66ca52868c5
 _md5_=bbfa76d40f3a33791d298cd51c078753
