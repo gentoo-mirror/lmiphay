@@ -6,7 +6,7 @@ EAPI=6
 inherit eutils versionator
 
 # check: https://sourceforge.net/projects/kokua.team-purple.p/files/Kokua-SL/Linux64Bit/
-REVISION=46402
+REVISION=46425
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://blog.kokuaviewer.org/"
@@ -55,7 +55,6 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}
 	app-admin/chrpath
-	dev-util/patchelf
 "
 
 src_unpack() {
@@ -73,9 +72,6 @@ src_prepare() {
 	# reports 'Security problem NULL DT_RPATH' otherwise
 	chrpath -r '' lib/lib32/libalut.so.0.0.0
 	scanelf -Xr lib/lib32/libalut.so.0.0.0
-
-	patchelf --set-interpreter /lib64/ld-linux-x86-64.so.2 bin/do-not-directly-run-kokua-bin
-
 	eapply_user
 }
 
