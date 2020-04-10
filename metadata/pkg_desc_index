@@ -24,7 +24,7 @@ app-forensics/lynis 2.6.9: Security and system auditing tool
 app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
 app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
 app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
-app-misc/homeassistant-bin 0.106.2 0.106.5 0.107.7 9999: Home automation platform (Python 3 required)
+app-misc/homeassistant-bin 0.107.7 0.108.2 9999: Home automation platform (Python 3 required)
 app-misc/razer-blackwidow-ultimate 20151205 20170928: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-oam/bun 9999: Backup up now for oam
 app-oam/glc 9999: gentoo linux container producer
@@ -150,7 +150,7 @@ net-firewall/nftables 0.8-r4 0.9.0-r5: Linux kernel (3.13+) firewall, NAT and pa
 net-im/discord-bin 0.0.10: All-in-one voice and text chat for gamers
 net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of GitHub repos
 net-im/sipclients 3.0.0: 
-net-im/slack 4.4.2: A messaging app for teams
+net-im/slack 4.4.0 4.4.2: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
 net-im/stride-bin 1.13.22: 
 net-im/zoom-bin 3.0.287250.0828 3.5.361976.0301: Video conferencing and web conferencing service
