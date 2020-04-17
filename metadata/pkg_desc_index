@@ -24,7 +24,7 @@ app-forensics/lynis 2.6.9: Security and system auditing tool
 app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
 app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
 app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
-app-misc/homeassistant-bin 0.107.7 0.108.2 9999: Home automation platform (Python 3 required)
+app-misc/homeassistant-bin 0.107.7 0.108.2 0.108.6 9999: Home automation platform (Python 3 required)
 app-misc/razer-blackwidow-ultimate 20151205 20170928: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-oam/bun 9999: Backup up now for oam
 app-oam/glc 9999: gentoo linux container producer
@@ -108,7 +108,6 @@ dev-python/xkcdpass 1.14.3: Generate secure multiword passwords/passphrases, ins
 dev-python/yaql 1.1.0: An embeddable and extensible query language
 dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
 dev-python/yarl 1.1.0: Yet another URL library
-dev-util/clion 2019.1: A complete toolset for C and C++ development
 dev-util/gstack 9999 20140207: Display stack trace of a running process.
 dev-util/pkgdiff 20170322 20190610: A tool for visualizing changes in Linux software packages
 dev-util/pstack 9999: Display stack trace of a running process.
