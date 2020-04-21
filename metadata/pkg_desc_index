@@ -108,6 +108,7 @@ dev-python/xkcdpass 1.14.3: Generate secure multiword passwords/passphrases, ins
 dev-python/yaql 1.1.0: An embeddable and extensible query language
 dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
 dev-python/yarl 1.1.0: Yet another URL library
+dev-util/clion 2020.1: A complete toolset for C and C++ development
 dev-util/gstack 9999 20140207: Display stack trace of a running process.
 dev-util/pkgdiff 20170322 20190610: A tool for visualizing changes in Linux software packages
 dev-util/pstack 9999: Display stack trace of a running process.
@@ -118,6 +119,11 @@ games-simulation/firestorm-debian 0.1: A docker build environment for firestorm
 games-simulation/kokua-bin 6.3.7-r1 6.3.8: An open source metaverse viewer
 games-simulation/radegast-bin 2.28.187 2.29.200 2.30.120 2.31.135 2.32.137: A messaging app for teams
 games-simulation/singularity-bin 1.8.7: An experimental Snowglobe 1.5 based Second Life Viewer
+kde-misc/nowdock-panel 0.5.0-r1 9999: Plasma 5 panel with a plank/mac style zoom effect
+kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49-r1: A fully customisable desktop menu for plasma 5
+kde-misc/semantik 9999: A mind-mapping application for KDE
+kde-misc/socket-sentry 9999: Real-time network traffic monitor for KDE Plasma
+kde-misc/webslice-plasmoid 0.8.1 1.0: Plasma 5 widget to display a webpage or image
 media-fonts/tahoma 2: Microsoft's Tahoma font
 media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
 media-sound/castbridge 0.2.6.4_alpha3 9999: Logitech Media Server plugin for Chromecast devices
