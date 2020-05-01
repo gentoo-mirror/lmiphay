@@ -110,6 +110,7 @@ dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
 dev-python/yarl 1.1.0: Yet another URL library
 dev-util/clion 2020.1: A complete toolset for C and C++ development
 dev-util/gstack 9999 20140207: Display stack trace of a running process.
+dev-util/okteto-bin 1.8.5: App dev/test directly in Kubernetes
 dev-util/pkgdiff 20170322 20190610: A tool for visualizing changes in Linux software packages
 dev-util/pstack 9999: Display stack trace of a running process.
 dev-vcs/git-recall 20170311: git tool to easily recall what you've done
