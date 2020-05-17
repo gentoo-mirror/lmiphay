@@ -108,7 +108,7 @@ dev-python/xkcdpass 1.14.3: Generate secure multiword passwords/passphrases, ins
 dev-python/yaql 1.1.0: An embeddable and extensible query language
 dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
 dev-python/yarl 1.1.0: Yet another URL library
-dev-util/clion 2020.1: A complete toolset for C and C++ development
+dev-util/clion 2020.1.1: A complete toolset for C and C++ development
 dev-util/gstack 9999 20140207: Display stack trace of a running process.
 dev-util/okteto-bin 1.8.5: App dev/test directly in Kubernetes
 dev-util/pkgdiff 20170322 20190610: A tool for visualizing changes in Linux software packages
