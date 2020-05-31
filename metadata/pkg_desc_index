@@ -124,6 +124,7 @@ kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49-r1: A fully customisable
 kde-misc/semantik 9999: A mind-mapping application for KDE
 kde-misc/socket-sentry 9999: Real-time network traffic monitor for KDE Plasma
 kde-misc/webslice-plasmoid 0.8.1 1.0: Plasma 5 widget to display a webpage or image
+media-fonts/symbola 1: Multilingual support and Symbol blocks of The Unicode Standard
 media-fonts/tahoma 2: Microsoft's Tahoma font
 media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
 media-sound/castbridge 0.2.6.4_alpha3 9999: Logitech Media Server plugin for Chromecast devices
