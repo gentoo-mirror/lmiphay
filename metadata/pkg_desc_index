@@ -33,6 +33,7 @@ app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
 app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm, aterm, urxvt... etc
 dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
+dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
 dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent key-value store for fast storage
 dev-java/felix-bin 6.0.3: OSGi Framework and Service platform
 dev-libs/avro-cpp 1.9.2: c++ library for the apache avro data serialization system
