@@ -51,6 +51,11 @@ src_prepare() {
 	sed -i -e 's:Application;::' "${WORKDIR}/usr/share/applications/Zoom.desktop"
 	chrpath -r '' opt/zoom/platforminputcontexts/libfcitxplatforminputcontextplugin.so
 	scanelf -Xr opt/zoom/platforminputcontexts/libfcitxplatforminputcontextplugin.so
+
+	# insecure RUNPATHs
+	chrpath -r '' opt/zoom/libturbojpeg.so
+	scanelf -Xr opt/zoom/libturbojpeg.so
+
 	eapply_user
 }
 
