@@ -6,7 +6,7 @@ EAPI=7
 MY_PN=${PN/-bin/}
 MY_BIN="D${MY_PN/d/}"
 
-inherit desktop pax-utils unpacker xdg-utils
+inherit desktop linux-info pax-utils unpacker xdg
 
 DESCRIPTION="All-in-one voice and text chat for gamers"
 HOMEPAGE="https://discordapp.com"
@@ -18,6 +18,8 @@ KEYWORDS="~amd64"
 RESTRICT="mirror bindist"
 
 RDEPEND="
+	app-accessibility/at-spi2-atk:2
+	app-accessibility/at-spi2-core:2
 	dev-libs/atk
 	dev-libs/expat
 	dev-libs/glib:2
@@ -28,7 +30,7 @@ RDEPEND="
 	media-libs/freetype:2
 	net-print/cups
 	sys-apps/dbus
-	sys-libs/libcxx
+	sys-apps/util-linux
 	x11-libs/cairo
 	x11-libs/gdk-pixbuf:2
 	x11-libs/gtk+:3
@@ -47,17 +49,21 @@ RDEPEND="
 	x11-libs/pango
 "
 
-S=${WORKDIR}
+S="${WORKDIR}"
 
 QA_PREBUILT="
 	opt/discord/${MY_BIN}
+	opt/discord/chrome-sandbox
 	opt/discord/libEGL.so
 	opt/discord/libGLESv2.so
 	opt/discord/swiftshader/libEGL.so
 	opt/discord/swiftshader/libGLESv2.so
+	opt/discord/swiftshader/libvk_swiftshader.so
 	opt/discord/libVkICD_mock_icd.so
 	opt/discord/libffmpeg.so
 "
+
+CONFIG_CHECK="~USER_NS"
 
 src_prepare() {
 	default
@@ -77,16 +83,4 @@ src_install() {
 	dosym ../../opt/${MY_PN}/${MY_BIN} usr/bin/${MY_PN}
 
 	pax-mark -m "${ED}"/opt/${MY_PN}/${MY_PN}
-}
-
-pkg_postinst() {
-	xdg_desktop_database_update
-	xdg_mimeinfo_database_update
-	xdg_icon_cache_update
-}
-
-pkg_postrm() {
-	xdg_desktop_database_update
-	xdg_mimeinfo_database_update
-	xdg_icon_cache_update
 }
