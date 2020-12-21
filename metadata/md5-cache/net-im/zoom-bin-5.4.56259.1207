@@ -10,5 +10,5 @@ RDEPEND=pulseaudio? ( media-sound/pulseaudio ) dev-db/sqlite dev-db/unixODBC dev
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://zoom.us/client/5.4.56259.1207/zoom_x86_64.pkg.tar.xz -> zoom-5.4.56259.1207_x86_64.pkg.tar.xz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	45b49db67094fdafbb6a16a2299e894b	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=c459ff79b7809eb5740624efef91ebac
