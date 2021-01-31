@@ -1,0 +1,15 @@
+BDEPEND=python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_9(-)?,-python_single_target_python3_9(-)]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-python/setuptools[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] test? ( >=dev-python/testtools-1.8.0 >=dev-python/pytest-2.7.1 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/six-1.9.0[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/toolz-0.9.0[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/termcolor-1.1.0[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/jmespath-0.7.1[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/iso8601-0.1.10[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/eliot-0.12.0[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/tree-format-0.1.1[python_targets_python3_9(-)?,-python_single_target_python3_9(-)]
+DESCRIPTION=Render Eliot logs as an ASCII tree
+EAPI=7
+HOMEPAGE=https://github.com/jonathanj/eliottree
+IUSE=test python_targets_python3_9
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/six-1.9.0[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/toolz-0.9.0[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/termcolor-1.1.0[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/jmespath-0.7.1[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/iso8601-0.1.10[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/eliot-0.12.0[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] >=dev-python/tree-format-0.1.1[python_targets_python3_9(-)?,-python_single_target_python3_9(-)] python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_9(-)?,-python_single_target_python3_9(-)]
+REQUIRED_USE=|| ( python_targets_python3_9 )
+SLOT=0
+SRC_URI=mirror://pypi/e/eliot-tree/eliot-tree-18.0.0.tar.gz
+_eclasses_=distutils-r1	5363e4936a5e855108ec3fd191bd2b3c	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	f1d4277b3ad100890cbd62e137f0a769	python-utils-r1	69861348186337fa4b269de5826004b3	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=e57051ebe962804fc2fed66ae723433f
