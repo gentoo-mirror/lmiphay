@@ -68,8 +68,11 @@ dev-python/pynetgear 0.5.2: Python library to control Netgear wireless routers t
 dev-python/pyrad 2.1: Python RADIUS implementation
 dev-python/python-smpplib 20180221: SMPP library for python
 dev-python/pywemo 0.4.28: Lightweight Python module to discover and control WeMo devices
+dev-python/srptools 1.0.1: Tools to implement Secure Remote Password (SRP) authentication
 dev-python/stashy 0.3: Python API client for the Atlassian Stash REST API
+dev-python/tosca-parser 9999: Parser for TOSCA Simple Profile in YAML
 dev-python/tree-format 0.1.2: Python library for printing trees on the console
+dev-python/ua-parser 0.10.0: Python port of Browserscope's user agent parser
 dev-python/user-agents 1.1.0: Library to identify devices and capabilities by parsing user agent strings
 dev-python/validate_email 9999: verify if an email address is valid and really exists
 dev-python/voluptuous 0.11.1: A Python data validation library.
