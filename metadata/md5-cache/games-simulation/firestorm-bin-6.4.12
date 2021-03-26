@@ -1,8 +1,10 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm prepare setup
-DEPEND=dev-libs/apr dev-libs/apr-util dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/openssl dev-libs/boost media-fonts/kochi-substitute media-libs/fontconfig media-libs/freetype media-libs/libogg media-libs/libsdl media-libs/libvorbis media-libs/gstreamer media-plugins/gst-plugins-meta net-libs/gnutls net-misc/curl net-dns/c-ares sys-apps/dbus sys-libs/glibc sys-libs/zlib virtual/glu virtual/opengl x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext x11-libs/libXinerama x11-libs/pangox-compat app-admin/chrpath X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEPEND=dev-libs/apr dev-libs/apr-util dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/openssl dev-libs/boost media-fonts/kochi-substitute media-libs/fontconfig media-libs/freetype media-libs/libogg media-libs/libsdl media-libs/libvorbis media-libs/gstreamer media-plugins/gst-plugins-meta net-libs/gnutls net-misc/curl net-dns/c-ares sys-apps/dbus sys-libs/glibc sys-libs/zlib virtual/glu virtual/opengl x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext x11-libs/libXinerama x11-libs/pangox-compat app-admin/chrpath
 DESCRIPTION=An open source metaverse viewer
 EAPI=7
 HOMEPAGE=http://www.firestormviewer.org/
+INHERIT=eutils desktop font
 IUSE=X
 KEYWORDS=~amd64 -*
 LICENSE=GPL-2-with-Linden-Lab-FLOSS-exception
@@ -10,5 +12,5 @@ RDEPEND=dev-libs/apr dev-libs/apr-util dev-libs/libgcrypt dev-libs/libgpg-error 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://downloads.firestormviewer.org/linux/Phoenix_Firestorm-Release_x86_64_6.4.12.62831.tar.xz
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	font	dd073b36fe3fd8b868c23bc23209db45	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	desktop	c0d27bf73aa08ca05b663dbd31fbef28	font	0667878c2b594871023dd1833d05996f
 _md5_=ea1ad9c4947021f028bb18ca2dadc34b
