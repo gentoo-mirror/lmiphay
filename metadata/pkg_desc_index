@@ -59,7 +59,7 @@ dev-python/filelock 3.0.10: A platform independent file lock
 dev-python/flask-restx 0.2.0: Framework for fast, easy, and documented API development with Flask
 dev-python/fuzzywuzzy 0.18.0: Fuzzy string matching in python
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
-dev-python/invoke 1.1.0 1.1.1 9999: Pythonic task management & command execution
+dev-python/invoke 1.1.1 9999: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
 dev-python/kubernetes 10.0.1: Kubernetes python client
 dev-python/lambda-uploader 1.3.0: Package and upload Python lambda functions to AWS
