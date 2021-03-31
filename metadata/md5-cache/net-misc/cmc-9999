@@ -3,10 +3,11 @@ DEPEND=>=app-shells/bash-3.0 net-misc/openssh >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Manager of SSH ControlMaster connections
 EAPI=6
 HOMEPAGE=https://github.com/ClockworkNet/cmc
+INHERIT=git-r3
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=app-shells/bash-3.0 net-misc/openssh
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=7b47590a8a9bbe0b359396d86bca0d3c

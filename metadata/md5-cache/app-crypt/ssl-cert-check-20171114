@@ -3,10 +3,11 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Send notifications when SSL certificates are about to expire
 EAPI=6
 HOMEPAGE=https://github.com/Matty9191/ssl-cert-check
+INHERIT=git-r3
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=app-shells/bash dev-libs/openssl
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=7090f7c34a5cd2ddc669c891592fd1d2
