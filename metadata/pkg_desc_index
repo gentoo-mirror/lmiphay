@@ -106,7 +106,6 @@ kde-misc/socket-sentry 9999: Real-time network traffic monitor for KDE Plasma
 kde-misc/webslice-plasmoid 0.8.1 1.0: Plasma 5 widget to display a webpage or image
 media-fonts/symbola 1: Multilingual support and Symbol blocks of The Unicode Standard
 media-fonts/tahoma 2: Microsoft's Tahoma font
-media-gfx/sane-backends 1.0.20-r3: Scanner Access Now Easy - Backends
 media-sound/castbridge 0.2.6.4_alpha3 9999: Logitech Media Server plugin for Chromecast devices
 media-sound/jivelite 20160725 20170915: Community logitech media server control application
 media-sound/lms-gd 0.1 9999: logitechmediaserver in a gentoo docker
