@@ -11,7 +11,6 @@ app-benchmarks/k6-bin 0.24.0: A modern load testing tool, using Go and JavaScrip
 app-benchmarks/lookbusy 1.4: A synthetic load generator
 app-crypt/ssl-cert-check 20171114: Send notifications when SSL certificates are about to expire
 app-editors/grief 20150315 20190309: Programmers console editor/a BRIEF clone
-app-emacs/brief-mode 1.1: A Brief emulator for Emacs
 app-emacs/docker-tramp 20170207: TRAMP integration for docker containers
 app-emacs/dockerfile-mode 20181005: An emacs mode for handling Dockerfiles
 app-emacs/lms 20170806 20181123 20181124 20181210 20181211 20181212 20181216 20191102: Frontend for Squeezebox / Logitech Media Server
