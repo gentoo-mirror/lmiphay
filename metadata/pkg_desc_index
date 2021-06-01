@@ -1,4 +1,3 @@
-app-admin/ansible-lint 4.1.0: Checks ansible playbooks for practices and behaviour that can be improved
 app-admin/ckunlock 9999: unlock an open console kit session via dbus
 app-admin/lnav 0.7.3: A curses-based tool for viewing and analyzing log files
 app-admin/syslog-summary 1.14-r4: Summarizes the contents of a syslog log file
@@ -24,7 +23,6 @@ app-forensics/lynis 2.6.9: Security and system auditing tool
 app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
 app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
 app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
-app-misc/homeassistant-bin 0.108.9 9999: Home automation platform (Python 3 required)
 app-misc/razer-blackwidow-ultimate 20151205 20170928: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-oam/bun 9999: Backup up now for oam
 app-oam/glc 9999: gentoo linux container producer
@@ -55,19 +53,16 @@ dev-python/click-datetime 0.2.0: Datetime type support for click
 dev-python/distro 1.2.0: Reliable machine-readable Linux distribution information for Python
 dev-python/eliot 1.3.0: Logging as Storytelling
 dev-python/eliot-tree 18.0.0: Render Eliot logs as an ASCII tree
-dev-python/filelock 3.0.10: A platform independent file lock
 dev-python/flask-restx 0.2.0: Framework for fast, easy, and documented API development with Flask
 dev-python/fuzzywuzzy 0.18.0: Fuzzy string matching in python
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
 dev-python/invoke 1.1.1 9999: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
-dev-python/kubernetes 10.0.1: Kubernetes python client
 dev-python/lambda-uploader 1.3.0: Package and upload Python lambda functions to AWS
 dev-python/pipreqs 0.4.7: Generate pip requirements.txt file based on imports of any project
 dev-python/pulsectl 16.5.14: igh-level interface and ctypes-based bindings for PulseAudio
 dev-python/pydbus 0.6.0 9999: Pythonic DBus library
 dev-python/pyhs100 0.3.5.2: Interface for TPLink's smart devices (HSxxx plugs & LBxxx bulbs)
-dev-python/pynetgear 0.5.2: Python library to control Netgear wireless routers through the SOAP-api
 dev-python/pyrad 2.1: Python RADIUS implementation
 dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
 dev-python/python-consul 1.1.0: Python client for Consul (http://www.consul.io/)
