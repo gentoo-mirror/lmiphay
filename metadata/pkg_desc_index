@@ -36,6 +36,7 @@ dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent ke
 dev-java/felix-bin 6.0.3: OSGi Framework and Service platform
 dev-libs/avro-cpp 1.9.2: c++ library for the apache avro data serialization system
 dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
+dev-libs/libratbag 0.15: A DBus daemon to configure input devices, mainly high-end/gaming mice
 dev-libs/nanopb 0.3.4: plain-C Protocol Buffers for embedded/memory-constrained systems
 dev-lsl/lslint 1.1.1: A tool to check the validity of Second Life LSL scripts
 dev-perl/Log-StdLog 0.0.3: A simple log file via a special filehandle
@@ -137,6 +138,7 @@ net-misc/kafkacat 1.2.0: Generic command line non-JVM Apache Kafka producer and 
 net-misc/librdkafka 0.8.6: Apache Kafka C/C++ library
 net-misc/ntp-proxy 9999: Leap second immunity verification programs
 sys-apps/dstat 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
+sys-apps/piper 0.5.1: GTK application to configure gaming mice
 sys-boot/grub 0.97-r18: GNU GRUB Legacy boot loader
 sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
