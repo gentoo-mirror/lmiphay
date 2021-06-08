@@ -10,6 +10,6 @@ LICENSE=ZOOM
 RDEPEND=pulseaudio? ( media-sound/pulseaudio ) dev-db/sqlite dev-db/unixODBC dev-libs/glib dev-libs/nss dev-libs/libxslt dev-qt/qtmultimedia media-libs/fontconfig media-libs/mesa x11-libs/libxcb x11-libs/libXcomposite x11-libs/libXi x11-libs/libXrender dev-qt/qtwebengine dev-qt/qtsvg
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://zoom.us/client/5.6.16888.0424/zoom_x86_64.pkg.tar.xz -> zoom-5.6.16888.0424_x86_64.pkg.tar.xz
+SRC_URI=https://zoom.us/client/5.6.22045.0607/zoom_x86_64.pkg.tar.xz -> zoom-5.6.22045.0607_x86_64.pkg.tar.xz
 _eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	unpacker	517f16af48ee3ab88180dd58b5143213	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	xdg	c7ba313ea1eaf266f95cc6235f7d6a07
 _md5_=c459ff79b7809eb5740624efef91ebac
