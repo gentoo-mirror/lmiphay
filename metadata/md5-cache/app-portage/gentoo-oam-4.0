@@ -11,5 +11,5 @@ RDEPEND=app-admin/eclean-kernel lnav? ( app-admin/lnav ) app-admin/logrotate app
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lmiphay/gentoo-oam/archive/v4.0.tar.gz -> gentoo-oam-4.0.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	6da6797255ab7fb848a02afa0cbc406f	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	f93c6ebbcd4a4e3e3f2328a13511b73a
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	3c7381c56a184f0dd5ba3fb824808f30	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	f93c6ebbcd4a4e3e3f2328a13511b73a
 _md5_=3141b81cc2645dc3d4516b1f44181b9d
