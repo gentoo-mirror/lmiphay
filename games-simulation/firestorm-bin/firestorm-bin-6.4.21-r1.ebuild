@@ -1,18 +1,19 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 inherit eutils desktop font
 
-REVISION=62831
+REVISION=64531
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
 
 MY_P="Phoenix_Firestorm-Release_x86_64_${PV}.${REVISION}"
 SRC_URI="https://downloads.firestormviewer.org/linux/${MY_P}.tar.xz"
-# https://downloads.firestormviewer.org/linux/Phoenix_Firestorm-Release_x86_64_6.4.12.62831.tar.xz
+# https://downloads.firestormviewer.org/linux/Phoenix_Firestorm-Release_x86_64_6.4.21.64531.tar.xz
+# https://downloads.firestormviewer.org/preview/linux/Phoenix_Firestorm-Release_x86_64_6.4.21.64519.tar.xz
 
 RESTRICT="mirror"
 
@@ -46,6 +47,7 @@ RDEPEND="
 	sys-libs/glibc
 	sys-libs/zlib
 	virtual/glu
+	virtual/libcrypt
 	virtual/opengl
 	x11-libs/libX11
 	x11-libs/libXau
