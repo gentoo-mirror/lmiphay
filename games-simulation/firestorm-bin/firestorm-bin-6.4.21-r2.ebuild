@@ -5,13 +5,14 @@ EAPI=7
 
 inherit eutils desktop font
 
-REVISION=64519
+REVISION=64531
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
 
 MY_P="Phoenix_Firestorm-Release_x86_64_${PV}.${REVISION}"
-SRC_URI="https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz"
+SRC_URI="https://downloads.firestormviewer.org/linux/${MY_P}.tar.xz"
+# https://downloads.firestormviewer.org/linux/Phoenix_Firestorm-Release_x86_64_6.4.21.64531.tar.xz
 # https://downloads.firestormviewer.org/preview/linux/Phoenix_Firestorm-Release_x86_64_6.4.21.64519.tar.xz
 
 RESTRICT="mirror"
@@ -32,6 +33,7 @@ RDEPEND="
 	dev-libs/openssl
 	dev-libs/boost
 	media-fonts/kochi-substitute
+	media-fonts/unifont
 	media-libs/fontconfig
 	media-libs/freetype
 	media-libs/libogg
@@ -73,6 +75,8 @@ src_prepare() {
 	scanelf -Xr lib/libalut.so.0.0.0
 	chrpath -r '' bin/dullahan_host
 	scanelf -Xr bin/dullahan_host
+
+	eapply "${FILESDIR}/add-unifont-upper-font.patch"
 
 	eapply_user
 }
