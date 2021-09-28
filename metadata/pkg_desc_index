@@ -8,7 +8,7 @@ app-backup/rdumpfs 0.1-r1: a rsync-based dump file system backup tool
 app-backup/rdumpfs-rota 1.0 9999: Wrapper around rdumpfs to automate daily/weekly/monthly backups
 app-benchmarks/k6-bin 0.24.0: A modern load testing tool, using Go and JavaScript
 app-benchmarks/lookbusy 1.4: A synthetic load generator
-app-crypt/ssl-cert-check 20171114: Send notifications when SSL certificates are about to expire
+app-crypt/ssl-cert-check 20171114 20201112: Send notifications when SSL certificates are about to expire
 app-editors/grief 20150315 20190309: Programmers console editor/a BRIEF clone
 app-emacs/brief-mode 1.1: A Brief emulator for Emacs
 app-emacs/docker-tramp 20170207: TRAMP integration for docker containers
