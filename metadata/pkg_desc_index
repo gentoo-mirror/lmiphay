@@ -126,7 +126,6 @@ media-sound/squeezelite 1.9.0.1105 1.9.4.1182: Lightweight headless squeezebox c
 media-sound/squeezeslave 1.1_p381-r1: A lightweight streaming audio player for Logitech Media Server
 media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
 net-dns/mdnssd 20170108: A simple mDNS-SD browser
-net-firewall/nftables 0.8-r4 0.9.0-r5: Linux kernel (3.13+) firewall, NAT and packet mangling tools
 net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of GitHub repos
 net-im/slack 4.4.3: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
