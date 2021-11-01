@@ -84,7 +84,6 @@ dev-python/ua-parser 0.10.0: Python port of Browserscope's user agent parser
 dev-python/user-agents 1.1.0: Library to identify devices and capabilities by parsing user agent strings
 dev-python/validate_email 9999: verify if an email address is valid and really exists
 dev-python/voluptuous 0.11.1: A Python data validation library.
-dev-python/xkcdpass 1.14.3: Generate secure multiword passwords/passphrases, inspired by XKCD
 dev-python/yaql 1.1.0: An embeddable and extensible query language
 dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
 dev-python/yarl 1.6.3: Yet another URL library
