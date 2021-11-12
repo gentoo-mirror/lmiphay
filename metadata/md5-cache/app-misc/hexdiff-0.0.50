@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=sys-libs/ncurses
 SLOT=0
 SRC_URI=http://tboudet.free.fr/hexdiff/hexdiff.tar.gz -> hexdiff-0.0.50.tar.gz
-_md5_=498527893909c4571d0bb985e5703b02
+_md5_=50c1fc8ecccc6d94b5bb253e05bf1fa8
