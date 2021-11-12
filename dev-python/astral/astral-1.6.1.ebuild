@@ -24,7 +24,7 @@ DEPEND="
 	${RDEPEND}
 "
 
-DOCS="README"
+DOCS="README.rst"
 
 src_prepare() {
 	sed -i -e 's;version=versioneer.get_version();version="1.5";' "setup.py"
