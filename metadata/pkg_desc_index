@@ -18,7 +18,6 @@ app-emacs/lsl-mode 20180107: Major mode for editing Linden Scripting Language
 app-emulation/docker-link 0.1: Bridging docker containers to an external network
 app-emulation/lxc-webpanel 9999: LXC Web Panel
 app-emulation/pipework 20170822: Software-Defined Networking for Linux Containers
-app-emulation/portainer-bin 1.20.2: Simple management UI for Docker
 app-forensics/lynis 2.6.9: Security and system auditing tool
 app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
 app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
@@ -35,7 +34,6 @@ app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm,
 dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
 dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
 dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent key-value store for fast storage
-dev-java/felix-bin 6.0.3: OSGi Framework and Service platform
 dev-libs/avro-cpp 1.9.2: c++ library for the apache avro data serialization system
 dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
 dev-libs/libratbag 0.15: A DBus daemon to configure input devices, mainly high-end/gaming mice
