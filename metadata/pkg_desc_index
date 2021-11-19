@@ -6,7 +6,7 @@ app-backup/pdumpfs-clean 9999: A utility to clean up old backup files of a pdump
 app-backup/pdumpfs-rsync 9999: A utility to back up remote files with pdumpfs and rsync
 app-backup/rdumpfs 0.1-r1: a rsync-based dump file system backup tool
 app-backup/rdumpfs-rota 1.0 9999: Wrapper around rdumpfs to automate daily/weekly/monthly backups
-app-benchmarks/k6-bin 0.24.0: A modern load testing tool, using Go and JavaScript
+app-benchmarks/k6-bin 0.35.0: A modern load testing tool, using Go and JavaScript
 app-benchmarks/lookbusy 1.4: A synthetic load generator
 app-crypt/ssl-cert-check 20171114 20201112: Send notifications when SSL certificates are about to expire
 app-editors/grief 20150315 20190309: Programmers console editor/a BRIEF clone
@@ -34,7 +34,6 @@ app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm,
 dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
 dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
 dev-db/rocksdb 3.11.1: A library that provides an embeddable, persistent key-value store for fast storage
-dev-libs/avro-cpp 1.9.2: c++ library for the apache avro data serialization system
 dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
 dev-libs/libratbag 0.15: A DBus daemon to configure input devices, mainly high-end/gaming mice
 dev-libs/nanopb 0.3.4: plain-C Protocol Buffers for embedded/memory-constrained systems
