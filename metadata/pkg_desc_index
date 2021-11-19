@@ -33,7 +33,7 @@ app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks aroun
 app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm, aterm, urxvt... etc
 dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
 dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
-dev-db/rocksdb 3.11.1 9999: A library that provides an embeddable, persistent key-value store for fast storage
+dev-db/rocksdb 3.11.1: A library that provides an embeddable, persistent key-value store for fast storage
 dev-libs/avro-cpp 1.9.2: c++ library for the apache avro data serialization system
 dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
 dev-libs/libratbag 0.15: A DBus daemon to configure input devices, mainly high-end/gaming mice
@@ -57,7 +57,7 @@ dev-python/eliot-tree 18.0.0: Render Eliot logs as an ASCII tree
 dev-python/flask-restx 0.2.0 0.5.1: Framework for fast, easy, and documented API development with Flask
 dev-python/fuzzywuzzy 0.18.0: Fuzzy string matching in python
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
-dev-python/invoke 1.1.1 9999: Pythonic task management & command execution
+dev-python/invoke 1.1.1: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
 dev-python/kubernetes 17.17.0: Kubernetes python client
 dev-python/lambda-uploader 1.3.0: Package and upload Python lambda functions to AWS
@@ -117,7 +117,6 @@ media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server
 media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
 media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/squeeze-alexa 20171216: Squeezebox integration for Amazon Alexa
-media-sound/squeeze-controller 0.1.0: A stylish controller app for the Logitech Media Server
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
 media-sound/squeezelite 1.9.0.1105 1.9.4.1182: Lightweight headless squeezebox client emulator
 media-sound/squeezeslave 1.1_p381-r1: A lightweight streaming audio player for Logitech Media Server
