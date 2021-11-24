@@ -118,7 +118,6 @@ media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin
 media-sound/squeeze-alexa 20171216: Squeezebox integration for Amazon Alexa
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
 media-sound/squeezelite 1.9.0.1105 1.9.4.1182: Lightweight headless squeezebox client emulator
-media-sound/squeezeslave 1.1_p381-r1: A lightweight streaming audio player for Logitech Media Server
 media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
 net-dns/adguardhome-docker 0.106.3: AdGuard Home in a container
 net-dns/mdnssd 20170108: A simple mDNS-SD browser
