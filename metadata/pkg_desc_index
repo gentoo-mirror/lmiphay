@@ -84,7 +84,7 @@ dev-python/voluptuous 0.11.1: A Python data validation library.
 dev-python/yaql 1.1.0: An embeddable and extensible query language
 dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
 dev-python/yarl 1.6.3: Yet another URL library
-dev-util/gstack 9999 20140207: Display stack trace of a running process.
+dev-util/gstack 20140207: Display stack trace of a running process.
 dev-util/okteto-bin 1.14.6: App dev/test directly in Kubernetes
 dev-util/pkgdiff 20170322 20190610: A tool for visualizing changes in Linux software packages
 dev-util/pstack 9999: Display stack trace of a running process.
