@@ -23,7 +23,7 @@ app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat c
 app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
 app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
 app-misc/homeassistant-bin 0.108.9: Home automation platform
-app-misc/homeassistant-docker 2021.10.6-r1 2021.11.1: Homeassistant in a container
+app-misc/homeassistant-docker 2021.10.6-r1 2021.11.1 2021.12.9: Homeassistant in a container
 app-misc/razer-blackwidow-ultimate 20151205 20170928: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-oam/bun 9999: Backup up now for oam
 app-oam/glc 9999: gentoo linux container producer
@@ -119,7 +119,7 @@ media-sound/squeeze-alexa 20171216: Squeezebox integration for Amazon Alexa
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
 media-sound/squeezelite 1.9.0.1105 1.9.4.1182: Lightweight headless squeezebox client emulator
 media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
-net-dns/adguardhome-docker 0.106.3: AdGuard Home in a container
+net-dns/adguardhome-docker 0.106.3 0.107.2: AdGuard Home in a container
 net-dns/mdnssd 20170108: A simple mDNS-SD browser
 net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of GitHub repos
 net-im/slack 4.4.3: A messaging app for teams
