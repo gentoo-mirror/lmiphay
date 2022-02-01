@@ -130,7 +130,6 @@ net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper 
 net-misc/cmc 9999 20170108: Manager of SSH ControlMaster connections
 net-misc/dropbox-uploader 20171114: BASH script to up/download, list/delete files on Dropbox
 net-misc/ha-bridge-bin 5.1.0: Philips Hue emulator (for Vera, Harmony, Nest...etc) for Alexa
-net-misc/kafka-bin 0.8.2.1 0.8.2.2: A high-throughput distributed messaging system
 net-misc/kafkacat 1.2.0: Generic command line non-JVM Apache Kafka producer and consumer
 net-misc/librdkafka 0.8.6: Apache Kafka C/C++ library
 net-misc/ntp-proxy 9999: Leap second immunity verification programs
