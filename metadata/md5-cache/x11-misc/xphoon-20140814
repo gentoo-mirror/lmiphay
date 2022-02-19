@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile configure install
 DEPEND=x11-libs/libX11 x11-libs/libXext x11-misc/xbitmaps x11-misc/imake
 DESCRIPTION=sets X the root window to a picture of the moon in its current phase
-EAPI=5
+EAPI=7
 HOMEPAGE=http://acme.com/software/xphoon/
 INHERIT=toolchain-funcs
 KEYWORDS=~amd64 ~x86
@@ -11,4 +11,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=http://acme.com/software/xphoon/xphoon_14Aug2014.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784
-_md5_=81dd1a3cc01caae1f2fa6c68579185f3
+_md5_=1dccba4bdd468fa5d5227fb037ecc43e
