@@ -20,7 +20,7 @@ app-emulation/lxc-webpanel 9999: LXC Web Panel
 app-emulation/pipework 20170822: Software-Defined Networking for Linux Containers
 app-forensics/lynis 2.6.9: Security and system auditing tool
 app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
-app-misc/g13 9999 20150528 20150528_p1: libusb driver for the g13
+app-misc/g13 9999 20150528_p1: libusb driver for the g13
 app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
 app-misc/homeassistant-bin 0.108.9: Home automation platform
 app-misc/homeassistant-docker 2021.10.6-r1 2021.11.1 2021.12.9: Homeassistant in a container
@@ -33,7 +33,6 @@ app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks aroun
 app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm, aterm, urxvt... etc
 dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
 dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
-dev-db/rocksdb 3.11.1: A library that provides an embeddable, persistent key-value store for fast storage
 dev-libs/flatbuffers 1.1.0 9999: Memory Efficient Serialization Library
 dev-libs/libratbag 0.15: A DBus daemon to configure input devices, mainly high-end/gaming mice
 dev-libs/nanopb 0.3.4: plain-C Protocol Buffers for embedded/memory-constrained systems
@@ -110,7 +109,7 @@ media-sound/logitechmediaserver-bin 7.9.2_pre20190520 7.9.2_pre20191202 8.1.1: L
 media-sound/logitechmediaserver-docker 8.2.0 8.2.1: Logitechmediaserver in a container
 media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1 0.6.0 0.6.0-r2 0.6.0-r3 0.6.0-r4 0.7.0 0.7.1: PulseAudio system tray
 media-sound/pylms 20170705: Logitech Media Server/Squeezebox API for Python
-media-sound/shairport 9999 20141210 20141210-r1 20141210-r2: Emulates an AirPort Express to stream music from i-devices
+media-sound/shairport 20141210-r2: Emulates an AirPort Express to stream music from i-devices
 media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
 media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
