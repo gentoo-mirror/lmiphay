@@ -91,7 +91,7 @@ dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
 games-simulation/autobuild 3.0.0_beta1: A framework for building packages and for managing the dependencies
 games-simulation/firestorm-bin 6.4.21-r3 6.4.21-r4 6.5.3: An open source metaverse viewer
 games-simulation/firestorm-debian 0.1 0.4 0.5: A docker build environment for firestorm
-games-simulation/kokua-bin 6.5.1 6.5.2: An open source metaverse viewer
+games-simulation/kokua-bin 6.5.1 6.5.2 6.5.3: An open source metaverse viewer
 games-simulation/llbase 1.2.11: Utility modules used from Linden Lab
 games-simulation/radegast-bin 2.28.187 2.29.200 2.30.120 2.31.135 2.32.137: A messaging app for teams
 kde-misc/nowdock-panel 0.5.0-r1 9999: Plasma 5 panel with a plank/mac style zoom effect
