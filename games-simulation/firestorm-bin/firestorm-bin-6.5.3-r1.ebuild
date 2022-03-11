@@ -1,26 +1,28 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 inherit eutils desktop font
 
-REVISION=64531
+REVISION=65658
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
 
-MY_P="Phoenix_Firestorm-Release_x86_64_${PV}.${REVISION}"
-SRC_URI="https://downloads.firestormviewer.org/linux/${MY_P}.tar.xz"
-# https://downloads.firestormviewer.org/linux/Phoenix_Firestorm-Release_x86_64_6.4.21.64531.tar.xz
-# https://downloads.firestormviewer.org/preview/linux/Phoenix_Firestorm-Release_x86_64_6.4.21.64519.tar.xz
+MY_P="Phoenix_Firestorm-Releasex64_x86_64_${PV}.${REVISION}"
+SRC_URI="
+	https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz
+	http://3p.firestormviewer.org/freetype-2.4.4.180841832-linux64-180841832.tar.bz2
+"
+# https://downloads.firestormviewer.org/preview/linux/Phoenix_Firestorm-Releasex64_x86_64_6.5.3.65658.tar.xz
 
 RESTRICT="mirror"
 
 LICENSE="GPL-2-with-Linden-Lab-FLOSS-exception"
 SLOT="0"
 KEYWORDS="~amd64 -*"
-IUSE=""
+IUSE="+system-sdl voice"
 
 INST_DIR="opt/firestorm-bin"
 QA_PREBUILT="${INST_DIR}/*"
@@ -34,10 +36,8 @@ RDEPEND="
 	dev-libs/boost
 	media-fonts/kochi-substitute
 	media-fonts/unifont
-	media-libs/fontconfig
 	media-libs/freetype
 	media-libs/libogg
-	media-libs/libsdl
 	media-libs/libvorbis
 	media-libs/gstreamer
 	media-plugins/gst-plugins-meta
@@ -55,7 +55,8 @@ RDEPEND="
 	x11-libs/libXdmcp
 	x11-libs/libXext
 	x11-libs/libXinerama
-	x11-libs/pangox-compat
+	system-sdl? ( media-libs/libsdl )
+	voice? ( net-dns/libidn-compat )
 "
 DEPEND="${RDEPEND}
 	app-admin/chrpath
@@ -64,8 +65,12 @@ DEPEND="${RDEPEND}
 S="${WORKDIR}/${MY_P}"
 
 src_prepare() {
-	# use the system libraries for these
-	rm lib/libSDL-1.2.so.0* lib/libfontconfig.so.1* lib/libpangox-1.0.so* || die
+	if use system-sdl ; then
+		rm lib/libSDL-1.2.so.0* || die
+	fi
+	if ! use voice ; then
+		rm bin/SLVoice lib/libortp.so lib/libvivoxplatform.so lib/libvivoxsdk.so || die
+	fi
 
 	# shouldn't need to null RPATH with chrpath - but scanelf
 	# reports 'Security problem NULL DT_RPATH' otherwise
@@ -83,7 +88,12 @@ src_prepare() {
 
 src_install() {
 	mkdir -p "${D}/${INST_DIR}/"
+
 	cp -a . "${D}/${INST_DIR}/" || die
+
+	# https://github.com/lmiphay/gentoo.overlay/issues/15
+	cp -a ${WORKDIR}/lib/release/libfreetype.so* "${D}/${INST_DIR}/lib/" || die
+
 	dosym /${INST_DIR}/firestorm /usr/bin/firestorm-bin
 
 	insinto /etc/revdep-rebuild
