@@ -106,7 +106,7 @@ media-sound/jivelite 20160725 20170915: Community logitech media server control 
 media-sound/lms-gd 0.1 9999: logitechmediaserver in a gentoo docker
 media-sound/lms-restart 9999: logitechmediaserver process cleanup and restarter
 media-sound/logitechmediaserver-bin 7.9.2_pre20190520 7.9.2_pre20191202 8.1.1: Logitech Media Server (streaming audio server)
-media-sound/logitechmediaserver-docker 8.2.1: Logitechmediaserver in a container
+media-sound/logitechmediaserver-docker 8.2.1 8.2.1-r1: Logitechmediaserver in a container
 media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1 0.6.0 0.6.0-r2 0.6.0-r3 0.6.0-r4 0.7.0 0.7.1: PulseAudio system tray
 media-sound/pylms 20170705: Logitech Media Server/Squeezebox API for Python
 media-sound/shairport 20141210-r2: Emulates an AirPort Express to stream music from i-devices
