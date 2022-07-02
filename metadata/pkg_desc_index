@@ -37,12 +37,7 @@ dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
 dev-libs/libratbag 0.15: A DBus daemon to configure input devices, mainly high-end/gaming mice
 dev-libs/nanopb 0.3.4: plain-C Protocol Buffers for embedded/memory-constrained systems
 dev-lsl/lslint 1.1.1: A tool to check the validity of Second Life LSL scripts
-dev-perl/Log-StdLog 0.0.3: A simple log file via a special filehandle
-dev-perl/Net-Bluetooth 0.41: Perl Bluetooth Interface
-dev-perl/Net-SDP 0.07-r1: Perl extension for SDP
 dev-perl/Net-SMPP 1.19: pure Perl implementation of SMPP 3.4 over TCP
-dev-perl/Net-UDAP 9999: A Perl module to configure the Logitech SqueezeBox Receiver
-dev-perl/YAML-Diff 0.0.2: Diff 2 YAML Documents Semantically
 dev-python/artifactory 9999: A Python client for Artifactory
 dev-python/astral 1.6.1: Calculations for the position of the sun and moon
 dev-python/attrdict 2.0.1: A dict with attribute-style access
