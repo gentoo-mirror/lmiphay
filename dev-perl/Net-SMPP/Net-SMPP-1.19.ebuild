@@ -1,7 +1,7 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 
 DIST_AUTHOR=SAMPO
 DIST_VERSION=1.19
@@ -19,5 +19,4 @@ DEPEND="
 	dev-perl/Module-Build
 "
 
-#SRC_TEST="skip"
 RESTRICT="mirror"
