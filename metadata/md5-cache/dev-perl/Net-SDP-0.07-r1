@@ -1,16 +1,16 @@
-BDEPEND=dev-lang/perl test? ( virtual/perl-Test-Simple )
+BDEPEND=dev-perl/Module-Build dev-lang/perl test? ( virtual/perl-Test-Simple )
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-perl/Module-Build dev-lang/perl
-DESCRIPTION=pure Perl implementation of SMPP 3.4 over TCP
+DEPEND=dev-lang/perl
+DESCRIPTION=Perl extension for SDP
 EAPI=8
-HOMEPAGE=https://metacpan.org/release/Net-SMPP
+HOMEPAGE=https://metacpan.org/release/Net-SDP
 INHERIT=perl-module
 IUSE=test
 KEYWORDS=~amd64 ~x86
-LICENSE=|| ( Artistic GPL-1+ )
+LICENSE=BSD
 RDEPEND=dev-lang/perl:=
 RESTRICT=mirror !test? ( test )
 SLOT=0
-SRC_URI=mirror://cpan/authors/id/S/SA/SAMPO/Net-SMPP-1.19.tar.gz
+SRC_URI=mirror://cpan/authors/id/N/NJ/NJH/Net-SDP-0.07.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	95b2df43c5f3057b6e77bd00b4d953da	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	perl-module	f2c1b0dd41761ffc8441cd041e4bb7ec
-_md5_=85df5076b06d930b17d0eb29c440a2c9
+_md5_=4697eb881c04c6cdf9a01a75de1b64b1
