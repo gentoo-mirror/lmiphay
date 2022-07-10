@@ -45,7 +45,7 @@ dev-perl/Net-UDAP 9999: A Perl module to configure the Logitech SqueezeBox Recei
 dev-perl/YAML-Diff 0.0.2: Diff 2 YAML Documents Semantically
 dev-python/artifactory 9999: A Python client for Artifactory
 dev-python/astral 1.6.1: Calculations for the position of the sun and moon
-dev-python/attrdict 2.0.1: A dict with attribute-style access
+dev-python/attrdict 2.0.1-r1: A dict with attribute-style access
 dev-python/avro_validator 1.0.9: A pure python avro schema validator
 dev-python/cidr-trie 3.1.2: Store/search CIDR prefixes in a trie structure
 dev-python/click-datetime 0.2.0: Datetime type support for click
