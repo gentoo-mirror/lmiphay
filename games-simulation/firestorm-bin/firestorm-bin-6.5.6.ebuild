@@ -5,25 +5,24 @@ EAPI=7
 
 inherit eutils desktop font
 
-REVISION=64531
+REVISION=66219
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
 
-MY_P="Phoenix_Firestorm-Release_x86_64_${PV}.${REVISION}"
+MY_P="Phoenix_Firestorm-Releasex64_x86_64_${PV}.${REVISION}"
 SRC_URI="
-	https://downloads.firestormviewer.org/linux/${MY_P}.tar.xz
+	https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz
 	http://3p.firestormviewer.org/freetype-2.4.4.180841832-linux64-180841832.tar.bz2
 "
-# https://downloads.firestormviewer.org/linux/Phoenix_Firestorm-Release_x86_64_6.4.21.64531.tar.xz
-# https://downloads.firestormviewer.org/preview/linux/Phoenix_Firestorm-Release_x86_64_6.4.21.64519.tar.xz
+# https://downloads.firestormviewer.org/preview/linux/Phoenix_Firestorm-Releasex64_x86_64_6.5.3.65658.tar.xz
 
 RESTRICT="mirror"
 
 LICENSE="GPL-2-with-Linden-Lab-FLOSS-exception"
 SLOT="0"
 KEYWORDS="~amd64 -*"
-IUSE="+system-fontconfig +system-sdl voice"
+IUSE="+system-sdl voice"
 
 INST_DIR="opt/firestorm-bin"
 QA_PREBUILT="${INST_DIR}/*"
@@ -56,7 +55,6 @@ RDEPEND="
 	x11-libs/libXdmcp
 	x11-libs/libXext
 	x11-libs/libXinerama
-	system-fontconfig? ( media-libs/fontconfig )
 	system-sdl? ( media-libs/libsdl )
 	voice? ( net-dns/libidn-compat )
 "
@@ -67,18 +65,9 @@ DEPEND="${RDEPEND}
 S="${WORKDIR}/${MY_P}"
 
 src_prepare() {
-	if use system-fontconfig ; then
-		rm lib/libfontconfig.so.1* || die
-	fi
 	if use system-sdl ; then
-		rm lib/libSDL-1.2.so.0* || die
+		rm lib/libSDL-1.2.so.0* lib/libSDL.so || die
 	fi
-	if ! use voice ; then
-		rm bin/SLVoice lib/libortp.so lib/libvivoxplatform.so lib/libvivoxsdk.so || die
-	fi
-
-	# doesn't appear to be used
-	rm lib/libpangox-1.0.so* || die
 
 	# shouldn't need to null RPATH with chrpath - but scanelf
 	# reports 'Security problem NULL DT_RPATH' otherwise
