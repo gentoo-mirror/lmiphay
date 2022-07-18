@@ -1,10 +1,6 @@
 acct-group/oam 0: A group for app-oam/oam
 app-admin/ckunlock 9999: unlock an open console kit session via dbus
-app-admin/lnav 0.7.3: A curses-based tool for viewing and analyzing log files
 app-admin/syslog-summary 1.14-r4: Summarizes the contents of a syslog log file
-app-backup/pdumpfs 1.3-r2 1.4 9999: a daily backup system similar to Plan9's dumpfs
-app-backup/pdumpfs-clean 9999: A utility to clean up old backup files of a pdumpfs archive
-app-backup/pdumpfs-rsync 9999: A utility to back up remote files with pdumpfs and rsync
 app-backup/rdumpfs 0.1-r1: a rsync-based dump file system backup tool
 app-backup/rdumpfs-rota 1.0 9999: Wrapper around rdumpfs to automate daily/weekly/monthly backups
 app-benchmarks/k6-bin 0.35.0: A modern load testing tool, using Go and JavaScript
@@ -17,7 +13,6 @@ app-emacs/dockerfile-mode 20181005: An emacs mode for handling Dockerfiles
 app-emacs/lms 20170806 20181123 20181124 20181210 20181211 20181212 20181216 20191102: Frontend for Squeezebox / Logitech Media Server
 app-emacs/lsl-mode 20180107: Major mode for editing Linden Scripting Language
 app-emulation/docker-link 0.1: Bridging docker containers to an external network
-app-emulation/lxc-webpanel 9999: LXC Web Panel
 app-emulation/pipework 20170822: Software-Defined Networking for Linux Containers
 app-forensics/lynis 2.6.9: Security and system auditing tool
 app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
@@ -33,9 +28,7 @@ app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
 app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm, aterm, urxvt... etc
 dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
-dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
 dev-libs/libratbag 0.15: A DBus daemon to configure input devices, mainly high-end/gaming mice
-dev-libs/nanopb 0.3.4: plain-C Protocol Buffers for embedded/memory-constrained systems
 dev-lsl/lslint 1.1.1: A tool to check the validity of Second Life LSL scripts
 dev-perl/Log-StdLog 0.0.3: A simple log file via a special filehandle
 dev-perl/Net-Bluetooth 0.41: Perl Bluetooth Interface
@@ -114,8 +107,6 @@ media-sound/pylms 20170705: Logitech Media Server/Squeezebox API for Python
 media-sound/shairport 20141210-r2: Emulates an AirPort Express to stream music from i-devices
 media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
 media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
-media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
-media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/squeeze-alexa 20171216: Squeezebox integration for Amazon Alexa
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
 media-sound/squeezelite 1.9.0.1105 1.9.4.1182: Lightweight headless squeezebox client emulator
@@ -125,7 +116,6 @@ net-dns/mdnssd 20170108: A simple mDNS-SD browser
 net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of GitHub repos
 net-im/slack 4.4.3: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
-net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
 net-mail/davmail-bin 4.7.2-r1 4.7.3: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper deletion
 net-misc/cmc 9999 20170108: Manager of SSH ControlMaster connections
@@ -135,7 +125,6 @@ net-misc/ntp-proxy 9999: Leap second immunity verification programs
 sys-apps/dstat 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
 sys-apps/piper 0.7: GTK application to configure gaming mice
 sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
-sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 2.1: Tool for NUMA memory locality and processes/threads analysis
 www-apps/opengrok-bin 1.0 1.1.2 1.2.25 1.3.15 1.3.16 1.4.2 1.5.5: Fast source code search and cross reference engine
 www-apps/opengrok-docker 1.7.21 1.7.26 1.7.30: OpenGrok in a container
