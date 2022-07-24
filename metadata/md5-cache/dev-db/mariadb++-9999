@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DEPEND=|| ( dev-db/mariadb dev-db/mariadb-connector-c ) dev-libs/openssl sys-libs/zlib
+DESCRIPTION=A C++ client library for the MariaDB and MySQL databases
+EAPI=7
+HOMEPAGE=https://launchpad.net/mariadb++
+INHERIT=eutils multilib
+LICENSE=Boost-1.0
+RDEPEND=|| ( dev-db/mariadb dev-db/mariadb-connector-c ) dev-libs/openssl sys-libs/zlib
+SLOT=0
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961
+_md5_=b02d9d722512ad65cf7e008ac038677d
