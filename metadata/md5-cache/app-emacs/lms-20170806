@@ -10,5 +10,5 @@ RDEPEND=>=app-editors/emacs-23.1:*
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://bitbucket.org/inigoserna/lms.el/get/f07ac3678e27.zip -> lms-20170806.zip
-_eclasses_=readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	elisp-common	e7aaa047873789f549ea3df2f04b2145	elisp	c1c17e9c24d72d3bd58c611de8116fb6
+_eclasses_=readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	elisp	c1c17e9c24d72d3bd58c611de8116fb6
 _md5_=5d56de69edabc1839b87518b2d337a1f
