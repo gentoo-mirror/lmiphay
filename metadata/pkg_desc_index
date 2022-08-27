@@ -50,6 +50,7 @@ dev-python/click-datetime 0.2.0: Datetime type support for click
 dev-python/distro 1.2.0: Reliable machine-readable Linux distribution information for Python
 dev-python/eliot 1.3.0: Logging as Storytelling
 dev-python/eliot-tree 18.0.0: Render Eliot logs as an ASCII tree
+dev-python/flask-restful 0.2.12: Flask-RESTful provides the building blocks for creating a great REST API
 dev-python/flask-restx 0.5.1: Framework for fast, easy, and documented API development with Flask
 dev-python/fuzzywuzzy 0.18.0: Fuzzy string matching in python
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
