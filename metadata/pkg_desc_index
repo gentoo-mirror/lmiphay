@@ -13,7 +13,8 @@ app-editors/grief 20150315 20190309: Programmers console editor/a BRIEF clone
 app-emacs/brief-mode 1.1: A Brief emulator for Emacs
 app-emacs/docker-tramp 20170207: TRAMP integration for docker containers
 app-emacs/dockerfile-mode 20181005: An emacs mode for handling Dockerfiles
-app-emacs/lms 20170806 20181123 20181124 20181210 20181211 20181212 20181216 20191102: Frontend for Squeezebox / Logitech Media Server
+app-emacs/lms 20210821: Frontend for Squeezebox / Logitech Media Server
+app-emacs/lsl-mode 20180107 20190515: Major mode for editing Linden Scripting Language
 app-emulation/docker-link 0.1: Bridging docker containers to an external network
 app-emulation/pipework 20170822: Software-Defined Networking for Linux Containers
 app-forensics/lynis 2.6.9: Security and system auditing tool
@@ -88,7 +89,7 @@ dev-util/pstack 9999: Display stack trace of a running process.
 dev-vcs/git-recall 20170311: git tool to easily recall what you've done
 dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
 games-simulation/autobuild 3.0.0_beta1: A framework for building packages and for managing the dependencies
-games-simulation/firestorm-bin 6.5.6-r1 6.6.3 6.6.5_beta 6.6.5_beta_p1 6.6.5_beta_p2 6.6.6_beta: An open source metaverse viewer
+games-simulation/firestorm-bin 6.5.6-r1 6.6.3 6.6.8_beta: An open source metaverse viewer
 games-simulation/firestorm-debian 0.1 0.4 0.5: A docker build environment for firestorm
 games-simulation/kokua-bin 6.5.3 6.5.4: An open source metaverse viewer
 games-simulation/llbase 1.2.11: Utility modules used from Linden Lab
@@ -118,6 +119,7 @@ media-sound/squeeze-alexa 20171216: Squeezebox integration for Amazon Alexa
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
 media-sound/squeezelite 1.9.0.1105 1.9.4.1182: Lightweight headless squeezebox client emulator
 media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
+media-video/streamdeck-ui 2.0.4: A Linux compatible UI for the Elgato Stream Deck
 net-dns/adguardhome-docker 0.107.6 0.107.16: AdGuard Home in a container
 net-dns/mdnssd 20170108: A simple mDNS-SD browser
 net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of GitHub repos

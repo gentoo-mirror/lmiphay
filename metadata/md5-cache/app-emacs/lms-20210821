@@ -10,6 +10,6 @@ LICENSE=GPL-3+
 RDEPEND=>=app-editors/emacs-25.2 helm? ( app-emacs/helm ) >=app-editors/emacs-23.1:*
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://hg.serna.eu/emacs/lms/archive/14e2e8432425429430a394870db7823ee9445e0d.zip?subrepos=false -> lms-20191102.zip
+SRC_URI=https://hg.serna.eu/emacs/lms/archive/05c8fd16ff94590393b6b0a9cb193ec9572a9c97.zip?subrepos=false -> lms-20210821.zip
 _eclasses_=readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	elisp	8aab2c847b5894dc40503ae1d203abcf
-_md5_=731784f64c4b8719291ba8c713eb71a3
+_md5_=7276d8278377ba11174c28fbf0e459c0
