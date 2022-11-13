@@ -5,19 +5,20 @@ EAPI=7
 
 inherit eutils desktop font
 
-REVISION=68324
+REVISION=68355
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
 
 MY_PV=$(ver_cut 1-3)
 MY_PV=${MY_PV//\./-}
-MY_P="Phoenix-Firestorm-Betax64-${MY_PV}-${REVISION}"
+MY_P="Phoenix-Firestorm-Releasex64-${MY_PV}-${REVISION}"
 SRC_URI="
 	https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz
 	http://3p.firestormviewer.org/freetype-2.4.4.180841832-linux64-180841832.tar.bz2
 "
 # https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Betax64-6-6-5-68062.tar.xz
+# https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Releasex64-6-6-8-68355.tar.xz
 
 RESTRICT="mirror"
 
