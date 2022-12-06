@@ -11,5 +11,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=media-sound/pulseaudio-5.0-r3[glib,zeroconf] >=net-dns/avahi-0.6 x11-libs/gtk+:3 x11-libs/libX11 libnotify? ( >=x11-libs/libnotify-0.7 )
 SLOT=0
 SRC_URI=https://github.com/christophgysin/pasystray/archive/0.4.0.tar.gz -> pasystray-0.4.0.tar.gz
-_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	xdg-utils	ac0e315a3688929e34ac75b139e7349a	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc
+_eclasses_=toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157	xdg-utils	ac0e315a3688929e34ac75b139e7349a	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc
 _md5_=db194bbcec781ae5f5093ad5fe4e5887
