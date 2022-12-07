@@ -19,9 +19,7 @@ app-emulation/docker-link 0.1: Bridging docker containers to an external network
 app-emulation/pipework 20170822: Software-Defined Networking for Linux Containers
 app-forensics/lynis 2.6.9: Security and system auditing tool
 app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
-app-misc/g13 9999 20150528_p1: libusb driver for the g13
 app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
-app-misc/homeassistant-bin 0.108.9: Home automation platform
 app-misc/homeassistant-docker 2022.5 2022.10: Homeassistant in a container
 app-misc/razer-blackwidow-ultimate 20151205 20170928: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-oam/bun 9999: Backup up now for oam
@@ -30,7 +28,6 @@ app-oam/oam 9999: Operations and maintenance automation for gentoo servers
 app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
 app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm, aterm, urxvt... etc
-dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
 dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
 dev-libs/libratbag 0.15: A DBus daemon to configure input devices, mainly high-end/gaming mice
 dev-libs/nanopb 0.4.6: plain-C Protocol Buffers for embedded/memory-constrained systems
@@ -97,7 +94,6 @@ games-simulation/radegast-bin 2.28.187 2.29.200 2.30.120 2.31.135 2.32.137: A me
 kde-misc/nowdock-panel 0.5.0-r1 9999: Plasma 5 panel with a plank/mac style zoom effect
 kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49-r1: A fully customisable desktop menu for plasma 5
 kde-misc/semantik 9999: A mind-mapping application for KDE
-kde-misc/socket-sentry 9999: Real-time network traffic monitor for KDE Plasma
 kde-misc/webslice-plasmoid 0.8.1 1.0: Plasma 5 widget to display a webpage or image
 media-fonts/symbola 1: Multilingual support and Symbol blocks of The Unicode Standard
 media-fonts/tahoma 2: Microsoft's Tahoma font
@@ -107,18 +103,15 @@ media-sound/castbridge 0.2.6.4_alpha3 9999: Logitech Media Server plugin for Chr
 media-sound/jivelite 20160725 20170915: Community logitech media server control application
 media-sound/lms-gd 0.1 9999: logitechmediaserver in a gentoo docker
 media-sound/lms-restart 9999: logitechmediaserver process cleanup and restarter
-media-sound/logitechmediaserver-bin 7.9.2_pre20190520 7.9.2_pre20191202 8.1.1: Logitech Media Server (streaming audio server)
 media-sound/logitechmediaserver-docker 8.2.1 8.2.1-r1: Logitechmediaserver in a container
 media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1 0.6.0 0.6.0-r2 0.6.0-r3 0.6.0-r4 0.7.0 0.7.1: PulseAudio system tray
 media-sound/pylms 20170705: Logitech Media Server/Squeezebox API for Python
-media-sound/shairport 20141210-r2: Emulates an AirPort Express to stream music from i-devices
 media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
 media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
 media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/squeeze-alexa 20171216: Squeezebox integration for Amazon Alexa
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
-media-sound/squeezelite 1.9.0.1105 1.9.4.1182: Lightweight headless squeezebox client emulator
 media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
 media-video/streamdeck-ui 2.0.4: A Linux compatible UI for the Elgato Stream Deck
 net-dns/adguardhome-docker 0.107.6 0.107.16: AdGuard Home in a container
@@ -127,17 +120,14 @@ net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of 
 net-im/slack 4.4.3: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
 net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
-net-mail/davmail-bin 4.7.2-r1 4.7.3: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper deletion
 net-misc/cmc 9999 20170108: Manager of SSH ControlMaster connections
 net-misc/dropbox-uploader 20171114: BASH script to up/download, list/delete files on Dropbox
-net-misc/ha-bridge-bin 5.1.0: Philips Hue emulator (for Vera, Harmony, Nest...etc) for Alexa
 net-misc/ntp-proxy 9999: Leap second immunity verification programs
 sys-apps/dstat 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
 sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 2.1: Tool for NUMA memory locality and processes/threads analysis
-www-apps/opengrok-bin 1.0 1.1.2 1.2.25 1.3.15 1.3.16 1.4.2 1.5.5: Fast source code search and cross reference engine
 www-apps/opengrok-docker 1.7.21 1.7.26 1.7.30: OpenGrok in a container
 x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
 x11-wm/tvtwm 11 11-r1 11-r2: tvtwm X11 window manager
