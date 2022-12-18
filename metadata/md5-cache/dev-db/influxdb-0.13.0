@@ -1,0 +1,12 @@
+DEFINED_PHASES=install setup unpack
+DESCRIPTION=Scalable datastore for metrics, events, and real-time analytics
+EAPI=6
+HOMEPAGE=http://influxdb.com
+INHERIT=user unpacker
+KEYWORDS=~amd64
+LICENSE=MIT
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://dl.influxdata.com/influxdb/releases/influxdb_0.13.0_amd64.deb
+_eclasses_=user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	ee8b59cbe68b390f981e3ee247ed908f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	f03f9c0c03643e8057ad762b297ce01e
+_md5_=2405c37a2adb516eae91c65d702d08a1
