@@ -94,11 +94,6 @@ games-simulation/firestorm-debian 0.1 0.4 0.5: A docker build environment for fi
 games-simulation/kokua-bin 6.5.3 6.5.4: An open source metaverse viewer
 games-simulation/llbase 1.2.11: Utility modules used from Linden Lab
 games-simulation/radegast-bin 2.28.187 2.29.200 2.30.120 2.31.135 2.32.137: A messaging app for teams
-kde-misc/nowdock-panel 0.5.0-r1 9999: Plasma 5 panel with a plank/mac style zoom effect
-kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49-r1: A fully customisable desktop menu for plasma 5
-kde-misc/semantik 9999: A mind-mapping application for KDE
-kde-misc/socket-sentry 9999: Real-time network traffic monitor for KDE Plasma
-kde-misc/webslice-plasmoid 0.8.1 1.0: Plasma 5 widget to display a webpage or image
 media-fonts/symbola 1: Multilingual support and Symbol blocks of The Unicode Standard
 media-fonts/tahoma 2: Microsoft's Tahoma font
 media-gfx/blender 3.0.1-r5: 3D Creation/Animation/Publishing System
