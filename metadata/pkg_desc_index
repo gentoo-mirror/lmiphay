@@ -30,7 +30,6 @@ app-oam/oam 9999: Operations and maintenance automation for gentoo servers
 app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
 app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm, aterm, urxvt... etc
-dev-db/influxdb 0.13.0 1.0.2: Scalable datastore for metrics, events, and real-time analytics
 dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
 dev-libs/libratbag 0.15: A DBus daemon to configure input devices, mainly high-end/gaming mice
 dev-libs/nanopb 0.4.6: plain-C Protocol Buffers for embedded/memory-constrained systems
@@ -106,14 +105,12 @@ media-sound/logitechmediaserver-bin 7.9.2_pre20190520 7.9.2_pre20191202 8.1.1: L
 media-sound/logitechmediaserver-docker 8.2.1 8.2.1-r1: Logitechmediaserver in a container
 media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1 0.6.0 0.6.0-r2 0.6.0-r3 0.6.0-r4 0.7.0 0.7.1: PulseAudio system tray
 media-sound/pylms 20170705: Logitech Media Server/Squeezebox API for Python
-media-sound/shairport 20141210-r2: Emulates an AirPort Express to stream music from i-devices
 media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
 media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
 media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/squeeze-alexa 20171216: Squeezebox integration for Amazon Alexa
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
-media-sound/squeezelite 1.9.0.1105 1.9.4.1182: Lightweight headless squeezebox client emulator
 media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
 media-video/streamdeck-ui 2.0.4: A Linux compatible UI for the Elgato Stream Deck
 net-dns/adguardhome-docker 0.107.6 0.107.16: AdGuard Home in a container
@@ -122,11 +119,9 @@ net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of 
 net-im/slack 4.4.3: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
 net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
-net-mail/davmail-bin 4.7.2-r1 4.7.3: POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper deletion
 net-misc/cmc 9999 20170108: Manager of SSH ControlMaster connections
 net-misc/dropbox-uploader 20171114: BASH script to up/download, list/delete files on Dropbox
-net-misc/ha-bridge-bin 5.1.0: Philips Hue emulator (for Vera, Harmony, Nest...etc) for Alexa
 net-misc/ntp-proxy 9999: Leap second immunity verification programs
 sys-apps/dstat 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
 sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
