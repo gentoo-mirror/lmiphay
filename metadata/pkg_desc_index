@@ -93,6 +93,8 @@ games-simulation/firestorm-debian 0.1 0.4 0.5: A docker build environment for fi
 games-simulation/kokua-bin 6.5.3 6.5.4: An open source metaverse viewer
 games-simulation/llbase 1.2.11: Utility modules used from Linden Lab
 games-simulation/radegast-bin 2.28.187 2.29.200 2.30.120 2.31.135 2.32.137: A messaging app for teams
+kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49-r1: A fully customisable desktop menu for plasma 5
+kde-misc/webslice-plasmoid 1.0: Plasma 5 widget to display a webpage or image
 media-fonts/symbola 1: Multilingual support and Symbol blocks of The Unicode Standard
 media-fonts/tahoma 2: Microsoft's Tahoma font
 media-gfx/blender 3.0.1-r5: 3D Creation/Animation/Publishing System
@@ -112,6 +114,7 @@ media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
 media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/squeeze-alexa 20171216: Squeezebox integration for Amazon Alexa
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
+media-sound/squeezelite 1.9.4.1182: Lightweight headless squeezebox client emulator
 media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
 media-video/streamdeck-ui 2.0.4: A Linux compatible UI for the Elgato Stream Deck
 net-dns/adguardhome-docker 0.107.6 0.107.16: AdGuard Home in a container
