@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare pretend setup unpack
+DEPEND=dev-libs/boost dev-libs/libusb
+DESCRIPTION=libusb driver for the g13
+EAPI=7
+HOMEPAGE=https://github.com/ecraven/g13
+INHERIT=eutils user linux-info git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+PROPERTIES=live
+RDEPEND=dev-libs/boost dev-libs/libusb media-gfx/imagemagick sys-apps/coreutils
+SLOT=0
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	user-info	83547b4df3e1ba5a6bf91a0837eaa664	user	ee8b59cbe68b390f981e3ee247ed908f	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	linux-info	7e4d48a3c6c8ebdaa9f7f9e7d2991e22	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=3e01da97a7a6e34e8a2f9f07255af2d8
