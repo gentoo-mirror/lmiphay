@@ -127,6 +127,7 @@ net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for cast
 net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper deletion
 net-misc/cmc 9999 20170108: Manager of SSH ControlMaster connections
 net-misc/dropbox-uploader 20171114: BASH script to up/download, list/delete files on Dropbox
+net-misc/ha-bridge-bin 5.1.0: Philips Hue emulator (for Vera, Harmony, Nest...etc) for Alexa
 net-misc/ntp-proxy 9999: Leap second immunity verification programs
 sys-apps/dstat 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
 sys-cluster/mistral 2.0.0: Task orchestration service for OpenStack cloud
