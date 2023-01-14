@@ -66,7 +66,6 @@ dev-python/pyrad 2.1: Python RADIUS implementation
 dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
 dev-python/python-consul 1.1.0: Python client for Consul (http://www.consul.io/)
 dev-python/python-smpplib 20180221: SMPP library for python
-dev-python/pywemo 0.4.28: Lightweight Python module to discover and control WeMo devices
 dev-python/spark_parser 1.8.9: An Early-Algorithm Context-free grammar Parser
 dev-python/spec 1.4.1: Specification-style nosetests output for Python
 dev-python/srptools 1.0.1: Tools to implement Secure Remote Password (SRP) authentication
