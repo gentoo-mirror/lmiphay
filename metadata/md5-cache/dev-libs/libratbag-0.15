@@ -1,6 +1,6 @@
 BDEPEND=virtual/pkgconfig python_single_target_python3_9? ( dev-python/pygobject:3[${PYTHON_MULTI_USEDEP}] ) doc? ( app-doc/doxygen ) test? ( >=dev-libs/check-0.9.10 python_single_target_python3_9? ( dev-python/lxml[${PYTHON_MULTI_USEDEP}] ) dev-util/valgrind ) >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig
 DEFINED_PHASES=compile configure install postinst prepare setup test
-DEPEND=python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) elogind? ( >=sys-auth/elogind-227 ) systemd? ( >=sys-apps/systemd-227 ) dev-libs/glib:2 dev-libs/json-glib dev-libs/libunistring dev-libs/libevdev python_single_target_python3_9? ( dev-python/python-evdev[${PYTHON_MULTI_USEDEP}] ) virtual/libudev dev-lang/swig
+DEPEND=python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) elogind? ( >=sys-auth/elogind-227 ) systemd? ( >=sys-apps/systemd-227 ) dev-libs/glib:2 dev-libs/json-glib dev-libs/libunistring dev-libs/libevdev python_single_target_python3_9? ( dev-python/python-evdev[${PYTHON_MULTI_USEDEP}] ) virtual/libudev dev-lang/swig
 DESCRIPTION=A DBus daemon to configure input devices, mainly high-end/gaming mice
 EAPI=7
 HOMEPAGE=https://github.com/libratbag/libratbag
@@ -8,10 +8,10 @@ INHERIT=meson python-single-r1 udev
 IUSE=+systemd elogind doc test +python_single_target_python3_9
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) elogind? ( >=sys-auth/elogind-227 ) systemd? ( >=sys-apps/systemd-227 ) dev-libs/glib:2 dev-libs/json-glib dev-libs/libunistring dev-libs/libevdev python_single_target_python3_9? ( dev-python/python-evdev[${PYTHON_MULTI_USEDEP}] ) virtual/libudev
+RDEPEND=python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) elogind? ( >=sys-auth/elogind-227 ) systemd? ( >=sys-apps/systemd-227 ) dev-libs/glib:2 dev-libs/json-glib dev-libs/libunistring dev-libs/libevdev python_single_target_python3_9? ( dev-python/python-evdev[${PYTHON_MULTI_USEDEP}] ) virtual/libudev
 REQUIRED_USE=^^ ( python_single_target_python3_9 ) ( ^^ ( elogind systemd ) )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/libratbag/libratbag/archive/v0.15.tar.gz -> libratbag-0.15.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	8d5c1c4ecef47fa1b4576a718c620d1d	meson	1994a5aef5d4f5798b92f64d6f9a6003	python-single-r1	75118e916668a74c660a13b0ecb22562	udev	eec0bbab06977f1cfc5597269c1fa152
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	meson	1994a5aef5d4f5798b92f64d6f9a6003	python-single-r1	75118e916668a74c660a13b0ecb22562	udev	eec0bbab06977f1cfc5597269c1fa152
 _md5_=0195a23472c34ad4201451c7f7c04016
