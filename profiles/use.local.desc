@@ -2,6 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-games-simulation/firestorm-bin:system-fontconfig - Use system fontconfig instead of the bundled one
-games-simulation/firestorm-bin:system-sdl - Use system SDL instead of the bundled one.
 games-simulation/firestorm-bin:voice - Unsupported incomplete voice support
