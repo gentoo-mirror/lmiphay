@@ -10,5 +10,5 @@ LICENSE=MSttfEULA
 RESTRICT=bindist fetch
 SLOT=0
 SRC_URI=file:///tahoma.ttf file:///tahomabd.ttf
-_eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
 _md5_=94bb1f75910de48b6c52a01016a9850a
