@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=app-misc/homeassistant-bin
 SLOT=0
 SRC_URI=https://github.com/nervetattoo/simple-thermostat/releases/download/0.21.0/simple-thermostat.js -> simple-thermostat-0.21.0.js
-_eclasses_=readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
+_eclasses_=readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3
 _md5_=b38a6376c403833a1ad7993b58196941

@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 PROPERTIES=live
 RDEPEND=sys-apps/diffutils app-text/wdiff sys-apps/gawk sys-devel/binutils
 SLOT=0
-_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=757236ab621ac55cf2281263a4710815
