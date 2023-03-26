@@ -1,4 +1,4 @@
-BDEPEND=>=app-editors/emacs-25.2 helm? ( app-emacs/helm ) >=app-editors/emacs-23.1:*
+BDEPEND=>=app-editors/emacs-25.2 helm? ( app-emacs/helm ) >=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
 DESCRIPTION=Frontend for Squeezebox / Logitech Media Server
 EAPI=7
@@ -7,9 +7,9 @@ INHERIT=readme.gentoo-r1 elisp
 IUSE=helm
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+
-RDEPEND=>=app-editors/emacs-25.2 helm? ( app-emacs/helm ) >=app-editors/emacs-23.1:*
+RDEPEND=>=app-editors/emacs-25.2 helm? ( app-emacs/helm ) >=app-editors/emacs-25.3:*
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://hg.serna.eu/emacs/lms/archive/05c8fd16ff94590393b6b0a9cb193ec9572a9c97.zip?subrepos=false -> lms-20210821.zip
-_eclasses_=readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	elisp-common	4f91d24ccf86f94b3f28c6470aab24d3	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3
+_eclasses_=readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	elisp-common	1d6e8d43be4713f04a441f721d890d48	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3
 _md5_=7276d8278377ba11174c28fbf0e459c0

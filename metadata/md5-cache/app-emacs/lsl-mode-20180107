@@ -1,4 +1,4 @@
-BDEPEND=>=app-editors/emacs-23.1:* >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=app-editors/emacs-25.3:* >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
 DEPEND=app-emacs/yasnippet
 DESCRIPTION=Major mode for editing Linden Scripting Language
@@ -7,7 +7,7 @@ HOMEPAGE=http://www.buildersbrewery.com/
 INHERIT=readme.gentoo-r1 elisp git-r3
 KEYWORDS=~amd64 ~x86
 PROPERTIES=live
-RDEPEND=app-emacs/yasnippet >=app-editors/emacs-23.1:*
+RDEPEND=app-emacs/yasnippet >=app-editors/emacs-25.3:*
 SLOT=0
-_eclasses_=readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	elisp-common	4f91d24ccf86f94b3f28c6470aab24d3	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_eclasses_=readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	elisp-common	1d6e8d43be4713f04a441f721d890d48	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3	git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=aebb3b18b8b5d68e678f51344ff51914
