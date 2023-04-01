@@ -98,7 +98,7 @@ kde-misc/semantik 9999: A mind-mapping application for KDE
 kde-misc/webslice-plasmoid 1.0: Plasma 5 widget to display a webpage or image
 media-fonts/symbola 1: Multilingual support and Symbol blocks of The Unicode Standard
 media-fonts/tahoma 2: Microsoft's Tahoma font
-media-gfx/gyazo 1.3.1: Seriously Instant Screen-Grabbing
+media-gfx/gyazo 1.3.1 1.3.2: Seriously Instant Screen-Grabbing
 media-sound/castbridge 0.2.6.4_alpha3 9999: Logitech Media Server plugin for Chromecast devices
 media-sound/jivelite 20160725 20170915: Community logitech media server control application
 media-sound/lms-gd 0.1 9999: logitechmediaserver in a gentoo docker
