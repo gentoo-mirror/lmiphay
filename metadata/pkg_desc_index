@@ -1,4 +1,5 @@
 acct-group/oam 0: A group for app-oam/oam
+app-admin/syslog-summary 1.14-r4: Summarizes the contents of a syslog log file
 app-backup/pdumpfs 1.3-r2 1.4 9999: a daily backup system similar to Plan9's dumpfs
 app-backup/pdumpfs-clean 9999: A utility to clean up old backup files of a pdumpfs archive
 app-backup/pdumpfs-rsync 9999: A utility to back up remote files with pdumpfs and rsync
@@ -36,7 +37,7 @@ dev-perl/Net-UDAP 9999: A Perl module to configure the Logitech SqueezeBox Recei
 dev-perl/YAML-Diff 0.0.2: Diff 2 YAML Documents Semantically
 dev-python/attrdict 2.0.1-r1: A dict with attribute-style access
 dev-python/flask-restful 0.2.12: Flask-RESTful provides the building blocks for creating a great REST API
-dev-python/flask-restx 0.5.1: Framework for fast, easy, and documented API development with Flask
+dev-python/flask-restx 0.5.1 1.1.0: Framework for fast, easy, and documented API development with Flask
 dev-python/invoke 1.1.1: Pythonic task management & command execution
 dev-python/pywemo 0.9.1: Lightweight Python module to discover and control WeMo devices
 dev-util/gstack 20140207: Display stack trace of a running process.
@@ -69,7 +70,7 @@ media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
 media-sound/squeezelite 1.9.4.1182: Lightweight headless squeezebox client emulator
 media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
-media-video/streamdeck-ui 2.0.4: A Linux compatible UI for the Elgato Stream Deck
+media-video/streamdeck-ui 2.0.4 2.0.15: A Linux compatible UI for the Elgato Stream Deck
 net-dns/adguardhome-docker 0.107.6 0.107.16: AdGuard Home in a container
 net-dns/mdnssd 20170108: A simple mDNS-SD browser
 net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of GitHub repos
@@ -81,6 +82,7 @@ net-misc/cmc 9999 20170108: Manager of SSH ControlMaster connections
 net-misc/dropbox-uploader 20171114: BASH script to up/download, list/delete files on Dropbox
 net-misc/ha-bridge-bin 5.1.0: Philips Hue emulator (for Vera, Harmony, Nest...etc) for Alexa
 net-misc/ntp-proxy 9999: Leap second immunity verification programs
+sys-apps/dstat 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 2.1: Tool for NUMA memory locality and processes/threads analysis
 www-apps/opengrok-bin 1.0 1.1.2 1.2.25 1.5.5: Fast source code search and cross reference engine
