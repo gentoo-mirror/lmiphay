@@ -58,6 +58,7 @@ dev-util/pkgdiff 20170322 20190610: A tool for visualizing changes in Linux soft
 dev-util/pstack 9999: Display stack trace of a running process.
 dev-vcs/git-recall 20170311: git tool to easily recall what you've done
 dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
+games-simulation/autobuild 3.9.2: A framework for building packages and for managing the dependencies
 games-simulation/firestorm-bin 6.6.8 6.6.11_beta 6.6.12_beta 6.6.13_beta: An open source metaverse viewer
 games-simulation/firestorm-debian 0.1 0.4 0.5 0.6: A docker build environment for firestorm
 games-simulation/kokua-bin 6.5.3 6.5.4: An open source metaverse viewer
@@ -75,6 +76,7 @@ media-sound/lms-gd 0.1 9999: logitechmediaserver in a gentoo docker
 media-sound/lms-restart 9999: logitechmediaserver process cleanup and restarter
 media-sound/logitechmediaserver-docker 8.2.1 8.2.1-r1: Logitechmediaserver in a container
 media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1 0.6.0 0.6.0-r2 0.6.0-r3 0.6.0-r4 0.7.0 0.7.1: PulseAudio system tray
+media-sound/pylms 20170705: Logitech Media Server/Squeezebox API for Python
 media-sound/shairport 20141210-r2: Emulates an AirPort Express to stream music from i-devices
 media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
 media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
