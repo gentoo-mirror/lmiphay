@@ -50,7 +50,12 @@ dev-python/eliot 1.14.0: Logging as Storytelling
 dev-python/eliot-tree 21.0.0: Render Eliot logs as an ASCII tree
 dev-python/flask-restful 0.2.12: Flask-RESTful provides the building blocks for creating a great REST API
 dev-python/flask-restx 0.5.1 1.1.0: Framework for fast, easy, and documented API development with Flask
+dev-python/fuzzywuzzy 0.18.0: Fuzzy string matching in python
+dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
 dev-python/invoke 1.1.1: Pythonic task management & command execution
+dev-python/kafka-python 9999: Kafka Python client
+dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
+dev-python/python-consul 1.1.0: Python client for Consul (http://www.consul.io/)
 dev-python/python-smpplib 20180221: SMPP library for python
 dev-python/pywemo 0.9.1: Lightweight Python module to discover and control WeMo devices
 dev-util/gstack 20140207: Display stack trace of a running process.
