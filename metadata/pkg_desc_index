@@ -63,6 +63,7 @@ dev-python/python-smpplib 20180221: SMPP library for python
 dev-python/pywemo 0.9.1: Lightweight Python module to discover and control WeMo devices
 dev-python/tosca-parser 9999: Parser for TOSCA Simple Profile in YAML
 dev-python/validate_email 9999: verify if an email address is valid and really exists
+dev-python/yaql 2.0.0: An embeddable and extensible query language
 dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
 dev-python/yarl 1.9.2: Yet another URL library
 dev-util/gstack 20140207: Display stack trace of a running process.
