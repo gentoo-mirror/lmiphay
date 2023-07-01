@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -6,7 +6,7 @@ EAPI=6
 inherit eutils versionator
 
 # check: https://sourceforge.net/projects/kokua.team-purple.p/files/Kokua-SL/Linux64Bit/
-REVISION=51729
+REVISION=51893
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://blog.kokuaviewer.org/"
@@ -41,7 +41,7 @@ RDEPEND="
 	dev-libs/boost
 	media-libs/freetype
 	media-libs/libogg
-	media-libs/libpng:1.2
+	media-libs/libpng
 	media-libs/libsdl
 	media-libs/libvorbis
 	media-libs/gstreamer
@@ -73,6 +73,8 @@ src_prepare() {
 	# reports 'Security problem NULL DT_RPATH' otherwise
 	chrpath -r '' lib/lib32/libalut.so.0.0.0
 	scanelf -Xr lib/lib32/libalut.so.0.0.0
+	chrpath -r '' bin/dullahan_host
+	scanelf -Xr bin/dullahan_host
 	eapply_user
 }
 
