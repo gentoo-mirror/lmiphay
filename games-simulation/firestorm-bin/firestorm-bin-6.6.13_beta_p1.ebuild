@@ -5,7 +5,7 @@ EAPI=7
 
 inherit eutils desktop font
 
-REVISION=69075
+REVISION=69468
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
@@ -15,7 +15,6 @@ MY_PV=${MY_PV//\./-}
 MY_P="Phoenix-Firestorm-Betax64-${MY_PV}-${REVISION}"
 SRC_URI="
 	https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz
-	http://3p.firestormviewer.org/freetype-2.4.4.180841832-linux64-180841832.tar.bz2
 "
 # https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Betax64-6-6-9-68580.tar.xz
 # https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Releasex64-6-6-8-68355.tar.xz
@@ -87,9 +86,6 @@ src_install() {
 	mkdir -p "${D}/${INST_DIR}/"
 
 	cp -a . "${D}/${INST_DIR}/" || die
-
-	# https://github.com/lmiphay/gentoo.overlay/issues/15
-	cp -a ${WORKDIR}/lib/release/libfreetype.so* "${D}/${INST_DIR}/lib/" || die
 
 	dosym /${INST_DIR}/firestorm /usr/bin/firestorm-bin
 
