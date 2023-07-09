@@ -11,5 +11,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-libs/openssl ao? ( media-libs/libao ) pulseaudio? ( media-sound/pulseaudio ) alsa? ( media-libs/alsa-lib ) avahi? ( net-dns/avahi )
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	user-info	83547b4df3e1ba5a6bf91a0837eaa664	user	ee8b59cbe68b390f981e3ee247ed908f	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	user-info	9951b1a0e4f026d16c33a001fd2d5cdf	user	ee8b59cbe68b390f981e3ee247ed908f	git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=4987c97fab487e327788c83c13d3ee67
