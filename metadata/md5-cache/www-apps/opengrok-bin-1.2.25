@@ -1,0 +1,17 @@
+BDEPEND=dev-python/pytest-runner[python_targets_python3_11(-)?] dev-python/setuptools[python_targets_python3_11(-)?] python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/setuptools-67.8.0-r1[python_targets_python3_11(-)?]
+DEFINED_PHASES=compile configure install postinst prepare setup test unpack
+DEPEND=app-text/docbook-xsl-stylesheets dev-libs/libxslt
+DESCRIPTION=Fast source code search and cross reference engine
+EAPI=8
+HOMEPAGE=http://opengrok.github.io/OpenGrok/
+INHERIT=distutils-r1
+IUSE=cssc subversion python_targets_python3_11
+KEYWORDS=~amd64
+LICENSE=CDDL
+RDEPEND=app-text/docbook-xsl-stylesheets dev-libs/libxslt dev-python/filelock[python_targets_python3_11(-)?] dev-python/jsonschema[python_targets_python3_11(-)?] dev-python/pyyaml[python_targets_python3_11(-)?] >=dev-python/requests-2.20.0[python_targets_python3_11(-)?] >=dev-util/ctags-5.8 www-servers/tomcat:9 cssc? ( dev-vcs/cssc ) subversion? ( >=dev-vcs/subversion-1.9.5[java] ) python_targets_python3_11? ( dev-lang/python:3.11 )
+REQUIRED_USE=|| ( python_targets_python3_11 )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/OpenGrok/OpenGrok/releases/download/1.2.25/opengrok-1.2.25.tar.gz
+_eclasses_=toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	be27a904c614cb93ae037762dc69bcc2	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	python-utils-r1	59e60e9c5cbd3f214d7f1002e798b387	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	distutils-r1	a93df67775ff86e107e56c6a6e68cf4e
+_md5_=71ea66f284263937ffb12e03014913cf

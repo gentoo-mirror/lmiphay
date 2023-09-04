@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=
+DESCRIPTION=A modern load testing tool, using Go and JavaScript
+EAPI=8
+HOMEPAGE=https://k6.io
+KEYWORDS=~amd64 -*
+LICENSE=AGPL-3
+RDEPEND=
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/loadimpact/k6/releases/download/v0.35.0/k6-v0.35.0-linux-amd64.tar.gz
+_md5_=5eabbd5f49275b39450e13ec226dc470

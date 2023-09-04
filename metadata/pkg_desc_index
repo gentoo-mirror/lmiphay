@@ -1,10 +1,15 @@
 acct-group/oam 0: A group for app-oam/oam
 app-admin/ckunlock 9999: unlock an open console kit session via dbus
 app-admin/syslog-summary 1.14-r4: Summarizes the contents of a syslog log file
+app-backup/pdumpfs 1.3-r2 1.4 9999: a daily backup system similar to Plan9's dumpfs
+app-backup/pdumpfs-clean 9999: A utility to clean up old backup files of a pdumpfs archive
+app-backup/pdumpfs-rsync 9999: A utility to back up remote files with pdumpfs and rsync
 app-backup/rdumpfs 0.1-r1: a rsync-based dump file system backup tool
 app-backup/rdumpfs-rota 1.0 9999: Wrapper around rdumpfs to automate daily/weekly/monthly backups
+app-benchmarks/k6-bin 0.35.0: A modern load testing tool, using Go and JavaScript
 app-benchmarks/lookbusy 1.4: A synthetic load generator
 app-crypt/ssl-cert-check 20171114 20201112: Send notifications when SSL certificates are about to expire
+app-editors/grief 20150315 20190309: Programmers console editor/a BRIEF clone
 app-emacs/brief-mode 1.1: A Brief emulator for Emacs
 app-emacs/docker-tramp 20170207: TRAMP integration for docker containers
 app-emacs/dockerfile-mode 20181005: An emacs mode for handling Dockerfiles
@@ -14,7 +19,9 @@ app-emulation/docker-link 0.1: Bridging docker containers to an external network
 app-emulation/pipework 20170822: Software-Defined Networking for Linux Containers
 app-forensics/lynis 2.6.9: Security and system auditing tool
 app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
+app-misc/g13 9999 20150528_p1: libusb driver for the g13
 app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
+app-misc/homeassistant-bin 0.108.9: Home automation platform
 app-misc/razer-blackwidow-ultimate 20151205 20170928: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-oam/bun 9999: Backup up now for oam
 app-oam/glc 9999: gentoo linux container producer
@@ -101,5 +108,7 @@ net-misc/ntp-proxy 9999: Leap second immunity verification programs
 sys-apps/dstat 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 2.1: Tool for NUMA memory locality and processes/threads analysis
+www-apps/opengrok-bin 1.0 1.1.2 1.2.25 1.5.5: Fast source code search and cross reference engine
+www-apps/opengrok-docker 1.7.21 1.7.26 1.7.30: OpenGrok in a container
 x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
 x11-wm/tvtwm 11 11-r1 11-r2: tvtwm X11 window manager

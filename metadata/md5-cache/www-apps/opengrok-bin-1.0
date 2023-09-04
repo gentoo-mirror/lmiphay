@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=>=dev-util/ctags-5.8 >=www-servers/tomcat-8.0.39 subversion? ( >=dev-vcs/subversion-1.9.5[java] ) app-text/docbook-xsl-stylesheets dev-libs/libxslt
+DESCRIPTION=Fast source code search and cross reference engine
+EAPI=8
+HOMEPAGE=http://opengrok.github.io/OpenGrok/
+IUSE=+doc subversion
+KEYWORDS=~amd64 ~x86
+LICENSE=CDDL
+RDEPEND=>=dev-util/ctags-5.8 >=www-servers/tomcat-8.0.39 subversion? ( >=dev-vcs/subversion-1.9.5[java] )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/OpenGrok/OpenGrok/releases/download/1.0/opengrok-1.0.tar.gz
+_md5_=90e68cb5efa3cd7c163503a4bd58ca15
