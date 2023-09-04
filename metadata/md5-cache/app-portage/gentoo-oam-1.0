@@ -1,0 +1,12 @@
+DEFINED_PHASES=-
+DEPEND=app-admin/logrotate app-portage/eix app-portage/genlop app-portage/gentoolkit app-portage/portage-utils app-text/multitail dev-lang/perl sys-apps/moreutils[perl] sys-fs/inotify-tools
+DESCRIPTION=Automatation for common tasks around gentoo server upkeep
+EAPI=8
+HOMEPAGE=https://github.com/lmiphay/gentoo-oam
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=app-admin/logrotate app-portage/eix app-portage/genlop app-portage/gentoolkit app-portage/portage-utils app-text/multitail dev-lang/perl sys-apps/moreutils[perl] sys-fs/inotify-tools
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lmiphay/gentoo-oam/archive/v1.0.tar.gz -> gentoo-oam-1.0.tar.gz
+_md5_=b834a58c0a8995b3ca2d69dbbcbdc574

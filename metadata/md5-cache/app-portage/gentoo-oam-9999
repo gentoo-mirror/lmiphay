@@ -2,9 +2,9 @@ BDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/setupto
 DEFINED_PHASES=compile configure install prepare setup test unpack
 DEPEND=dev-python/setuptools[python_targets_python3_11(-)?] python_targets_python3_11? ( dev-lang/python:3.11 ) lnav? ( app-admin/lnav ) app-admin/logrotate app-misc/screen ranger? ( app-misc/ranger ) app-portage/genlop app-portage/gentoolkit app-portage/portage-utils >=app-shells/bash-4.3 completion? ( app-shells/bash-completion ) app-text/multitail dev-lang/perl dev-python/attrdict dev-python/click dev-python/eliot dev-python/eliot-tree dev-python/inotifyx dev-python/invoke dev-python/jinja dev-python/psutil dev-python/pyyaml sys-apps/moreutils[perl] sys-fs/inotify-tools virtual/python-enum34
 DESCRIPTION=Automatation for common tasks around gentoo server upkeep
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/lmiphay/gentoo-oam
-INHERIT=user distutils-r1 bash-completion-r1 git-r3
+INHERIT=distutils-r1 bash-completion-r1 git-r3
 IUSE=+completion +lnav +ranger python_targets_python3_11
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) lnav? ( app-admin/lnav ) app-admin/logrotate app-misc/screen ranger? ( app-misc/ranger ) app-portage/genlop app-portage/gentoolkit app-portage/portage-utils >=app-shells/bash-4.3 completion? ( app-shells/bash-completion ) app-text/multitail dev-lang/perl dev-python/attrdict dev-python/click dev-python/eliot dev-python/eliot-tree dev-python/inotifyx dev-python/invoke dev-python/jinja dev-python/psutil dev-python/pyyaml sys-apps/moreutils[perl] sys-fs/inotify-tools virtual/python-enum34 python_targets_python3_11? ( dev-lang/python:3.11 )
 REQUIRED_USE=|| ( python_targets_python3_11 )
 SLOT=0
-_eclasses_=user-info	9951b1a0e4f026d16c33a001fd2d5cdf	user	ee8b59cbe68b390f981e3ee247ed908f	toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	be27a904c614cb93ae037762dc69bcc2	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	59e60e9c5cbd3f214d7f1002e798b387	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	distutils-r1	a93df67775ff86e107e56c6a6e68cf4e	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	git-r3	2358a7b20091609e24bd3a83b3ac5991
-_md5_=0874185759a5c6fe9661c311661ebb68
+_eclasses_=toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	be27a904c614cb93ae037762dc69bcc2	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	python-utils-r1	59e60e9c5cbd3f214d7f1002e798b387	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	distutils-r1	a93df67775ff86e107e56c6a6e68cf4e	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=146ff0fab8d5dafc51f5dfe649e642bd
