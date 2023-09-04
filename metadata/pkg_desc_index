@@ -74,21 +74,32 @@ media-sound/castbridge 0.2.6.4_alpha3 9999: Logitech Media Server plugin for Chr
 media-sound/jivelite 20160725 20170915: Community logitech media server control application
 media-sound/lms-gd 0.1 9999: logitechmediaserver in a gentoo docker
 media-sound/lms-restart 9999: logitechmediaserver process cleanup and restarter
+media-sound/logitechmediaserver-docker 8.2.1 8.2.1-r1: Logitechmediaserver in a container
 media-sound/pasystray 0.4.0 0.5.2 0.5.2-r1 0.6.0 0.6.0-r2 0.6.0-r3 0.6.0-r4 0.7.0 0.7.1: PulseAudio system tray
+media-sound/pylms 20170705: Logitech Media Server/Squeezebox API for Python
+media-sound/shairport 20141210-r2: Emulates an AirPort Express to stream music from i-devices
 media-sound/shairport2_helper 0.19 9999: Squeezebox ShairPort2 Helper
 media-sound/shairport2_plugin 0.19 9999: ShairTunes2 shairport Squeezebox Server Plugin - airplay to Squeezebox clients
+media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
+media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
+media-sound/squeeze-alexa 20171216: Squeezebox integration for Amazon Alexa
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
+media-sound/squeezelite 1.9.4.1182: Lightweight headless squeezebox client emulator
 media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
 media-video/streamdeck-ui 2.0.4 2.0.15: A Linux compatible UI for the Elgato Stream Deck
+net-dns/adguardhome-docker 0.107.6 0.107.16: AdGuard Home in a container
 net-dns/mdnssd 20170108: A simple mDNS-SD browser
 net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of GitHub repos
 net-im/slack 4.4.3: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
+net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
 net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper deletion
 net-misc/cmc 9999 20170108: Manager of SSH ControlMaster connections
 net-misc/dropbox-uploader 20171114: BASH script to up/download, list/delete files on Dropbox
+net-misc/ha-bridge-bin 5.1.0: Philips Hue emulator (for Vera, Harmony, Nest...etc) for Alexa
 net-misc/ntp-proxy 9999: Leap second immunity verification programs
 sys-apps/dstat 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
+sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 2.1: Tool for NUMA memory locality and processes/threads analysis
 x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
 x11-wm/tvtwm 11 11-r1 11-r2: tvtwm X11 window manager
