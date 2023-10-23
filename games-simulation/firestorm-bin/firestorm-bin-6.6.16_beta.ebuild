@@ -5,20 +5,22 @@ EAPI=8
 
 inherit desktop font
 
-REVISION=68380
+REVISION=70316
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
 
 MY_PV=$(ver_cut 1-3)
 MY_PV=${MY_PV//\./-}
-MY_P="Phoenix-Firestorm-Releasex64-${MY_PV}-${REVISION}"
+MY_P="Phoenix-Firestorm-Betax64-${MY_PV}-${REVISION}"
 SRC_URI="
-	https://downloads.firestormviewer.org/linux/${MY_P}.tar.xz
-	http://3p.firestormviewer.org/freetype-2.4.4.180841832-linux64-180841832.tar.bz2
+	https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz
 "
-# https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Betax64-6-6-5-68062.tar.xz
-# https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Releasex64-6-6-8-68355.tar.xz
+#https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Betax64-6-6-16-70316.tar.xz
+#https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Betax64-6-6-16-70316.tar.xz
+
+# https://downloads.firestormviewer.org/release/linux/Phoenix-Firestorm-Releasex64-6-6-14-69596.tar.xz
+# https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Betax64-6-6-9-68580.tar.xz
 
 RESTRICT="mirror"
 
@@ -87,9 +89,6 @@ src_install() {
 	mkdir -p "${D}/${INST_DIR}/"
 
 	cp -a . "${D}/${INST_DIR}/" || die
-
-	# https://github.com/lmiphay/gentoo.overlay/issues/15
-	cp -a ${WORKDIR}/lib/release/libfreetype.so* "${D}/${INST_DIR}/lib/" || die
 
 	dosym /${INST_DIR}/firestorm /usr/bin/firestorm-bin
 
