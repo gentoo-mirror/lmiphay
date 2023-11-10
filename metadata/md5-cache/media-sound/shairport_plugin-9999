@@ -10,5 +10,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-perl/Crypt-OpenSSL-RSA dev-perl/IO-Socket-INET6 dev-perl/Net-SDP media-sound/shairport_helper net-dns/avahi[dbus] virtual/perl-Digest-MD5 virtual/perl-MIME-Base64
 SLOT=0
-_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=95e2ea70022335204e418e2640736404

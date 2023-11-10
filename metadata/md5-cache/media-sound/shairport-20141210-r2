@@ -11,5 +11,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-libs/openssl ao? ( media-libs/libao ) pulseaudio? ( media-sound/pulseaudio ) alsa? ( media-libs/alsa-lib ) avahi? ( net-dns/avahi )
 SLOT=0
-_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=caf087245932335da9e13a59ca1274a7
