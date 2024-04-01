@@ -62,6 +62,7 @@ dev-python/pulsectl 23.5.2: igh-level interface and ctypes-based bindings for Pu
 dev-python/pydbus 0.6.0: Pythonic DBus library
 dev-python/pyhs100 0.3.5.2: Interface for TPLink's smart devices (HSxxx plugs & LBxxx bulbs)
 dev-python/pynetgear 0.10.9: Python library to control Netgear wireless routers through the SOAP-api
+dev-python/pynput 1.7.6: Sends virtual input commands
 dev-python/pyrad 2.4: Python RADIUS implementation
 dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
 dev-python/python-consul 1.1.0: Python client for Consul (http://www.consul.io/)
@@ -88,7 +89,7 @@ dev-vcs/git-recall 20170311: git tool to easily recall what you've done
 dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
 games-simulation/firestorm-bin 6.6.17_p1 7.1.4_beta_p1 7.1.4_beta_p2: An open source metaverse viewer
 games-simulation/firestorm-debian 0.1 0.4 0.5 0.6: A docker build environment for firestorm
-games-simulation/kokua-bin 6.6.16: An open source metaverse viewer
+games-simulation/kokua-bin 6.6.16 7.1.4: An open source metaverse viewer
 games-simulation/radegast-bin 2.28.187 2.29.200 2.30.120 2.31.135 2.32.137: A messaging app for teams
 kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49-r1: A fully customisable desktop menu for plasma 5
 kde-misc/semantik 9999: A mind-mapping application for KDE
