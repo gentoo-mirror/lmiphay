@@ -111,7 +111,7 @@ media-sound/shairport_helper 9999: Squeezebox ShairPort Helper
 media-sound/shairport_plugin 9999: ShairTunes shairport Squeezebox Server Plugin - airplay to Squeezebox clients
 media-sound/squeeze-alexa 20171216: Squeezebox integration for Amazon Alexa
 media-sound/squeeze2cast 0.2.6.4_alpha3 9999: Helper for Chromecast devices to be used in Logitech Media Server
-media-sound/squeezelite 1.9.4.1182: Lightweight headless squeezebox client emulator
+media-sound/squeezelite 1.9.4.1182 2.0.1481: Lightweight headless squeezebox client emulator
 media-sound/squeezy 20170714: command-line control of squeezebox network players via squeezeserver
 media-video/streamdeck-ui 2.0.4 2.0.15: A Linux compatible UI for the Elgato Stream Deck
 net-dns/adguardhome-docker 0.107.6 0.107.16: AdGuard Home in a container

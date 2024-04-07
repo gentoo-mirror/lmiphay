@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=media-libs/alsa-lib flac? ( media-libs/flac ) ffmpeg? ( media-video/ffmpeg ) vorbis? ( media-libs/libvorbis ) mad? ( media-libs/libmad ) mpg123? ( media-sound/mpg123 ) aac? ( media-libs/faad2 ) resample? ( media-libs/soxr ) visexport? ( media-sound/jivelite ) pulseaudio? ( media-plugins/alsa-plugins[pulseaudio] )
+DESCRIPTION=Lightweight headless squeezebox client emulator
+EAPI=8
+HOMEPAGE=https://github.com/ralph-irving/squeezelite
+INHERIT=flag-o-matic git-r3 systemd
+IUSE=aac dsd ffmpeg flac mad mpg123 pulseaudio resample visexport vorbis
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=media-libs/alsa-lib flac? ( media-libs/flac ) ffmpeg? ( media-video/ffmpeg ) vorbis? ( media-libs/libvorbis ) mad? ( media-libs/libmad ) mpg123? ( media-sound/mpg123 ) aac? ( media-libs/faad2 ) resample? ( media-libs/soxr ) visexport? ( media-sound/jivelite ) pulseaudio? ( media-plugins/alsa-plugins[pulseaudio] ) media-sound/alsa-utils
+SLOT=0
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	git-r3	fbb2889c81f3a05910c1524db69425c1	systemd	c8b03e8df84486aa991d4396686e8942
+_md5_=0c731326b72a467666f5dff2405ff38a
