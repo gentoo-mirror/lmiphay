@@ -117,7 +117,6 @@ media-video/streamdeck-ui 2.0.4 2.0.15: A Linux compatible UI for the Elgato Str
 net-dns/adguardhome-docker 0.107.6 0.107.16: AdGuard Home in a container
 net-dns/mdnssd 20170108: A simple mDNS-SD browser
 net-im/gitter-bin 3.1.0 4.1.0: An IM/chat room system for developers & users of GitHub repos
-net-im/slack 4.4.3: A messaging app for teams
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
 net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
 net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper deletion
