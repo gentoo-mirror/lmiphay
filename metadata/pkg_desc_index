@@ -84,7 +84,7 @@ dev-util/okteto-bin 1.14.6: App dev/test directly in Kubernetes
 dev-util/pkgdiff 20170322 20190610: A tool for visualizing changes in Linux software packages
 dev-util/pstack 9999: Display stack trace of a running process.
 dev-vcs/git-recall 20170311: git tool to easily recall what you've done
-games-simulation/firestorm-bin 6.6.17_p1 7.1.7_beta_p1 7.1.8_beta 7.1.8_beta_p1: An open source metaverse viewer
+games-simulation/firestorm-bin 6.6.17_p1 7.1.8_beta_p1 7.1.9_beta: An open source metaverse viewer
 games-simulation/firestorm-debian 0.1 0.4 0.5 0.6: A docker build environment for firestorm
 kde-misc/plasma-custom-desktop-menu 2016.01.20.14.10.49-r1: A fully customisable desktop menu for plasma 5
 kde-misc/semantik 9999: A mind-mapping application for KDE
