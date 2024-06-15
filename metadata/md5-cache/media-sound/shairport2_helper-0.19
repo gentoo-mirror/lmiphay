@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DEPEND=dev-libs/openssl
+DESCRIPTION=Squeezebox ShairPort2 Helper
+EAPI=8
+HOMEPAGE=https://github.com/disaster123/shairport2_plugin
+INHERIT=git-r3
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-libs/openssl
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=1356efef3d8848ae2912ba026b467258

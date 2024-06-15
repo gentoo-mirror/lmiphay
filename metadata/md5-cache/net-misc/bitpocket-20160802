@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=
+DESCRIPTION=DIY Dropbox or 2-way directory (r)sync with proper deletion
+EAPI=8
+HOMEPAGE=https://github.com/sickill/bitpocket
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=22769952001a8157e9f09a46b4404883

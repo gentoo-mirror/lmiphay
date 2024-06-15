@@ -1,14 +1,11 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=unpack
+DEFINED_PHASES=-
 DEPEND=app-admin/logrotate app-backup/rdumpfs virtual/cron
 DESCRIPTION=Wrapper around rdumpfs to automate daily/weekly/monthly backups
 EAPI=8
 HOMEPAGE=https://github.com/lmiphay/rdumpfs-rota
-INHERIT=git-r3
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-PROPERTIES=live
 RDEPEND=app-admin/logrotate app-backup/rdumpfs virtual/cron
 SLOT=0
-_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=f55274e07e80018186a51f2929914dd6
+SRC_URI=https://github.com/lmiphay/rdumpfs-rota/archive/v1.0.tar.gz -> rdumpfs-rota-1.0.tar.gz
+_md5_=aae4256f8bb275cc97d3a178ea455302

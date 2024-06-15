@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst unpack
+DEPEND=
+DESCRIPTION=Git alias commands for faster easier version control
+EAPI=8
+HOMEPAGE=https://github.com/GitAlias/gitalias
+INHERIT=bash-completion-r1 git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=Unknown
+PROPERTIES=live
+RDEPEND=dev-vcs/git
+SLOT=0
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=4fdb506d0a6ba94e2d35395b4716d293

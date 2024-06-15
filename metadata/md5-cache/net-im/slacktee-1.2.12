@@ -1,0 +1,10 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=A tee command that posts to Slack instead of writing to file
+EAPI=8
+HOMEPAGE=https://github.com/course-hero/slacktee
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache
+RDEPEND=net-misc/curl
+SLOT=0
+SRC_URI=https://github.com/course-hero/slacktee/archive/v1.2.12.tar.gz -> slacktee-1.2.12.tar.gz
+_md5_=0b6d635a32405b97e5b88e0f1aaf7b36
