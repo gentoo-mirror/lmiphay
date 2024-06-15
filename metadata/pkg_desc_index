@@ -17,6 +17,7 @@ app-emacs/lms 20210821: Frontend for Squeezebox / Logitech Media Server
 app-emacs/lsl-mode 20180107 20190515: Major mode for editing Linden Scripting Language
 app-emulation/docker-link 0.1: Bridging docker containers to an external network
 app-emulation/pipework 20170822: Software-Defined Networking for Linux Containers
+app-forensics/lynis 2.6.9: Security and system auditing tool
 app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
 app-misc/g13 9999 20150528_p1: libusb driver for the g13
 app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
