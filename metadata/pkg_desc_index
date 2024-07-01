@@ -87,6 +87,7 @@ dev-util/pkgdiff 20170322 20190610: A tool for visualizing changes in Linux soft
 dev-util/pstack 9999: Display stack trace of a running process.
 dev-vcs/git-recall 20170311: git tool to easily recall what you've done
 dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
+games-simulation/autobuild 3.9.2: A framework for building packages and for managing the dependencies
 games-simulation/firestorm-bin 6.6.17_p1 7.1.9_beta_p6 7.1.9_beta_p7: An open source metaverse viewer
 games-simulation/firestorm-debian 0.1 0.4 0.5 0.6: A docker build environment for firestorm
 games-simulation/kokua-bin 7.1.4 7.1.7: An open source metaverse viewer
