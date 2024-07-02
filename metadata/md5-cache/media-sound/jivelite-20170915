@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-lang/luajit dev-lua/lua-cjson dev-lua/luacrypto dev-lua/luaexpat dev-lua/luafilesystem dev-lua/luasocket media-libs/libsdl media-libs/sdl-image[png] media-libs/sdl-ttf media-libs/sdl-gfx
+DESCRIPTION=Community logitech media server control application
+EAPI=8
+HOMEPAGE=https://github.com/ralph-irving/jivelite
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=jivelite
+PROPERTIES=live
+RDEPEND=dev-lang/luajit dev-lua/lua-cjson dev-lua/luacrypto dev-lua/luaexpat dev-lua/luafilesystem dev-lua/luasocket media-libs/libsdl media-libs/sdl-image[png] media-libs/sdl-ttf media-libs/sdl-gfx
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=fa9036d913dc83772a703818dd7a1827

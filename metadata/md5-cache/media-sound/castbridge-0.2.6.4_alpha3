@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst unpack
+DEPEND=media-sound/logitechmediaserver-bin =media-sound/squeeze2cast-0.2.6.4_alpha3
+DESCRIPTION=Logitech Media Server plugin for Chromecast devices
+EAPI=8
+HOMEPAGE=https://github.com/philippe44/LMS-to-cast
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT GPL-3
+PROPERTIES=live
+RDEPEND=media-sound/logitechmediaserver-bin =media-sound/squeeze2cast-0.2.6.4_alpha3
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=8210f0a3e1af44901060b159fb52e133
