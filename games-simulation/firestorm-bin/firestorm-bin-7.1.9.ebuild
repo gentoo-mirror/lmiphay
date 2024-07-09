@@ -5,19 +5,18 @@ EAPI=8
 
 inherit desktop font
 
-REVISION=74740
+REVISION=74745
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
 
 MY_PV=$(ver_cut 1-3)
 MY_PV=${MY_PV//\./-}
-MY_P="Phoenix-Firestorm-Betax64-${MY_PV}-${REVISION}"
+MY_P="Phoenix-Firestorm-Releasex64-${MY_PV}-${REVISION}"
 SRC_URI="
-	https://downloads.firestormviewer.org/preview/linux/${MY_P}.tar.xz
+	https://downloads.firestormviewer.org/release/linux/${MY_P}.tar.xz
 "
-# https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Betax64-6-6-9-68580.tar.xz
-# https://downloads.firestormviewer.org/preview/linux/Phoenix-Firestorm-Releasex64-6-6-8-68355.tar.xz
+# https://downloads.firestormviewer.org/release/linux/Phoenix-Firestorm-Releasex64-7-1-9-74745.tar.xz
 
 RESTRICT="mirror"
 
