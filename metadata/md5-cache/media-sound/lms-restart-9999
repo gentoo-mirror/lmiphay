@@ -9,5 +9,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-sound/logitechmediaserver-bin virtual/cron
 SLOT=0
-_eclasses_=readme.gentoo-r1	b8c7a61664027641d79dcfc04bd366f4	git-r3	fbb2889c81f3a05910c1524db69425c1
+_eclasses_=readme.gentoo-r1	b8c7a61664027641d79dcfc04bd366f4	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=5d90a33d1405dfe195d0a6b7d6b27d39

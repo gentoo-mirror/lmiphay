@@ -10,5 +10,5 @@ LICENSE=MIT GPL-3
 PROPERTIES=live
 RDEPEND=media-sound/logitechmediaserver-bin =media-sound/squeeze2cast-9999
 SLOT=0
-_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=2a17704db53c3b10856fce9ed70755fa

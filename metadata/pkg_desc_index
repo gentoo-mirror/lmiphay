@@ -29,7 +29,6 @@ app-oam/glc 9999: gentoo linux container producer
 app-oam/oam 9999: Operations and maintenance automation for gentoo servers
 app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
-app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm, aterm, urxvt... etc
 dev-db/mariadb++ 9999: A C++ client library for the MariaDB and MySQL databases
 dev-libs/nanopb 0.4.6: plain-C Protocol Buffers for embedded/memory-constrained systems
 dev-lsl/lslint 1.1.1: A tool to check the validity of Second Life LSL scripts
@@ -84,9 +83,7 @@ dev-python/yarg 0.1.9: A semi hard Cornish cheese, also queries PyPI
 dev-python/yarl 1.9.2: Yet another URL library
 dev-util/gstack 20140207: Display stack trace of a running process.
 dev-util/okteto-bin 1.14.6: App dev/test directly in Kubernetes
-dev-util/pkgdiff 20170322 20190610: A tool for visualizing changes in Linux software packages
 dev-util/pstack 9999: Display stack trace of a running process.
-dev-vcs/git-recall 20170311: git tool to easily recall what you've done
 dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
 games-simulation/autobuild 3.9.2: A framework for building packages and for managing the dependencies
 games-simulation/firestorm-bin 6.6.17_p1 7.1.9_beta_p8 7.1.9: An open source metaverse viewer
@@ -122,10 +119,7 @@ net-dns/mdnssd 20170108: A simple mDNS-SD browser
 net-im/slacktee 1.2.12: A tee command that posts to Slack instead of writing to file
 net-libs/libupnp-castbridge 1.6.19 1.6.19-r1: UPnP Dev Kit with patches for castbridge
 net-misc/bitpocket 20160802: DIY Dropbox or 2-way directory (r)sync with proper deletion
-net-misc/cmc 9999 20170108: Manager of SSH ControlMaster connections
-net-misc/dropbox-uploader 20171114: BASH script to up/download, list/delete files on Dropbox
 net-misc/ha-bridge-bin 5.1.0: Philips Hue emulator (for Vera, Harmony, Nest...etc) for Alexa
-net-misc/ntp-proxy 9999: Leap second immunity verification programs
 sys-apps/dstat 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 2.1: Tool for NUMA memory locality and processes/threads analysis
