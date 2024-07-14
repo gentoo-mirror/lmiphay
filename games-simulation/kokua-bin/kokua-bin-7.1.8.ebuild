@@ -6,7 +6,7 @@ EAPI=6
 inherit versionator
 
 # check: https://sourceforge.net/projects/kokua.team-purple.p/files/Kokua-SL/Linux64Bit/
-REVISION=57483
+REVISION=58506
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://blog.kokuaviewer.org/"
@@ -15,8 +15,8 @@ MY_PV=$(get_version_component_range 1-3 $(replace_all_version_separators '_'))
 MY_P="Kokua_RLV_${MY_PV}_${REVISION}_x86_64"
 MY_PFT="Kokua_FTRLV_${MY_PV}_${REVISION}_x86_64"
 SRC_URI="
-	ftrlv? ( https://bitbucket.org/kokua/downloads/downloads/${MY_PFT}.tar.bz2 )
-	!ftrlv? ( https://bitbucket.org/kokua/downloads/downloads/${MY_P}.tar.bz2 )"
+	ftrlv? ( https://bitbucket.org/kokua/downloads/downloads/${MY_PFT}.tar.xz )
+	!ftrlv? ( https://bitbucket.org/kokua/downloads/downloads/${MY_P}.tar.xz )"
 RESTRICT="mirror"
 
 LICENSE="GPL-2-with-Linden-Lab-FLOSS-exception"
