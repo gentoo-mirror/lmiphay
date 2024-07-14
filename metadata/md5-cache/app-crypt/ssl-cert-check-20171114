@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=app-shells/bash dev-libs/openssl
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=cfc45536bcae319881f7678e0cee1cae
+_md5_=906632d803dbcf06105e44f750334b0c
