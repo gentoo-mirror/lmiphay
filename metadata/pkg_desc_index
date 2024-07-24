@@ -127,6 +127,7 @@ net-misc/dropbox-uploader 20171114: BASH script to up/download, list/delete file
 net-misc/ha-bridge-bin 5.1.0: Philips Hue emulator (for Vera, Harmony, Nest...etc) for Alexa
 net-misc/ntp-proxy 9999: Leap second immunity verification programs
 sys-apps/dstat 0.7.4-r1: Versatile replacement for vmstat, iostat and ifstat
+sys-apps/fake-hwclock 0.14: Save/restore system clock on machines without working RTC hardware
 sys-process/mussh 1.0: Execute a command over ssh on multiple hosts with one command
 sys-process/numatop 2.1: Tool for NUMA memory locality and processes/threads analysis
 www-apps/opengrok-bin 1.0 1.1.2 1.2.25 1.5.5: Fast source code search and cross reference engine
