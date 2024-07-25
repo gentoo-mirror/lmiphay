@@ -1,12 +1,12 @@
-BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install postinst prepare unpack
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst prepare
 DESCRIPTION=Save/restore system clock on machines without working RTC hardware
 EAPI=8
 HOMEPAGE=https://tracker.debian.org/pkg/fake-hwclock
-INHERIT=systemd git-r3
+INHERIT=systemd
 KEYWORDS=~amd64 ~arm ~arm64
-LICENSE=GPL-2+
-PROPERTIES=live
+LICENSE=GPL-2
 SLOT=0
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=7811f1f66af858ecc5be130c3dc62c35
+SRC_URI=mirror://debian/pool/main/f/fake-hwclock/fake-hwclock_0.14.tar.xz
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
+_md5_=51f1cb2b5f4b42aacf2753ed119eb0f2
