@@ -10,5 +10,5 @@ RDEPEND=dev-dotnet/libgdiplus[cairo] dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://bitbucket.org/cinderblocks/radegast/downloads/Radegast-2.32.137.tbz -> radegast-2.32.137.tar.bz2
-_eclasses_=toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	xdg	4a14c5c24f121e7da66e5aab4a168c6e	desktop	021728fdc1b03b36357dbc89489e0f0d
+_eclasses_=toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	multilib	c19072c3cd7ac5cb21de013f7e9832e0	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	xdg	4a14c5c24f121e7da66e5aab4a168c6e	desktop	021728fdc1b03b36357dbc89489e0f0d
 _md5_=b405163f6e19e101008331d03788b066
