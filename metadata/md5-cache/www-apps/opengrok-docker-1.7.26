@@ -11,5 +11,5 @@ RDEPEND=app-containers/docker net-misc/curl net-misc/wget sys-apps/coreutils sys
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lmiphay/opengrok-docker/archive/refs/tags/1.7.26.tar.gz -> opengrok-docker-1.7.26.tar.gz
-_eclasses_=toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
 _md5_=50e86dcb9a02544bb9cd7bebf5821c59
