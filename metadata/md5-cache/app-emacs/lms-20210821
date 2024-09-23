@@ -1,5 +1,5 @@
 BDEPEND=>=app-editors/emacs-25.2 helm? ( app-emacs/helm ) >=app-editors/emacs-25.3:*
-DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
 DESCRIPTION=Frontend for Squeezebox / Logitech Media Server
 EAPI=7
 HOMEPAGE=https://hg.serna.eu/emacs/lms
@@ -11,5 +11,5 @@ RDEPEND=>=app-editors/emacs-25.2 helm? ( app-emacs/helm ) >=app-editors/emacs-25
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://hg.serna.eu/emacs/lms/archive/05c8fd16ff94590393b6b0a9cb193ec9572a9c97.zip?subrepos=false -> lms-20210821.zip
-_eclasses_=readme.gentoo-r1	32b48460d813533d85f082897cec1b80	elisp-common	abb2dda42f680fce87602c8273f832c7	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
+_eclasses_=readme.gentoo-r1	32b48460d813533d85f082897cec1b80	elisp-common	abb2dda42f680fce87602c8273f832c7	elisp	e7149f29f0c141396a0cec7cc59947a6
 _md5_=7276d8278377ba11174c28fbf0e459c0
