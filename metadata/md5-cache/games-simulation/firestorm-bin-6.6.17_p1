@@ -12,5 +12,5 @@ RDEPEND=app-crypt/libmd dev-libs/libbsd dev-libs/libgcrypt dev-libs/libgpg-error
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://downloads.firestormviewer.org/release/linux/Phoenix-Firestorm-Releasex64-6-6-17-70368.tar.xz
-_eclasses_=desktop	56973babb9c5f19cab0eeb53ece644c6	font	aa113a3df9cd0a9693a1c1ee7c34a6eb
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	font	aa113a3df9cd0a9693a1c1ee7c34a6eb
 _md5_=97f11fe1276ead32532ccac0c67d2f9a
