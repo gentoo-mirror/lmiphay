@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare unpack
+DEPEND=sys-libs/glibc sys-apps/dbus x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext x11-libs/libXinerama dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/openssl dev-libs/boost media-libs/freetype media-libs/libogg media-libs/libpng media-libs/libsdl media-libs/libvorbis media-libs/gstreamer media-plugins/gst-plugins-meta net-libs/gnutls net-misc/curl net-dns/c-ares sys-libs/zlib virtual/glu virtual/libcrypt virtual/opengl app-admin/chrpath
+DESCRIPTION=An open source metaverse viewer
+EAPI=8
+HOMEPAGE=http://blog.kokuaviewer.org/
+IUSE=ftrlv
+KEYWORDS=~amd64 -*
+LICENSE=GPL-2-with-Linden-Lab-FLOSS-exception
+RDEPEND=sys-libs/glibc sys-apps/dbus x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libXext x11-libs/libXinerama dev-libs/libgcrypt dev-libs/libgpg-error dev-libs/openssl dev-libs/boost media-libs/freetype media-libs/libogg media-libs/libpng media-libs/libsdl media-libs/libvorbis media-libs/gstreamer media-plugins/gst-plugins-meta net-libs/gnutls net-misc/curl net-dns/c-ares sys-libs/zlib virtual/glu virtual/libcrypt virtual/opengl
+RESTRICT=mirror
+SLOT=0
+SRC_URI=ftrlv? ( https://bitbucket.org/kokua/downloads/downloads/Kokua_FTRLV_7_1_10_59780_x86_64.tar.xz ) !ftrlv? ( https://bitbucket.org/kokua/downloads/downloads/Kokua_RLV_7_1_10_59780_x86_64.tar.xz )
+_md5_=f2e855508f2b8e54af82a5be17d40317
