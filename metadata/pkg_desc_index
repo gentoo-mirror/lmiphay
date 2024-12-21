@@ -134,3 +134,4 @@ sys-process/numatop 2.1: Tool for NUMA memory locality and processes/threads ana
 www-apps/opengrok-bin 1.0 1.1.2 1.2.25 1.5.5: Fast source code search and cross reference engine
 www-apps/opengrok-docker 1.7.21 1.7.26 1.7.30: OpenGrok in a container
 x11-misc/xphoon 20140814: sets X the root window to a picture of the moon in its current phase
+x11-wm/tvtwm 11 11-r1 11-r2: tvtwm X11 window manager
