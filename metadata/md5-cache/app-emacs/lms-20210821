@@ -11,5 +11,5 @@ RDEPEND=>=app-editors/emacs-25.2 helm? ( app-emacs/helm ) >=app-editors/emacs-25
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://hg.serna.eu/emacs/lms/archive/05c8fd16ff94590393b6b0a9cb193ec9572a9c97.zip?subrepos=false -> lms-20210821.zip
-_eclasses_=readme.gentoo-r1	b045f3acf546393ab6b3170781875358	elisp-common	4ee3453b022aae73f4d827a0f98920c2	elisp	e7149f29f0c141396a0cec7cc59947a6
+_eclasses_=readme.gentoo-r1	b045f3acf546393ab6b3170781875358	elisp-common	4ee3453b022aae73f4d827a0f98920c2	elisp	8dfc7a00348fe9c91895014adc78a4a5
 _md5_=7276d8278377ba11174c28fbf0e459c0
