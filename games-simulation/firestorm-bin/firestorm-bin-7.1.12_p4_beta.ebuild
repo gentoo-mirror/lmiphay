@@ -5,7 +5,7 @@ EAPI=8
 
 inherit desktop font
 
-REVISION=77211
+REVISION=77377
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://www.firestormviewer.org/"
