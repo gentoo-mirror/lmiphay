@@ -11,5 +11,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=media-libs/alsa-lib flac? ( media-libs/flac ) ffmpeg? ( media-video/ffmpeg ) vorbis? ( media-libs/libvorbis ) mad? ( media-libs/libmad ) mpg123? ( media-sound/mpg123 ) aac? ( media-libs/faad2 ) resample? ( media-libs/soxr ) visexport? ( media-sound/jivelite ) pulseaudio? ( media-plugins/alsa-plugins[pulseaudio] ) media-sound/alsa-utils
 SLOT=0
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	16d3941ed2dc39f4819368ae51bc0b72	git-r3	875eb471682d3e1f18da124be97dcc81	systemd	54bd206bb5c4efac6ae28b6b006713b0
+_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	e8de74bac929ba17427e740e95707d00	git-r3	875eb471682d3e1f18da124be97dcc81	systemd	54bd206bb5c4efac6ae28b6b006713b0
 _md5_=0c731326b72a467666f5dff2405ff38a
