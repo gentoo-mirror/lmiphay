@@ -6,7 +6,7 @@ EAPI=8
 inherit desktop
 
 # check: https://sourceforge.net/projects/kokua.team-purple.p/files/Kokua-SL/Linux64Bit/
-REVISION=59780
+REVISION=60579
 
 DESCRIPTION="An open source metaverse viewer"
 HOMEPAGE="http://blog.kokuaviewer.org/"
