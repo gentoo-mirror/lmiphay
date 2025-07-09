@@ -61,7 +61,7 @@ dev-util/pstack 9999: Display stack trace of a running process.
 dev-vcs/git-recall 20170311: git tool to easily recall what you've done
 dev-vcs/gitalias 20170227: Git alias commands for faster easier version control
 games-simulation/firestorm-alpha-bin 7.1.9_p1 7.1.9_p2: An open source metaverse viewer
-games-simulation/firestorm-bin 6.6.17_p1 7.1.10 7.1.11 7.1.13_p7_beta 7.1.13_p8_beta: An open source metaverse viewer
+games-simulation/firestorm-bin 6.6.17_p1 7.1.10 7.1.11 7.1.13_p8_beta 7.1.15_beta: An open source metaverse viewer
 games-simulation/firestorm-debian 0.1 0.4 0.5 0.6: A docker build environment for firestorm
 games-simulation/kokua-bin 7.1.13 7.1.14: An open source metaverse viewer
 games-simulation/llbase 1.3.1: Utility modules used from Linden Lab
