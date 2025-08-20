@@ -7,5 +7,5 @@ INHERIT=multilib
 LICENSE=Boost-1.0
 RDEPEND=|| ( dev-db/mariadb dev-db/mariadb-connector-c ) dev-libs/openssl sys-libs/zlib
 SLOT=0
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c
 _md5_=5b5ca71acd1ad90596ba87fcfac865b1
