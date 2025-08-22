@@ -1,14 +1,15 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=(python3_{10,11})
+PYTHON_COMPAT=(python3_{12,13})
 
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
 DESCRIPTION="Calculations for the position of the sun and moon"
-HOMEPAGE=""
+HOMEPAGE="https://github.com/sffjunkie/astral"
 SRC_URI="https://github.com/sffjunkie/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="Apache-2.0"
 SLOT="0"
