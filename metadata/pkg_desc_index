@@ -38,6 +38,7 @@ dev-perl/Net-SMPP 1.19: pure Perl implementation of SMPP 3.4 over TCP
 dev-perl/Net-UDAP 9999: A Perl module to configure the Logitech SqueezeBox Receiver
 dev-perl/YAML-Diff 0.0.2: Diff 2 YAML Documents Semantically
 dev-python/artifactory 9999: A Python client for Artifactory
+dev-python/astral 3.2: Calculations for the position of the sun and moon
 dev-python/attrdict 2.0.1-r1: A dict with attribute-style access
 dev-python/cidr-trie 3.1.2: Store/search CIDR prefixes in a trie structure
 dev-python/distro 1.9.0: Reliable machine-readable Linux distribution information for Python
@@ -47,6 +48,7 @@ dev-python/flask-restx 1.3.0: Framework for fast, easy, and documented API devel
 dev-python/fuzzywuzzy 0.18.0: Fuzzy string matching in python
 dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestration Template
 dev-python/invoke 1.1.1: Pythonic task management & command execution
+dev-python/kafka-python 9999: Kafka Python client
 dev-python/key-mon 1.20: Keyboard Status Monitor
 dev-python/lambda-uploader 1.3.1: Package and upload Python lambda functions to AWS
 dev-python/pillow 9.5.0: Python Imaging Library (fork)
@@ -59,9 +61,13 @@ dev-python/pynput 1.8.1: Sends virtual input commands
 dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
 dev-python/pywemo 1.4.0: Lightweight Python module to discover and control WeMo devices
 dev-python/spec 1.4.1: Specification-style nosetests output for Python
+dev-python/srptools 1.0.1: Tools to implement Secure Remote Password (SRP) authentication
 dev-python/stashy 0.7: Python API client for the Atlassian Stash REST API
+dev-python/tosca-parser 9999: Parser for TOSCA Simple Profile in YAML
 dev-python/ua-parser 1.0.1: Python port of Browserscope's user agent parser
 dev-python/user-agents 2.2.0: Library to identify devices and capabilities by parsing user agent strings
+dev-python/yaql 3.1.0: An embeddable and extensible query language
+dev-python/yarg 0.1.10: A semi hard Cornish cheese, also queries PyPI
 dev-python/yarl 1.20.1: Yet another URL library
 dev-util/gstack 20140207: Display stack trace of a running process.
 dev-util/okteto-bin 1.14.6: App dev/test directly in Kubernetes
