@@ -21,10 +21,12 @@ app-forensics/lynis 2.6.9: Security and system auditing tool
 app-homeassistant/simple-thermostat 0.21.0: A different take on the thermostat card for Home Assistant Lovelace UI
 app-misc/g13 9999 20150528_p1: libusb driver for the g13
 app-misc/hexdiff 0.0.50: Visual hexadecimal difference editor
+app-misc/homeassistant-bin 0.108.9: Home automation platform
 app-misc/homeassistant-docker 2022.5 2022.10: Homeassistant in a container
 app-misc/razer-blackwidow-ultimate 20151205 20170928: Enable M1-M5/FN keys for the Razer BlackWidow Ultimate keyboard
 app-oam/bun 9999: Backup up now for oam
 app-oam/glc 9999: gentoo linux container producer
+app-oam/oam 9999: Operations and maintenance automation for gentoo servers
 app-portage/gentoo-koam 9999: UI to track merges on gentoo servers
 app-portage/gentoo-oam 1.0 2.0 3.0 4.0 9999: Automatation for common tasks around gentoo server upkeep
 app-shells/bashsimplecurses 9999 20161206: Functions to create windows on Xterm, aterm, urxvt... etc
@@ -40,7 +42,9 @@ dev-perl/YAML-Diff 0.0.2: Diff 2 YAML Documents Semantically
 dev-python/artifactory 9999: A Python client for Artifactory
 dev-python/astral 3.2: Calculations for the position of the sun and moon
 dev-python/attrdict 2.0.1-r1: A dict with attribute-style access
+dev-python/avro_validator 1.2.1: A pure python avro schema validator
 dev-python/cidr-trie 3.1.2: Store/search CIDR prefixes in a trie structure
+dev-python/click-datetime 0.2.0: Datetime type support for click
 dev-python/distro 1.9.0: Reliable machine-readable Linux distribution information for Python
 dev-python/eliot 1.14.0: Logging as Storytelling
 dev-python/eliot-tree 24.0.0: Render Eliot logs as an ASCII tree
@@ -51,6 +55,7 @@ dev-python/heat-translator 9999: Translate non-heat templates to Heat Orchestrat
 dev-python/invoke 1.1.1: Pythonic task management & command execution
 dev-python/kafka-python 9999: Kafka Python client
 dev-python/key-mon 1.20: Keyboard Status Monitor
+dev-python/kubernetes 33.1.0: Kubernetes python client
 dev-python/lambda-uploader 1.3.1: Package and upload Python lambda functions to AWS
 dev-python/pillow 9.5.0: Python Imaging Library (fork)
 dev-python/pipreqs 0.4.13: Generate pip requirements.txt file based on imports of any project
