@@ -59,14 +59,22 @@ dev-python/pydbus 0.6.0: Pythonic DBus library
 dev-python/pyhs100 0.3.5.2: Interface for TPLink's smart devices (HSxxx plugs & LBxxx bulbs)
 dev-python/pynetgear 0.10.10: Python library to control Netgear wireless routers through the SOAP-api
 dev-python/pynput 1.8.1: Sends virtual input commands
+dev-python/pyrad 2.4: Python RADIUS implementation
 dev-python/pyswagger 9999: OpenAPI client & converter in python: type-safe, dynamic, spec-compliant
+dev-python/python-consul 1.1.0: Python client for Consul (http://www.consul.io/)
+dev-python/python-smpplib 20180221: SMPP library for python
 dev-python/pywemo 1.4.0: Lightweight Python module to discover and control WeMo devices
+dev-python/spark_parser 1.9.0: An Early-Algorithm Context-free grammar Parser
 dev-python/spec 1.4.1: Specification-style nosetests output for Python
 dev-python/srptools 1.0.1: Tools to implement Secure Remote Password (SRP) authentication
 dev-python/stashy 0.7: Python API client for the Atlassian Stash REST API
+dev-python/toolz 1.0.0: List processing tools and functional utilities
 dev-python/tosca-parser 9999: Parser for TOSCA Simple Profile in YAML
+dev-python/tree-format 0.1.2: Python library for printing trees on the console
 dev-python/ua-parser 1.0.1: Python port of Browserscope's user agent parser
 dev-python/user-agents 2.2.0: Library to identify devices and capabilities by parsing user agent strings
+dev-python/validate_email 9999: verify if an email address is valid and really exists
+dev-python/voluptuous 0.15.2: A Python data validation library.
 dev-python/yaql 3.1.0: An embeddable and extensible query language
 dev-python/yarg 0.1.10: A semi hard Cornish cheese, also queries PyPI
 dev-python/yarl 1.20.1: Yet another URL library
